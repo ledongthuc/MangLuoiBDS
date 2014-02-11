@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.0.0">
+	<name>ho tro truc tuyen</name>
+	<author>unison</author>
+	<creationDate>2010/11/30</creationDate>
+	<copyright>(C)Copyright Unison</copyright>
+	<authorEmail>hoanzh88@yahoo.com</authorEmail>
+	<authorUrl>hoan</authorUrl>
+	<version>1.0.0</version>
+	<description>ho tro truc tuyen</description>
+	<files>
+		<filename module="mod_hotrotructuyen">hotrotructuyen.php</filename>
+		<filename>hotrotructuyen.xml</filename>
+	
+	</files>	
+</install>

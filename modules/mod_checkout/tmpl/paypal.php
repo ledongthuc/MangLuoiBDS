@@ -1,0 +1,1 @@
+<div class="button"><img id="paypal" src="https://www.paypalobjects.com/webstatic/mktg/merchant/images/express-checkout-hero.png"/></div>

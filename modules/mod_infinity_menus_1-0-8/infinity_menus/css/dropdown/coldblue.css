@@ -1,0 +1,152 @@
+.coldblue a{
+	/*====================================================
+	CSS here affects all menu item anchors (parentItem,
+	subItem_1, subItem_2, etc..)
+	Settings here can be overriden by adding css to other
+	anchor classes - eg, to override font of sub item 1:
+	.coldblue .subItem_1 {
+		font-familiy: sans-serif;
+		font-size: 15px;
+	}
+	======================================================*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 10px;
+    font-weight			: bold;
+	font-style			: normal;
+    width				: 156px;
+	text-decoration		: none;
+    display				: block;
+    white-space:nowrap;
+    position			: relative;
+	padding				: 5px 15px 5px 15px;
+	/*margin: -1px 0px 0px 0px; /*-1 px stops adjacent borders looking like 2 pixels width*/
+	background-repeat	: repeat-y;
+}
+
+
+.coldblue .menuCont_1{
+background-color:#0099FF;
+Filter: Alpha(Opacity=50);
+/* NOTE - Mozilla cant do opacity without making the text opaque too - pretty pointless in my opinion
+-moz-opacity:.70;
+opacity:.70;
+*/
+width:100%; /*This has to be set to 100% for Mozilla to stretch to fit anchor*/
+}
+
+.coldblue .menuCont_2{
+background-color:#0099FF;
+Filter: Alpha(Opacity=50);
+/* NOTE - Mozilla cant do opacity without making the text opaque too - pretty pointless in my opinion
+-moz-opacity:.70;
+opacity: .70;
+*/
+width:100%; /*This has to be set to auto for Mozilla to stretch to fit anchor*/
+}
+
+.coldblue .parentItem img,
+.coldblue .parentItem-active img{
+    position: absolute;
+    top: 0px;
+    border: 0;
+}
+.coldblue .rgtImg {
+	position: relative;
+    margin-top: 5px;
+    right: 4px;
+    border: 0;
+}
+
+
+.coldblue .lftImg {
+	position: relative;
+	margin-top: 2px;
+    border: 0;
+}
+
+.coldblue .parentItem, 
+.coldblue .parentItem:hover, 
+.coldblue .parentItem-active,
+.coldblue .parentItem-active:hover {
+/*BACKGROUND IMAGE GOES HERE - (NONE USED IN THIS TEMPLATE)*/
+/*	background-image	: url(images/coldblue/menu_orange_bgr.png);			*/
+	/*border-left:1px ridge;
+	border-bottom:0px none;
+	border-top:0px none;*/
+	border-left:1px solid #dddddd;
+	width:156px;
+}
+
+.coldblue .parentItem:link,
+.coldblue .parentItem:visited {
+	/*background-color	: #ff9b37;*/   /*.menuCont classes deal with the background color beacuse it makes opacity possible*/
+	color				: #ffffff;
+	font-weight: bold;
+}
+
+.coldblue .parentItem:hover,
+.coldblue .parentItem-active {
+    background-color:#afafff;
+	color				: #000000 !important;
+}
+.coldblue .parentItem:active {
+	/*background-color	: #ee5500;*/   /*.menuCont classes deal with the background color beacuse it makes opacity possible*/
+	color				: #ffffff !important;
+}
+.coldblue .subItem_1 img, .coldblue .subItem_2 img,
+.coldblue .subItem_1-active img, .coldblue .subItem_2-active img{
+    position: absolute;
+    top: 0px;
+    border: 0;
+}
+
+.coldblue .subItem_1, .coldblue .subItem_1-active{
+/*background-image	: url(images/coldblue/menu_orange_bgr.png);*/
+width: 120px;
+}
+
+.coldblue .subItem_2, .coldblue .subItem_2-active{
+/*background-image	: url(images/coldblue/menu_blue_bgr.png);*/
+width: 120px;
+}
+
+.coldblue .subItem_1, .coldblue .subItem_2 {
+	color: #ffffff !important;
+}
+
+
+.coldblue .subItem_1:hover, .coldblue .subItem_2:hover,
+.coldblue .subItem_1-active, .coldblue .subItem_2-active,
+.coldblue .subItem_1-active:hover, .coldblue .subItem_2-active:hover{
+	/*.menuCont classes deal with the background color beacuse it makes opacity possible*/
+	color				: #000000 !important;
+}
+
+
+.coldblue .subItem_1-active,
+.coldblue .subItem_1-active:hover,
+.coldblue .subItem_1:hover{
+    background-color	: #afafff;
+}
+
+
+.coldblue .subItem_2-active,
+.coldblue .subItem_2-active:hover,
+.coldblue .subItem_2:hover{
+    background-color	: #afafff;	
+}
+
+
+
+.coldblue .section {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;	
+}
+
+.coldblue .menuBox {
+	border:1px solid white !important;
+	padding:0px 0px 0px 0px;
+}
+
+* html .coldblue td { position: relative; } /* ie 5.0 fix */

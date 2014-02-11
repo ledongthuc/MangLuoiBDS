@@ -1,0 +1,125 @@
+<install version="1.5" type="plugin" group="editors" method="upgrade">
+	<name>Editor - JoomlaFCK</name>
+	<version>2.6.4.1</version>
+	<creationDate>July 2009</creationDate>
+	<author>WebxSolution Ltd</author>
+	<authorurl>http://www.webxsolution.com</authorurl>
+	<license>GPL</license>
+	<description>JoomlaFCK  2.6.4.1 is a platform independent web based JavaScript HTML WYSIWYG Editor control.</description>
+	<files>
+	<filename plugin="fckeditor">fckeditor.php</filename>
+	<filename>fckeditor.class.php</filename>
+	<filename>fckeditor.legacy.php</filename>
+	<folder>fckeditor</folder>
+</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_editors_fckeditor.ini</language>
+	</languages>
+	<params>
+		<param name="toolbar" type="list" default="Advanced" label="Administrator End Toolbar Mode" description="FUNCTIONBK">
+			<option value="Advanced">Advanced</option>
+			<option value="Creative">Creative</option>
+			<option value="Blog">Blog</option>
+			<option value="Default">Default</option>
+		</param>
+		<param name="toolbar_ft" type="list" default="Advanced" label="FrontEnd Toolbar Mode" description="FUNCTIONFT">
+			<option value="Advanced">Advanced</option>
+			<option value="Creative">Creative</option>
+			<option value="Blog">Blog</option>
+			<option value="Default">Default</option>
+		</param>
+		<param name="skin" type="list" default="office2007" label="Skin" description="EDITORSKIN">
+			<option value="default">default</option>
+			<option value="office2007">office2007</option>
+			<option value="office2003">office2003</option>
+			<option value="office2003blue">office2003blue</option>
+			<option value="silver">silver</option>
+			<option value="office2003blue2">office2003blue2</option>
+		</param>
+		<param name="content_css" type="radio" default="1" label="Use Template CSS classes?" description="LOADCSSTMPT">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="editor_css" type="radio" default="0" label="Use Editor CSS classes?" description="LOADCSSED">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="content_css_custom" type="text" default="" label="Use Custom CSS Classes?" description="CUSLOADCSS" />
+		<param name="imagePath" type="text" default="images/stories" label="Location of the Images?" description="IMGPATH" />
+		<param name="flashPath" type="text" default="images/stories/flash" label="Location of the flash files?" description="FLAPATH" />
+		<param name="mediaPath" type="text" default="media" label="Location of the Media files?" description="MEDIAPATH" />
+		<param name="filePath" type="text" default="files" label="Location of the Documents?" description="FILEPATH" />
+		<param name="entermode" type="list" default="1" label="Enter Mode" description="DESCENTERMODE">
+			<option value="0">BR Elements</option>
+			<option value="1">P Elements</option>
+			<option value="2">Div Elements</option>
+		</param>
+		<param name="shiftentermode" type="list" default="0" label="Shift Enter Mode" description="DESCSHIFTENTERMODE">
+			<option value="0">BR Elements</option>
+			<option value="1">P Elements</option>
+			<option value="2">Div Elements</option>
+		</param>
+		<param name="crtlshiftentermode" type="list" default="2" label="Ctrl Shift Enter Mode" description="DESCCRTLSHIFTENTERMODE">
+			<option value="0">BR Elements</option>
+			<option value="1">P Elements</option>
+			<option value="2">Div Elements</option>
+		</param>
+		<param name="wwidth" type="text" default="100%" label="width" description="The width of Editor" />
+		<param name="hheight" type="text" default="480" label="height" description="The height of Editor" />
+	</params>
+	<params group="advanced">
+		<param name="showerrors" type="radio" default="1" label="Display Errors" description="DESCSHOWERROR">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="lang_mode" type="radio" default="1" label="Language Selection Mode" description="DESCLANGMODE">
+			<option value="0">Manual</option>
+			<option value="1">Joomla! Default</option>
+			<option value="2">Browser Default</option>
+		</param>
+		<param name="lang_code" type="text" default="en" label="Language Code" description="DESCLANGCODE" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="htmlentities" type="radio" default="1" label="Process HTML Entities" description="DESCPROCHTMLENT">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="includelatinentities" type="radio" default="0" label="Include Latin Entities" description="DESCINCLATINENT">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="includegreekentities" type="radio" default="0" label="Include Greek Entities" description="DESCINCGREEKENT">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="numericentities" type="radio" default="0" label="Process Numeric Entities" description="DECPROCNUMENT">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="UserRelativeFilePath" type="radio" default="1" label="Use Relative path for Images/Flash?" description="USERELPATH">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="FormatSource" type="radio" default="1" label="Auto Format Source OFF" description="FMTSRC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="add_stylesheet_path" type="text" default="" label="Location For Additional Stylesheets" description="DESCADDCSSSHEET" />
+		<param name="add_stylesheet" type="text" default="" label="Additional Stylesheets" description="DESCADDCSSHEETNAMES" />
+		<param name="bgcolor" type="text" default="#FFFFFF" label="Background Color" description="DESCBKCOLOR" />
+		<param name="fontcolor" type="text" default="" label="Font Color" description="DESCFONTCOLOR" />
+		<param name="userfolder" type="radio" default="0" label="Use user folders" description="DESCUSERFOLDER">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="TextAlign" type="list" default="" label="Text Alignment" description="TXTALIGN">
+		        <option value="">Default</option>
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="ForceSpellCheck" type="radio" default="0" label="Always Check Spelling" description="If set to 'yes' the editor will  always autmatically lanch the specllcheckd dialog before saving an article.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

@@ -1,0 +1,134 @@
+.solarflare a{
+	/*====================================================
+	CSS here affects all menu item anchors (parentItem,
+	subItem_1, subItem_2, etc..)
+	Settings here can be overriden by adding css to other
+	anchor classes - eg, to override font of sub item 1:
+	.solarflare .subItem_1 {
+		font-familiy: sans-serif;
+		font-size: 15px;
+	}
+	======================================================*/
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: Arial, Hevlvetica, sans-serif;
+	font-style			: normal;
+    width				: 160px;
+	text-decoration		: none;
+    display				: block;
+    white-space			: normal;
+    position			: relative;
+	border: 1px solid #D24103;
+	padding				: 5px 15px 5px 20px;
+	margin: -1px 0px 0px 0px; /*-1 px stops adjacent borders looking like 2 pixels width*/
+	background-repeat	: repeat-y;	
+}
+
+.solarflare .menuCont_1,
+.solarflare .menuCont_2{
+/* Menu containers (in this file we have 2 menu containers - the module parameter "CSS # Menu Classes:"
+would need to correspond to this with a setting of 2.
+This class affects a DIV tag which encapsulates the menu anchor. (Necessary to allow alpha filter)
+*/
+width: 100%;
+background-color	: transparent;
+}
+
+.solarflare .subItem_1 img, .solarflare .subItem_2 img,
+.solarflare .subItem_1-active img, .solarflare .subItem_2-active img,
+.solarflare .parentItem img,
+.solarflare .parentItem-active img{
+    position: absolute;
+    top: 0px;
+    border: 0;
+}
+
+.solarflare .rgtImg {
+/* Positioning of image to right of menu*/
+	position: relative;
+    margin-top: 5px;
+    right: 4px;
+    border: 0;
+}
+.solarflare .lftImg {
+/* Positioning of image to left of menu*/
+	position: relative;
+	margin-top: 2px;
+    border: 0;
+}
+
+
+
+.solarflare .parentItem,
+.solarflare .subItem_1,
+.solarflare .subItem_2{
+background-image	: url(images/solarflare/solarflare_menu_bg01.png);
+background-color: #C33C03;
+width:100%;
+}
+
+.solarflare .parentItem:hover,
+.solarflare .parentItem-active,
+.solarflare .parentItem-active:hover,
+.solarflare .subItem_1:hover,
+.solarflare .subItem_1-active,
+.solarflare .subItem_2:hover,
+.solarflare .subItem_2-active {
+background-image	: url(images/solarflare/solarflare_menu_bg02.png);
+background-color: #EB8B02;
+width:100%;
+}
+
+.solarflare .parentItem:link,
+.solarflare .parentItem:visited {
+	/*background-color	: #ff9b37;*/
+	color				: #ffffff;
+	font-weight: bold;
+}
+
+.solarflare .parentItem:hover,
+.solarflare .parentItem-active {
+	background-color: #EB8B02;
+	color				: #000000 !important;
+}
+.solarflare .parentItem:active {
+	/*background-color	: #ee5500;*/
+	color				: #ffffff !important;
+}
+
+
+.solarflare .subItem_1, .solarflare .subItem_2,
+.solarflare .subItem_1:hover, .solarflare .subItem_2:hover,
+.solarflare .subItem_1-active, .solarflare .subItem_2-active,
+.solarflare .subItem_1-active:hover, .solarflare .subItem_2-active:hover {	
+	background-repeat	: no-repeat;
+    text-decoration: none;
+    display: block;
+    white-space:nowrap;
+    position: relative;
+	display				: block;
+	color: #ffffff !important;
+	width:100%;
+}
+
+.solarflare .subItem_1, .solarflare .subItem_2{
+    color				: #ffffff;
+	width:140px;
+}
+.solarflare .subItem_1:hover, .solarflare .subItem_2:hover{
+	color				: #000000 !important;
+	width:140px;
+}
+
+
+
+
+.solarflare .section {
+    border-style: none;
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+}
+
+* html .solarflare td { position: relative; } /* ie 5.0 fix */

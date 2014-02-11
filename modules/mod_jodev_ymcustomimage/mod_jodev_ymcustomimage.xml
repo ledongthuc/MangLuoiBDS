@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" version="1.5.0">
+<name>Joodev - Yahoo Messenger Status Custom Image</name>
+<creationDate>July 2008</creationDate>
+<author>Jerry Wijaya</author>
+<copyright>Released under GNU/GPL License</copyright>
+<authorEmail>me@jerrywijaya.com</authorEmail>
+<authorUrl>http://www.joodev.com - http://www.jerrywijaya.com</authorUrl>
+<version>1.0</version>
+<description>Joodev - Yahoo Messenger Status with Custom Image in Joomla! Module that will be displaying custom image for online/offline Yahoo Messenger Status. Created by: Jerry Wijaya (http://www.jerrywijaya.com)</description>
+<files>
+	<filename module="mod_jodev_ymcustomimage">mod_jodev_ymcustomimage.php</filename>
+	<filename module="mod_jodev_ymcustomimage">index.html</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/index.html</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online0.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline0.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online1.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline1.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online2.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline2.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online3.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline3.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online4.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline4.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online5.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline5.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online6.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline6.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online7.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline7.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online8.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline8.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online9.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline9.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online10.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline10.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online11.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline11.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online12.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline12.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online13.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline13.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online14.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline14.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online15.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline15.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/online16.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/offline16.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/customonline0.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/customoffline0.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/customonline1.gif</filename>
+	<filename module="mod_jodev_ymcustomimage">jodev_ymcustomimage/customoffline1.gif</filename>
+</files>
+<params>
+	<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	<param name="@spacer" type="spacer" default="--------- Yahoo Messenger Status Configuration ----------" label="" description="" />
+ 	
+	<param name="arrayYahooId" type="textarea" cols="30" rows="6" label="Multi Yahoo! ID" description="Có thể thêm nhiều nick yahoo. Mỗi nick tương ứng 1 dòng."></param>
+	<param name="arrayTest" type="textarea" cols="30" rows="6" label="Text for yahoo" description="Đoạn text ngắn cho các nick yahoo trên. Tương ứng theo dòng so với nick."></param>
+	<param name="style" type="radio" default="0" label="Select style" description="Select image style">
+		<option value="0">Default Yahoo Image Status</option>
+		<option value="1">Custom Image</option>
+		<option value="2">Describe Your Own Image</option>
+	</param>
+	<param name="@spacer" type="spacer" default="--------- Default Yahoo Image Status ----------" label="" description="" />
+	<param name="yahooimage" type="radio" default="0" label="Select style" description="Select image style">
+		<option value="0"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online0.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline0.gif'><br>]]></option>
+		<option value="1"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online1.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline1.gif'><br>]]></option>
+		<option value="2"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online2.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline2.gif'><br>]]></option>
+		<option value="3"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online3.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline3.gif'><br>]]></option>
+		<option value="4"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online4.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline4.gif'><br>]]></option>
+		<option value="5"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online5.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline5.gif'><br>]]></option>
+		<option value="6"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online6.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline6.gif'><br>]]></option>
+		<option value="7"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online7.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline7.gif'><br>]]></option>
+		<option value="8"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online8.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline8.gif'><br>]]></option>
+		<option value="9"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online9.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline9.gif'><br>]]></option>
+		<option value="10"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online10.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline10.gif'><br>]]></option>
+		<option value="11"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online11.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline11.gif'><br>]]></option>
+		<option value="12"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online12.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline12.gif'><br>]]></option>
+		<option value="13"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online13.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline13.gif'><br>]]></option>
+		<option value="14"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online14.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline14.gif'><br>]]></option>
+		<option value="15"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online15.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline15.gif'><br>]]></option>
+		<option value="16"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/online16.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/offline16.gif'><br>]]></option>
+	</param>
+	<param name="@spacer" type="spacer" default="----------------- Custom Image ----------------" label="" description="" />
+	<param name="customimage" type="radio" default="0" label="Select style" description="Select image style">
+		<option value="0"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/customonline0.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/customoffline0.gif'><br>]]></option>
+		<option value="1"><![CDATA[<img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/customonline1.gif'><img src='../modules/mod_jodev_ymcustomimage/jodev_ymcustomimage/customoffline1.gif'><br>]]></option>
+	</param>
+	<param name="@spacer" type="spacer" default="---------------- Your Own Image ---------------" label="" description="" />
+	<param name="image_online" type="text" default="modules/jodev_ymcustomimage/customonline0.gif" label="Path of Your Online Image" description="Limit article title text to specified number of characters, (default 0 means no limit, 1 means no intro text)" />
+	<param name="image_offline" type="text" default="modules/jodev_ymcustomimage/customoffline0.gif" label="Path of Your Offline image" />
+</params>
+</install>

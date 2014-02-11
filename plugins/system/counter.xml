@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>Plugin Counter</name>
+	<author>vanganh</author>
+	<creationDate>July 8, 2011</creationDate>
+	<copyright>ILand</copyright>
+	<license>GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Count pepole access website</description>
+	<files>
+		<filename plugin="counter">counter.php</filename>
+	</files>	
+	<params>		
+		<param name="iplifetime" type="text" default="10" label="IP Life Time" description=""></param>	
+	</params>
+</install>

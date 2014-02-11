@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.4">
+<name>module marquee text</name>
+<author>I-Land</author>
+<creationDate>17/6/2011</creationDate>
+<authorEmail>technical@giaiphapbatdongsan.com</authorEmail>
+<authorUrl>http://www.giaiphapbatdongsan.de</authorUrl>
+<license>GNU/GPL, see LICENSE.php</license>
+<version>1.5.4</version>
+<description>chay chu va hinh</description>
+
+<files>
+<filename module="mod_marqueetext">mod_marqueetext.php</filename>
+<filename module="mod_marqueetext">tmpl/mod_marqueetext.php</filename>
+</files>
+<params>
+	<param type="textarea" name='hinhanh' label="hinh anh :" cols="40" rows="5" default="" ></param>
+	<param type="textarea" name='tieude' label="tieu de :" cols="40" rows="5" default="" ></param>
+	<param type="text" name='scrolldelay' label="scrolldelay :" default="200" ></param>
+</params>
+
+</install>

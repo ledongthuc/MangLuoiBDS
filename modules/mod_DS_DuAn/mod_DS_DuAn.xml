@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Mod Danh Sach Du An</name>
+    <author>vanganh</author>
+	<creationDate>August 5 2011</creationDate>
+    <version>1.0</version>
+    <description>Module for joomla 1.5 and x4 core 1.2</description>
+    <files>
+		<filename>index.html</filename>
+        <filename module="mod_DS_DuAn">mod_DS_DuAn.php</filename>
+		<filename module="mod_DS_DuAn">helper.php</filename>
+		<filename module="mod_DS_DuAn">/tmpl/default.php</filename>
+		<filename module="mod_DS_DuAn">/tmpl/index.html</filename>
+    </files>
+    <params>
+    <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="so_duan" type="text" default="10" label="Số Dự Án" description="Số dự án cần lấy" />
+		<param name="ma_so" type="list" default="0" label="ID" description="">
+			<option value="0">Không</option>
+			<option value="ASC">ASC</option>
+			<option value="DESC">DESC</option>
+		</param>	
+		<param name="thu_tu" type="list" default="0" label="Thứ Tự" description="">
+			<option value="0">Không</option>
+			<option value="ASC">ASC</option>
+			<option value="DESC">DESC</option>
+		</param>	
+		<param name="noi_bat" type="list" default="0" label="Nổi Bật" description="">
+			<option value="0">Không</option>
+			<option value="ASC">ASC</option>
+			<option value="DESC">DESC</option>
+		</param>
+		<param name="moi_nhat" type="list" default="0" label="Mới nhất" description="">
+			<option value="0">Không</option>
+			<option value="ASC">ASC</option>
+			<option value="DESC">DESC</option>
+		</param>
+    </params>
+</install>

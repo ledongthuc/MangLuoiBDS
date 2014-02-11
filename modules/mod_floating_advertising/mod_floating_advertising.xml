@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+        <name>Floating Demo Module</name> 
+        <author>Hung NGuyen</author> 
+        <creationDate>10/10/2011</creationDate> 
+        <copyright>Floating Demo </copyright> 
+        <license>GPL 2.0</license> 
+        <authorEmail>thechaos_kids@yahoo.com</authorEmail> 
+        <authorUrl></authorUrl> 
+        <version>1.5.0</version> 
+        <description>Floating Demo Module</description>
+        <files>
+                <filename module="mod_floating_advertising">mod_floating_advertising.php</filename>
+				<filename>index.html</filename>
+				<filename>floating-1.7.js</filename>
+				<filename>helper.php</filename>
+				<filename>tmpl/default.php</filename>
+				<filename>tmpl/index.html</filename>
+        </files>
+
+   		<params>		
+		<param name="image_right_banner" type="text" default="" label="hình quảng cáo bên phải" description="hình quảng cáo" />
+		<param name="link_right_banner" type="text" default="" label="link quảng cáo bên phải" description="link quảng cáo" />
+		<param name="image_left_banner" type="text" default="" label="hình quảng cáo bên trái" description="hình quảng cáo" />
+		<param name="link_left_banner" type="text" default="" label="link quảng cáo bên trái" description="link quảng cáo" />
+		<param name="width" type="text" default="150" label="chiều rộng" description="chiều rộng quảng cáo" />
+		<param name="height" type="text" default="50" label="chiều dài" description="chiều dài quảng cáo" />
+		<param name="padding" type="text" default="5" label="padding" description="khoảng cách từ viền tới nội dung" />
+		<param name="distance_right_left" type="text" default="0" label="Khoảng Cách Trái/Phải" description="Khoảng cách từ viền màn tới quảng cáo"/>
+		<param name="target_top_bottom" type="list" default="0" label="Vị Trí Trên - Dưới" description="Vị Trí Hiển Thị" >
+			<option value="Top">Trên</option>
+			<option value="Bottom">Dưới</option>
+		</param>
+		<param name="distance_top_bottom" type="text" default="0" label="Khoảng Cách Trên/Dưới" description="Khoảng cách từ viền màn tới quảng cáo"/>
+		</params>
+		
+</install>

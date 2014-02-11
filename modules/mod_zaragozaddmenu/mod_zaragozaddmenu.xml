@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Zaragoza Drop Down Menu</name>
+	<author>Ciro Artigot</author>
+	<creationDate>Oct 2009</creationDate>
+	<copyright>GNU/GPL License</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@zaragozaonline.com</authorEmail>
+	<authorUrl>www.zaragozaonline.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Displays a nice drop down menu with Mootools 1.2</description>
+	<files>
+		<filename module="mod_zaragozaddmenu">mod_zaragozaddmenu.php</filename>
+		<filename>helper.php</filename>
+		<filename>mod_zaragozaddmenu.xml</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+	</files>
+	<params>
+		<param name="menutype" type="mos_menu" default="" label="Menu Name" description="The name of the menu (default is mainmenu)" />
+		<param name="menu_style" type="list" default="list" label="Menu Style" description="The menu style">
+			<option value="list">List</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="startLevel" type="text" default="0" size="5" label="Start Level" description="PARAMSTARTLEVEL" />
+		<param name="endLevel" type="text" default="0" size="5" label="End Level" description="PARAMSTOPLEVEL" />
+		<param name="showAllChildren" type="radio" default="1" label="Always show submenu items" description="PARAMSHOWSUBMENUITEMS">
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="css" type="list" default="css1" label="CSS" description="">
+			<option value="0">My own CSS</option>
+			<option value="css1">Default blue CSS</option>
+	  	</param>	
+		<param name="clickToOpen" type="list" default="0" label="clickToOpen" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="openDelay" type="text" default="500" label="openDelay" description="" />
+		<param name="closeDelay" type="text" default="500" label="closeDelay" description="" />
+		<param name="duration" type="text" default="500" label="Duration" description="" />
+		<param name="transition" type="list" default="Fx.Transitions.Quart.easeOut" label="FX transition" description="">
+			<option value="Fx.Transitions.Bounce">Fx.Transitions.Bounce</option>
+			<option value="Fx.Transitions.Quad.easeOut">Quad.easeOut</option>
+			<option value="Fx.Transitions.Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Fx.Transitions.Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Fx.Transitions.Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Fx.Transitions.Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Fx.Transitions.Quart.easeIn">Quart.easeIn</option>
+			<option value="Fx.Transitions.Quart.easeOut">Quart.easeOut</option>
+			<option value="Fx.Transitions.Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Fx.Transitions.Quint.easeIn">Quint.easeIn</option>
+			<option value="Fx.Transitions.Quint.easeOut">Quint.easeOut</option>
+			<option value="Fx.Transitions.Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Fx.Transitions.Expo.easeIn">Expo.easeIn</option>
+			<option value="Fx.Transitions.Expo.easeOut">Expo.easeOut</option>
+			<option value="Fx.Transitions.Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Fx.Transitions.Circ.easeIn">Circ.easeIn</option>
+			<option value="Fx.Transitions.Circ.easeOut">Circ.easeOut</option>
+			<option value="Fx.Transitions.Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Fx.Transitions.Sine.easeIn">Sine.easeIn</option>
+			<option value="Fx.Transitions.Sine.easeOut">Sine.easeOut</option>
+			<option value="Fx.Transitions.Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Fx.Transitions.Back.easeIn">Back.easeIn</option>
+			<option value="Fx.Transitions.Back.easeOut">Back.easeOut</option>
+			<option value="Fx.Transitions.Back.easeInOut">Back.easeInOut</option>
+			<option value="Fx.Transitions.Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Fx.Transitions.Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Fx.Transitions.Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Fx.Transitions.Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Fx.Transitions.Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Fx.Transitions.Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>			
+	</params>	
+	<params group="advanced">
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="maxdepth" type="text" default="10" label="Maximum Menu Depth" description="PARAMMENUMAXDEPTH" />
+	</params>
+</install>

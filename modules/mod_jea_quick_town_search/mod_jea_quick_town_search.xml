@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5">
+	<name>JEA Quick Town Search</name>
+	<author>Sylvain Philip</author>
+	<creationDate>mars 2008</creationDate>
+	<copyright>(C) 2008 PHILIP Sylvain. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@sphilip.com</authorEmail>
+	<authorUrl>www.sphilip.com</authorUrl>
+	<version>1.2</version>
+	<description>Mod quick town search. Customed by Chau Nguyen</description>
+	<files>
+		<filename module="mod_jea_search">mod_jea_quick_town_search.php</filename>
+		<filename module="mod_jea_search">tmpl/default.php</filename>
+	</files>
+	<languages folder="languages">
+	    <language tag="en-GB">en-GB.mod_jea_search.ini</language>
+		<language tag="fr-FR">fr-FR.mod_jea_search.ini</language>
+	</languages>
+	<params>
+		<param name="styleSearch" type="radio" default="advance" label="Style Search" description="Style Search">
+			<option value="advance">Advance</option>
+			<option value="advance2">Advance2</option>
+			<option value="simple">Simple</option>
+			<option value="list_area">List Area</option>
+		</param>
+		<param name="styleBds" type="radio" default="list" label="Style Bds" description="Style Bds">
+			<option value="list">List checkbox</option>
+			<option value="combo">Combobox</option>
+		</param>
+		<param name="colorText" type="text" default="" label="Color Text" description="Color of text"></param>
+		<param name="colorLink" type="text" default="#fff" label="Color Link" description="Color of link"></param>
+		<param name="town_id" type="text" default="" label="Town id for list area" description="Town id for list area"></param>
+		<param name="col_area" type="text" default="" label="Column for list area" description="Column for list area"></param>
+		<param name="fontSize" type="text" default="12px" label="FontSize Area" description="FontSize Area"></param>
+	</params>
+</install>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<root>
+   <links>
+		<linkHome>http://www.google.com.vn</linkHome>
+		<linkEvent>http://www.yahoo.com</linkEvent>
+		 <linkDemo>http://www.unisonvn.com</linkDemo>
+		 <linkLienhe>http://www.vnexpress.net</linkLienhe>
+   </links>
+</root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.0.0">
+	<name>Thanh toán</name>
+	<author>csntl</author>
+	<creationDate>2012</creationDate>
+	<copyright>I-Land Software. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>loinguyentrung@gmail.com</authorEmail>
+	<authorUrl>http://i-land.vn</authorUrl>
+	<version>1.5.0</version>
+	<description>Cổng thanh toán trực tuyến</description>
+	<params> 
+		<param name="moduleclass_sfx" size="40" type="text" default="" label="Module Class Suffix" description="Giao diện riêng" />
+		<param name="nganluong" type="radio" default="1" label="Ngân Lượng" description="">
+			<option value="1">Có</option>
+			<option value="0">Không</option>
+		</param>	
+		<param name="baokim" type="radio" default="1" label="Bảo Kim" description="">
+			<option value="1">Có</option>
+			<option value="0">Không</option>
+		</param>	
+		<param name="paypal" type="radio" default="1" label="PayPal" description="">
+			<option value="1">Có</option>
+			<option value="0">Không</option> 
+		</param>	
+		<param name="callback" size="40" type="text" default="" label="URL Callback" description="Giao diện riêng" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="nl_email" size="40" type="text" default="" label="Ngân lượng-Email" description="Giao diện riêng" /> 
+		<param name="nl_code" size="40" type="text" default="" label="Ngân lượng-Code " description="Giao diện riêng" />
+		<param name="nl_pass" size="40" type="text" default="" label="Ngân lượng-Pass " description="Giao diện riêng" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="bk_email" size="40" type="text" default="" label="Bảo kim-Email" description="Giao diện riêng" />
+		<param name="bk_code" size="40" type="text" default="" label="Bảo kim-Code " description="Giao diện riêng" />
+		<param name="bk_pass" size="40" type="text" default="" label="Bảo kim-Pass " description="Giao diện riêng" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+	</params>
+	<params group="advanced"> 
+		<param name="order" size="40" type="text" default="" label="Mã hoá đơn" description="Giao diện riêng" />
+		<param name="total" size="40" type="text" default="" label="Tổng số tiền" description="Giao diện riêng" />
+		<param name="ship" size="40" type="text" default="" label="Phí vận chuyển" description="Giao diện riêng" />
+		<param name="tax" size="40" type="text" default="" label="Thuế VAT" description="Giao diện riêng" />
+		<param name="detail" size="40" type="text" default="" label="Đơn đặt hàng" description="Giao diện riêng" />
+	</params>
+</install>

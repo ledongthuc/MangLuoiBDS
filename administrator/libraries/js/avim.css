@@ -1,0 +1,39 @@
+#AVIMControl {
+	background-image: url('transparent.png');
+	 padding: 2px;
+	border: 1px solid #5b958e;
+	position: relative;
+	/* top: 5px;
+	left: 5px;  
+	float:right;
+	width: 320px;
+	*/
+	vertical-align:bottom;
+	
+	
+	width:100%;
+	
+}
+
+body > #AVIMControl {
+	position: relative;
+}
+
+.AVIMControl {
+	margin: 0;
+	padding: 0;
+	color: #137e70;
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+a.AVIMControl {
+	color: #b62727;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#AVIMControl input {
+	vertical-align: middle;
+}

@@ -1,0 +1,161 @@
+.clr {
+	clear: both;
+}
+
+.pagenavigation {
+	text-align: center;
+}
+
+.jea_tools {
+	float: right;	
+}
+
+.jea_tools img{
+	border:none;
+}
+
+/*format list */
+.limitbox {
+	text-align: right;
+}
+
+dl.jea_item {
+	border-bottom: 1px dashed #b2b4bf;
+	padding-bottom: 1em;
+}
+
+dl.jea_item dt.title {
+	clear: both;
+	margin-bottom: 0.7em;
+}
+
+dl.jea_item dt.title strong {
+	font-size: 1.3em;
+}
+
+dl.jea_item dt.image {
+	float: left;
+	margin-right: 1em;
+}
+
+dl.jea_item dt.image img {
+	border-color: #819d26;
+}
+
+dl.jea_item span.slogan {
+	float: right;
+}
+
+dl.jea_item span.slogan strong {
+	color: red;
+}
+
+/*format detail */
+.jea_toolbar {
+	float: right;
+}
+
+.snd_imgs {
+	
+	overflow: auto;
+	
+}
+
+.snd_imgs img {
+height: 60px !important;
+width: 60px;
+
+	cursor: pointer
+}
+
+.item_second_column {
+	float: right;
+	/*width: 300px;*/
+	width: 220px;
+	margin-left: 2em;
+	padding-left: 2em;
+	border-left: 1px dashed #b2b4bf;
+}
+
+.item_description {
+	/*margin-top: 2em;
+	margin-bottom: 3em; */
+
+	margin-bottom: 2em;
+	
+}
+
+#jea_search_form td{
+	padding:0 0px 0px 0;
+}
+#jea_search_form td.jea_label {
+	text-align: right;
+}
+
+#jea_search_form select {
+	width:12em;
+}
+
+/*format tabular list */
+table.jea_listing, table.jea_listing thead, table.jea_listing th, 
+table.jea_listing tbody, table.jea_listing td {border:1px solid #fff;}
+
+table.jea_listing {
+border-collapse:collapse;
+}
+table.jea_listing th{
+color: #039;
+font-size: 14px;
+font-weight: normal;
+background: #E0EFF6;
+height: 66px;
+text-align: center;font-size: 12px;}
+table.jea_listing td {
+border-bottom: 1px solid white!important;
+}
+
+table.jea_listing tbody th {
+font-weight:bold;
+}
+
+table.jea_listing thead {
+font-weight:bold;
+white-space:nowrap;
+text-align:left;
+}
+table.jea_listing tbody tr.row1{
+    background:#F9F9F9;
+}
+
+table.jea_listing tbody tr:hover{
+    background:#FFD;
+}
+
+table.jea_listing .number {
+text-align:right;
+}
+
+table.jea_listing .published {
+text-align:center;
+}
+
+table.jea_listing .delete {
+text-align:center;
+}
+.title_dabaco
+{
+/*background:#CCC;
+color:#F90;
+font-weight:bold;
+height:17px;
+border:1px solid #999;*/
+background:url(../../../templates/ja_zeolite/images/GreenTea/Box8/box8_Blue_h3_m.gif) repeat-x;
+color:#396AAA;
+height:31px;
+font-weight:bold;
+padding-top:5px;
+padding-left:5px;
+}
+
+
+

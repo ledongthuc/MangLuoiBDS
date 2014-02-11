@@ -1,0 +1,142 @@
+.default a{
+	/*====================================================
+	CSS here affects all menu item anchors (parentItem,
+	subItem_1, subItem_2, etc..)
+	Settings here can be overriden by adding css to other
+	anchor classes - eg, to override font of sub item 1:
+	.default .subItem_1 {
+		font-familiy: sans-serif;
+		font-size: 15px;
+	}
+	======================================================*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 10px;
+    font-weight			: bold;
+	font-style			: normal;
+    width				: 160px;
+	text-decoration		: none;
+    display				: block;
+    white-space			: normal;
+    position			: relative;
+	border				: 1px solid White;
+	padding				: 5px 15px 5px 15px;
+	margin: -1px 0px 0px 0px; /*-1 px stops adjacent borders looking like 2 pixels width*/
+	background-repeat	: repeat-y;
+}
+
+
+.default .menuCont_1{
+background-color	: #ff9b37;
+/* Un comment this line if you want opacity
+Filter: Alpha(Opacity=95);
+-moz-opacity:.95;
+opacity:.95;
+*/
+width:100%;
+}
+
+.default .menuCont_2{
+background-color: #5555ff;
+/* Un comment this line if you want opacity
+Filter: Alpha(Opacity=95);
+-moz-opacity:.95;
+opacity: .95;
+*/
+width:100%;
+}
+
+.default .parentItem img,
+.default .parentItem-active img{
+    position: absolute;
+    top: 0px;
+    border: 0;
+}
+.default .rgtImg {
+	position: relative;
+    margin-top: 5px;
+    right: 4px;
+    border: 0;
+}
+.default .lftImg {
+	position: relative;
+	margin-top: 2px;
+    border: 0;
+}
+
+.default .parentItem, 
+.default .parentItem:hover, 
+.default .parentItem-active,
+.default .parentItem-active:hover {
+	background-image	: url(images/default/menu_orange_bgr.png);			
+}
+
+.default .parentItem:link,
+.default .parentItem:visited {
+	/*background-color	: #ff9b37;*/   /*.menuCont classes deal with the background color beacuse it makes opacity possible*/
+	color				: #ffffff;
+	font-weight: bold;
+}
+
+.default .parentItem:hover,
+.default .parentItem-active {
+	background-color	: #ffcc66;
+	color				: #000000 !important;
+}
+.default .parentItem:active {
+	/*background-color	: #ee5500;*/   /*.menuCont classes deal with the background color beacuse it makes opacity possible*/
+	color				: #ffffff !important;
+}
+.default .subItem_1 img, .default .subItem_2 img,
+.default .subItem_1-active img, .default .subItem_2-active img{
+    position: absolute;
+    top: 0px;
+    border: 0;
+}
+
+.default .subItem_1, .default .subItem_1-active{
+background-image	: url(images/default/menu_orange_bgr.png);
+width: 160px;
+}
+
+.default .subItem_2, .default .subItem_2-active{
+background-image	: url(images/default/menu_blue_bgr.png);
+width: 160px;
+}
+
+.default .subItem_1, .default .subItem_2 {
+	color: #ffffff !important;
+}
+
+
+.default .subItem_1:hover, .default .subItem_2:hover,
+.default .subItem_1-active, .default .subItem_2-active,
+.default .subItem_1-active:hover, .default .subItem_2-active:hover{
+	/*.menuCont classes deal with the background color beacuse it makes opacity possible*/
+	color				: #000000 !important;
+	width: 160px; /*This had to be added to stop menu from shrinking on hover - GT 22/08/2005*/
+}
+
+
+.default .subItem_1-active,
+.default .subItem_1-active:hover,
+.default .subItem_1:hover{
+    background-color	: #ffcc66;	
+}
+
+
+.default .subItem_2-active,
+.default .subItem_2-active:hover,
+.default .subItem_2:hover{
+    background-color	: #afafff;	
+}
+
+
+
+.default .section {
+    border-style: none;
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+}
+
+* html .default td { position: relative; } /* ie 5.0 fix */

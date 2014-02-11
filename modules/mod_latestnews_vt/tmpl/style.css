@@ -1,0 +1,23 @@
+ul#latestnews_vt  {
+      list-style-type: none;
+      clear: left;
+      text-align:center;
+      font-style:normal;
+      margin:0;
+
+}
+
+ul#latestnews_vt  li.listing_vt {
+	border-bottom:1px #ddd dashed;
+	text-align:left;
+        margin:2px;
+		background-image:none;
+}
+
+ul#latestnews_vt li.listing_vt img {
+
+	border: 1px #ddd solid;
+	padding: 1px;
+	margin-right: 2px;
+
+}

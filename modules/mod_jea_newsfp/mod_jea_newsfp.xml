@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" version="1.5.0">
+<name>Emphasis News</name>
+<creationDate>June 2010</creationDate>
+<author>King Sea</author>
+<copyright>Released under GNU/GPL License</copyright>
+<authorEmail>me@jerrywijaya.com</authorEmail>
+<authorUrl>http://www.joodev.com - http://www.jerrywijaya.com</authorUrl>
+<version>1.0</version>
+<description>Module Emphasisnews duoc su dung de hien thi cac bai viet emphasis nhat</description>
+<files>
+	<filename module="mod_jea_newsfp">mod_jea_newsfp.php</filename>
+	<filename module="mod_jea_newsfp">index.html</filename>
+	<filename module="mod_jea_newsfp">helper.php</filename>
+	<filename module="mod_jea_newsfp">mod_jea_newsfp.xml</filename>
+	<filename module="mod_jea_newsfp">tmpl/_emphasis.php</filename>
+	<filename module="mod_jea_newsfp">tmpl/_review.php</filename>
+	<filename module="mod_jea_newsfp">tmpl/default.php</filename>
+	<filename module="mod_jea_newsfp">tmpl/index.html</filename>
+</files>
+<languages folder="languages">
+	    <language tag="en-GB">en-GB.mod_jea_newsfp.ini</language>
+		<language tag="vi-VN">vi-VN.mod_jea_newsfp.ini</language>
+</languages>
+<params>
+    <param name="items" type="text" default="11" label="Display #" description="Number of news to display" />
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+</params>
+</install>

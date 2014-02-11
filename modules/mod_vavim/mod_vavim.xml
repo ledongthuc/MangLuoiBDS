@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" version="1.5" client="site" method="upgrade">
+	<name>Vinaora AVIM Keyboard</name>
+	<creationDate>2009-12-24</creationDate>
+	<author>VINAORA</author>
+	<authorEmail>admin@vinaora.com</authorEmail>
+	<authorUrl>http://vinaora.com</authorUrl>
+	<copyright>Copyright (C) 2007 - 2010 HIEU DANG and VINAORA. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.1</version>
+	<description>DESC_VAVIM</description>
+	<files>
+		<filename module="mod_vavim">index.html</filename>
+		<filename>helper.php</filename>
+		<filename>mod_vavim.php</filename>
+		
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB.mod_vavim.ini</language>
+		<language tag="vi-VN">vi-VN.mod_vavim.ini</language>
+	</languages>
+	
+	<media folder="media" destination="mod_vavim">
+		<file>index.html</file>
+		
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</media>
+	
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="style" type="list" default="fulltable" label="Style" description="PARAM_STYLE">
+			<option value="full">STYLE_FULL</option>
+			<option value="simple">STYLE_SIMPLE</option>
+			<option value="dropdownlist">STYLE_DDLIST</option>
+			<option value="horizontal">STYLE_HOZ</option>
+			<option value="float">STYLE_FLOAT</option>
+			<option value="hide">STYLE_HIDE</option>
+		</param>
+		<param name="method" type="list" default="0" label="Input Method" description="PARAM_INPUTMETHOD">
+			<option value="0">Auto</option>
+			<option value="1">Telex</option>
+			<option value="2">VNI</option>
+			<option value="3">VIQR</option>
+			<option value="4">VIQR*</option>
+			<option value="-1">Off</option>
+		</param>
+		<param name="oldAccent" type="radio" default="1" label="Old Accent" description="PARAM_OLDSTYLE">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ckSpell" type="radio" default="1" label="Spell Checking" description="PARAM_SPELLCHECKING">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="useCookie" type="radio" default="1" label="Use Cookie" description="PARAM_USECOOKIE">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="exclude" type="text" default="email" label="Exclude IDs" description="PARAM_EXCLUDE" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="pretext" type="textarea" cols="40" rows="5" default="" label="Pre-Text" description="PARAM_PRETEXT" />
+		<param name="posttext" type="textarea" cols="40" rows="5" default="" label="Post-Text" description="PARAM_POSTTEXT" />	
+	</params>
+</install>

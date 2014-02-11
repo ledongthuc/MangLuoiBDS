@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Module Quảng Cáo</name>
+	<author>danhthong</author>
+	<creationDate>10/08/2012</creationDate>
+	<copyright>Copyright I-LAND</copyright>
+	<license></license>
+	<authorEmail>danhthong@gmail.com</authorEmail>
+	<authorUrl>www.thietkewebbatdongsan.com</authorUrl>
+	<version>1.0</version>
+	<description>module quảng cáo</description>
+	<files>
+		<filename module="mod_wdbanners">mod_quangcao.php</filename>
+	</files>
+	<params addpath="/administrator/components/com_banners/elements">
+		<param name="target" type="list" default="1" label="Target" description="PARAMTARGET">
+			<option value="0">Parent Window</option>
+			<option value="1">New Window</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="width" type="text" default="300" label="Width" description="PARAMWIDTH" />
+		<param name="height" type="text" default="250" label="Height" description="PARAMHEIGHT" />
+		<param name="banner_image_url_1" type="text" size="40" default="" label="Image URL" description="PARAMIMAGE1" />
+		<param name="banner_link_1" type="text" size="40" default="" label="Link" description="PARAMLINK1" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />		
+	</params>
+</install>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+	<name>Simple Select Box</name>
+	<author>Omar Muhammad</author>
+	<creationDate>30/5/2009</creationDate>
+	<copyright>The Knight of Baghdad</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>knightofbaghdad@yahoo.com</authorEmail>
+	<authorUrl>http://www.aliraqweb.com/en</authorUrl>
+	<version>1.5.4</version>
+	<description>Simple Select Box Module is a simple module that offers to show a list of links of your choice sorted in a select box (up to 30 links).. for example, if you have a multilingual site, you can put this module as a simple space saving way to choose the site language.. all you have to do is write each title along with the desired link in the back end.</description>
+	<files>
+		<filename module="mod_ssb">mod_ssb.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="target" type="list" default="1" label="link type" description="when you click the list item, it either opens in a new window or in the same window">
+			<option value="0">same page</option>
+			<option value="1">new page</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="pretext" type="text" default="" label="pretext" description="text before the select box" />
+		<param name="prepos" type="list" default="1" label="pretext position" description="position of the pretext">
+			<option value="1">above</option>
+			<option value="0">beside</option>
+		</param>
+		<param name="width" type="text" default="auto" label="Width" description="display width" />
+		<param name="align" type="list" default="center" label="align" description="text alignment">
+			<option value="center">center</option>
+			<option value="right">right</option>
+			<option value="left">left</option>
+		</param>
+		<param name="direction" type="list" default="ltr" label="direction" description="module direction">
+			<option value="rtl">right to left</option>
+			<option value="ltr">left to right</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title0" type="text" default="" label="initial value" description="initial value of the select box" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title1" type="text" default="" label="title1" description="Item No. 1" />
+		<param name="link1" type="text" default="" label="link1" description="link item 1 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title2" type="text" default="" label="title2" description="Item No. 2" />
+		<param name="link2" type="text" default="" label="link2" description="link item 2 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title3" type="text" default="" label="title3" description="Item No. 3" />
+		<param name="link3" type="text" default="" label="link3" description="link item 3 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title4" type="text" default="" label="title4" description="Item No. 4" />
+		<param name="link4" type="text" default="" label="link4" description="link item 4 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title5" type="text" default="" label="title5" description="Item No. 5" />
+		<param name="link5" type="text" default="" label="link5" description="link item 5 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title6" type="text" default="" label="title6" description="Item No. 6" />
+		<param name="link6" type="text" default="" label="link6" description="link item 6 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title7" type="text" default="" label="title7" description="Item No. 7" />
+		<param name="link7" type="text" default="" label="link7" description="link item 7 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title8" type="text" default="" label="title8" description="Item No. 8" />
+		<param name="link8" type="text" default="" label="link8" description="link item 8 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title9" type="text" default="" label="title9" description="Item No. 9" />
+		<param name="link9" type="text" default="" label="link9" description="link item 9 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title10" type="text" default="" label="title10" description="Item No. 10" />
+		<param name="link10" type="text" default="" label="link10" description="link item 10 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title11" type="text" default="" label="title11" description="Item No. 11" />
+		<param name="link11" type="text" default="" label="link11" description="link item 11 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title12" type="text" default="" label="title12" description="Item No. 12" />
+		<param name="link12" type="text" default="" label="link12" description="link item 12 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title13" type="text" default="" label="title13" description="Item No. 13" />
+		<param name="link13" type="text" default="" label="link13" description="link item 13 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title14" type="text" default="" label="title14" description="Item No. 14" />
+		<param name="link14" type="text" default="" label="link14" description="link item 14 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title15" type="text" default="" label="title15" description="Item No. 15" />
+		<param name="link15" type="text" default="" label="link15" description="link item 15 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title16" type="text" default="" label="title16" description="Item No. 16" />
+		<param name="link16" type="text" default="" label="link16" description="link item 16 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title17" type="text" default="" label="title17" description="Item No. 17" />
+		<param name="link17" type="text" default="" label="link17" description="link item 17 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title18" type="text" default="" label="title18" description="Item No. 18" />
+		<param name="link18" type="text" default="" label="link18" description="link item 18 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title19" type="text" default="" label="title19" description="Item No. 19" />
+		<param name="link19" type="text" default="" label="link19" description="link item 19 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title20" type="text" default="" label="title20" description="Item No. 20" />
+		<param name="link20" type="text" default="" label="link20" description="link item 20 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title21" type="text" default="" label="title21" description="Item No. 21" />
+		<param name="link21" type="text" default="" label="link21" description="link item 21 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title22" type="text" default="" label="title22" description="Item No. 22" />
+		<param name="link22" type="text" default="" label="link22" description="link item 22 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title23" type="text" default="" label="title23" description="Item No. 23" />
+		<param name="link23" type="text" default="" label="link23" description="link item 23 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title24" type="text" default="" label="title24" description="Item No. 24" />
+		<param name="link24" type="text" default="" label="link24" description="link item 24 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title25" type="text" default="" label="title25" description="Item No. 25" />
+		<param name="link25" type="text" default="" label="link25" description="link item 25 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title26" type="text" default="" label="title26" description="Item No. 26" />
+		<param name="link26" type="text" default="" label="link26" description="link item 26 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title27" type="text" default="" label="title27" description="Item No. 27" />
+		<param name="link27" type="text" default="" label="link27" description="link item 27 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title28" type="text" default="" label="title28" description="Item No. 28" />
+		<param name="link28" type="text" default="" label="link28" description="link item 28 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title29" type="text" default="" label="title29" description="Item No. 29" />
+		<param name="link29" type="text" default="" label="link29" description="link item 29 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="title30" type="text" default="" label="title30" description="Item No. 30" />
+		<param name="link30" type="text" default="" label="link30" description="link item 30 to a webpage" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+</install>

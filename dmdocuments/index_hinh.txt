@@ -1,0 +1,144 @@
+﻿Hình 4: Trang soạn thảo một tin rao vặt bất động sản
+
+Bảng 1: Các thông tin khai báo trong bản tin rao vặt bất động sản
+
+Hình 5: Thông tin liên hệ để đăng tin
+
+Hình 6: Kích chọn Quản Lý Tin trên Menu Người Dùng
+
+Hình 7: Danh sách các tin rao vặt
+
+Hình 8: Hộp lựa chọn lọc tin rao vặt theo loại
+
+Hình 9: Tìm tin rao vặt theo Người Đăng
+
+Hình 10: Kích hoạt tin rao vặt, cho phép hiển thị lên website
+
+Hình 11: Danh sách các tin đã đăng của khách hàng
+
+Hình 12: Khách hàng xóa tin rao vặt đã đăng
+
+Hình 13: Vào phần quản lý tin tức trong trang quản trị
+
+Hình 14: Chọn các bài viết Chưa phân loại
+
+Hình 15: Bài viết Liên hệ đăng tin
+
+Hình 16: Thay đổi nội dung Liên hệ đăng tin
+
+Hình 17: Nhập địa chỉ trang quản trị website (BACK-END) 
+
+Hình 18: Nhập tài khoản quản trị trên trang BACK-END
+
+Hình 19: Trang quản trị website
+
+Hình 20: Vào xem danh sách mục tin bất động sản
+
+Hình 21: Các mục tin bất động sản Cần bán
+
+Hình 22: Xem các mục tin thuộc thể loại khác
+
+Hình 23: Thêm một mục tin bất động sản
+
+Hình 24: Chọn mục tin muốn chỉnh sửa
+
+Hình 25: Đánh dấu chọn nhiều mục tin
+
+Hình 26: Nhấn nút xóa các mục tin
+
+Hình 27: Các nút Bật/Tắt mục tin
+
+Hình 28: Vào xem danh sách các loại bất động sản
+
+Hình 29: Danh sách các loại bất động sản
+
+Hình 30: Thêm loại bất động sản mới
+
+Hình 31: Vào xem danh sách các bài viết tin tức
+
+Hình 32: Chọn chủ đề bài viết Tin Tức
+
+Hình 33: Soạn thảo một bài viết Tin tức
+
+Hình 34: Phần mô tả ngắn của một tin tức
+
+Hình 35: Thêm phần ngăn cách đánh dấu đoạn mô tả  ngắn trong tin tức
+
+Hình 36: Chèn hình ảnh vào bài viết Tin tức
+
+Hình 37: Chọn hình ảnh chèn
+
+Hình 38: Vào nơi xóa tạm bài viết
+
+
+Hình 39: Khôi phục bài viết đã xóa tạm
+
+
+Hình 40: Vào phần Quản lý Thành viên
+Hình 41: Danh sách các Thành viên
+
+Hình 42: Thêm Thành viên mới
+
+Bảng 2: Thông tin khai báo khi thêm Thành viên mới
+
+Hình 43: Vào trang Giới thiệu
+
+Hình 44: Chỉnh sửa nội dung trang Giới thiệu
+
+
+Hình 45: Khu vực Hỗ trợ trực tuyến
+
+
+Hình 46: Vào phần điều chỉnh Hỗ trợ trực tuyến
+
+
+Hình 47: Nhập nick Yahoo
+
+Hình 48: Nhập dòng mô tả cho nick Yahoo
+
+
+Hình 49: Nhập nhiều nick và cho phần Hỗ trợ trực tuyến
+
+Hình 50: Lựa chọn biểu tượng Yahoo hiển thị trong Hỗ trợ trực tuyến
+
+
+Hình 51: Vào trang Giấy tờ mẫu
+
+Hình 52: Nhấn nút Submit File để đưa một file giấy tờ mẫu lên website 
+
+Hình 53: Chọn lấy file giấy tờ mẫu từ máy tính
+
+Hình 54: Chọn file giấy tờ mẫu trên máy và Upload
+
+Hình 55: Nhập thông tin Giấy tờ mẫu
+
+Hình 56: Thông tin giấy tờ mẫu khi nhấn nút Details
+
+Hình 57: Vào trang quản lý Bảng giá đất
+
+
+Hình 58: Các thư mục Bảng giá đất theo năm
+
+
+Hình 62: Khu vực Quảng cáo trên website
+
+
+Hình 64: Thêm hình ảnh vào phần Quảng Cáo
+
+
+Hình 65: Chọn thư mục chứa ảnh Quảng cáo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>MẠNG LƯỚI BẤT ĐỘNG SẢN</name>
+	<creationDate>15/4/2011</creationDate>
+	<author>giaiphapbatdongsan.com</author>
+	<copyright>thietkewebbatdongsan.com</copyright>
+	<authorEmail>support@giaiphapbatdongsan.com</authorEmail>
+	<authorUrl>www.giaiphapbatdongsan.com</authorUrl>
+	<version>1.0</version>
+	<description>Template Web Gia Hưng</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>ja_templatetools_1.5.php</filename>
+		<filename>ja_vars_1.5.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>ja_menus</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_ja_zeolite.ini</language>
+	</languages>
+	<administration>
+    	<languages>
+			<language tag="en-GB">admin/en-GB.tpl_ja_zeolite.ini</language>
+		</languages>
+    </administration>
+
+	<positions>
+		<position>banner-l</position>
+		<positon>banner-r</positon>
+		<position>top</position>
+		<position>menu</position>
+		<position>possearch</position>
+		<position>news-left</position>
+		<position>left-warpperlr</position>
+		<position>right-warpperlr</position>
+		<position>news-right</position>		
+		<position>right</position>
+		<position>footer</position>
+		<position>quangcaogiua1</position>
+		<position>quangcaogiua2</position>				
+		<position>quangcaogiua3</position>
+		<position>cot4</position>
+		<position>cot5</position>
+		<position>cot6</position>
+		<position>cot7</position>
+		<position>cot8</position>
+		<position>cot9</position>
+	</positions>
+
+	<params>
+		<param name="ja_color" type="list" default="default" label="Color Variation" description="Color variation to use">
+			<option value="default">Default</option>
+			<option value="cyan">Cyan</option>
+			<option value="blue">Blue</option>
+			<option value="red">Red</option>
+		</param>
+
+		<param name="menutype" type="menu" default="mainmenu" label="Menu Type" description="MENU TYPE DESCRIPTION" />
+		<param name="ja_menu" type="list" default="2" label="Menu Module" description="MENU'S TYPE">
+		  <option value="none">Disable</option>
+		  <option value="split">Split Menu</option>
+		  <option value="css">CSS Menu</option>
+		  <option value="moo">Moo Menu</option>
+		</param>
+
+	</params>
+</install>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<install type="module" version="1.5.0">
+		<name>Module Socialbds</name>
+		<author>I-LAND SOFTWARE Ltd</author>
+		<creationDate>24/8/2012</creationDate>
+		<copyright>I-LAND SOFTWARE Ltd</copyright>
+		<license>BSD/GPL</license> 
+		<authorUrl>http://iland.vn</authorUrl>
+		<authorEmail>demo@gmail.com</authorEmail>
+		<version>1.0.0</version>
+		<description>
+			Module tích hợp mạng xã hội! 
+			Copyright@2012 I-LAND SOFTWARE Ltd
+		</description>		<files>			<filename module="mod_social">mod_socialbds.php</filename>
+					
+		</files>	
+		<params>
+			<param name="moduleclass_sfx" type="text" size="15" default="" label="Module Class Suffix" description="Module Class Suffix"/>									<param name="email" type="radio" default="1" label="Email" description="Gửi thư"> 				<option value="1">Bật</option>				<option value="0">Tắt</option>			</param>  			
+			<param name="flike" type="radio" default="1" label="Facebook Like" description="Facbook Like"> 
+				<option value="1">Bật</option>
+				<option value="0">Tắt</option>
+			</param>  
+			
+			<param name="fshare" type="radio" default="1" label="Facebook Share" description="Facbook Share"> 
+				<option value="1">Bật</option>
+				<option value="0">Tắt</option>
+			</param>  
+			 
+			<param name="google" type="radio" default="1" label="Google+" description="Google Plus"> 
+				<option value="1">Bật</option>
+				<option value="0">Tắt</option>
+			</param>  
+			<param name="twitter" type="radio" default="1" label="Twitter" description="Twitter"> 
+				<option value="1">Bật</option>
+				<option value="0">Tắt</option>
+			</param>  
+			<param name="zingme" type="radio" default="1" label="Zing Me" description="Zing Me"> 
+				<option value="1">Bật</option>
+				<option value="0">Tắt</option>
+			</param>  
+		</params></install>

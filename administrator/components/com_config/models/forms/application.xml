@@ -1,0 +1,10 @@
+<!-- lưu ý khi chỉnh sửa file này -->
+<!-- thuộc tính name trong thẻ rule phải là chuỗi thường (string lower) và không có ký tự lạ (chỉ toàn là chữ cái) -->
+<!-- thuộc tính value trong thẻ rule là text content sẽ xuất ra màn hình -->
+
+<permissions>
+    <rule name="propertypublish" value="Quyền duyệt tin" />
+    <rule name="setpropertypermission" value="Tặng quyền đẩy/đánh dấu" />
+    <rule name="usermanagement" value="Quản lý người dùng" />
+    <rule name="viewtrasaction" value="Xem các giao dịch" />
+</permissions>

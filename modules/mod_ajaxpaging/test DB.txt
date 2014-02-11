@@ -1,0 +1,75 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.3.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Apr 18, 2009 at 10:50 AM
+-- Server version: 5.1.33
+-- PHP Version: 5.2.9
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `test`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `student`
+--
+
+CREATE TABLE IF NOT EXISTS `student` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=43 ;
+
+--
+-- Dumping data for table `student`
+--
+
+INSERT INTO `student` (`id`, `name`, `city`) VALUES
+(1, 'Beski', 'Tiruchendur'),
+(2, 'Regin', 'Alanthalai'),
+(3, 'Sivakumar', 'Arumuganeri'),
+(4, 'Divya', 'Vellore'),
+(5, 'Rajkumar', 'Chennai'),
+(6, 'Karthik', 'Erode'),
+(7, 'Ramesh', 'Chennai'),
+(8, 'Beski', 'Tiruchendur'),
+(9, 'Regin', 'Alanthalai'),
+(10, 'Sivakumar', 'Arumuganeri'),
+(11, 'Divya', 'Vellore'),
+(12, 'Rajkumar', 'Chennai'),
+(13, 'Karthik', 'Erode'),
+(14, 'Ramesh', 'Chennai'),
+(15, 'Beski', 'Tiruchendur'),
+(16, 'Regin', 'Alanthalai'),
+(17, 'Sivakumar', 'Arumuganeri'),
+(18, 'Divya', 'Vellore'),
+(19, 'Rajkumar', 'Chennai'),
+(20, 'Karthik', 'Erode'),
+(21, 'Ramesh', 'Chennai'),
+(22, 'Beski', 'Tiruchendur'),
+(23, 'Regin', 'Alanthalai'),
+(24, 'Sivakumar', 'Arumuganeri'),
+(25, 'Divya', 'Vellore'),
+(26, 'Rajkumar', 'Chennai'),
+(27, 'Karthik', 'Erode'),
+(28, 'Ramesh', 'Chennai'),
+(29, 'Beski', 'Tiruchendur'),
+(30, 'Regin', 'Alanthalai'),
+(31, 'Sivakumar', 'Arumuganeri'),
+(32, 'Divya', 'Vellore'),
+(33, 'Rajkumar', 'Chennai'),
+(34, 'Karthik', 'Erode'),
+(35, 'Ramesh', 'Chennai'),
+(36, 'Beski', 'Tiruchendur'),
+(37, 'Regin', 'Alanthalai'),
+(38, 'Sivakumar', 'Arumuganeri'),
+(39, 'Divya', 'Vellore'),
+(40, 'Rajkumar', 'Chennai'),
+(41, 'Karthik', 'Erode'),
+(42, 'Ramesh', 'Chennai');

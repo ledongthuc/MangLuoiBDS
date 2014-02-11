@@ -1,0 +1,91 @@
+.default {
+    font-family			: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    white-space: nowrap;
+    cursor: default;
+}
+.default .doc img,
+.default .folder img { border: 0; vertical-align: -4px; }
+* html .default .doc img,
+* html .default .folder img { border: 0; vertical-align: middle; vertical-align: -4px; }
+.default .section { background: url(../../images/tree-branch.gif) repeat-y; display: none; }
+.default .last { background: none; }
+.default .folder .folder { margin-left: 18px; }
+.default .doc .doc, .default .folder .doc { margin-left: 18px; }
+
+.default .doc a { color: #000000; text-decoration: none; }
+.default .doc a:hover { color: #dd9900; text-decoration: underline; }
+
+.default .folder a { color: #000000; text-decoration: none; }
+.default .folder a:hover { color: #dd9900; text-decoration: underline; }
+
+.default .text { padding: 1px; }
+.default .text-active { background: #FFFF99;  padding: 1px; }
+
+/* hack for IE to fix a bug (background of .section disappearing when mouse is over a link, for example Node 1.1.1.1) */
+/*
+/* GThomas 2005/June/05 - CSS BELOW REMOVED BECAUSE IT CAUSES THE TEXT TO OVERLAP THE DIV WRAP1
+* html .default .doc { position: relative; }
+* html .default .doc a { position: absolute; top: 3px; }
+*/
+.default img { border: 0; }
+
+.default .actions {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 10px;
+    height: 20px;
+}
+.default .tooltip {
+    position: absolute;
+    line-height: 22px;
+    left: 185px;
+}
+.default .moveUp,
+.default .moveDown,
+.default .moveLeft,
+.default .moveRight,
+.default .insert,
+.default .info,
+.default .remove {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    border: 1px solid #F1EFE2;
+    z-index: 5;
+    cursor: default;
+}
+.default .moveUp:hover,
+.default .moveDown:hover,
+.default .moveLeft:hover,
+.default .moveRight:hover,
+.default .insert:hover,
+.default .info:hover,
+.default .remove:hover {
+    background-color: #ffffff;
+    border: 1px solid #ACA899;
+}
+.default .moveUp { left: 0px; }
+.default .moveDown { left: 25px; }
+.default .moveLeft { left: 50px; }
+.default .moveRight { left: 75px; }
+.default .insert { left: 100px; }
+.default .info { left: 125px; }
+.default .remove { left: 150px; }
+
+.default .top { background: url(../../images/tree.gif) no-repeat; padding-left: 25px; line-height: 20px;}
+.default .wrap1 { margin-left: 2px; overflow: auto; background: #ffffff; padding: 10px; border: 1px solid #919B9C;}
+.default .wrap2 { margin-left: 2px; }
+
+.default #tree-insert-form { display: none; margin-top: 1em; }
+.default #tree-insert-form .label { text-align: right; width: 50px; padding-right: 8px; }
+.default #tree-insert-form .input { margin-bottom: 2px; padding-left: 3px; }
+.default #tree-insert-form select { margin-bottom: 2px; }
+.default #tree-insert-form .button { margin-top: 4px; }
+
+.default #tree-info-form { display: none; margin-top: 1em; }
+.default #tree-info-form .label { text-align: right; width: 50px; padding-right: 8px; }
+.default #tree-info-form .input { margin-bottom: 2px; padding-left: 3px; }
+.default #tree-info-form select { margin-bottom: 2px; }
+.default #tree-info-form .button { margin-top: 4px; }

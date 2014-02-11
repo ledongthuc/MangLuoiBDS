@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+        <name>Gavick News Highlighter GK1</name>
+        <creationDate>31/05/2009</creationDate>
+        <author>Gavick.com</author>
+        <copyright>(C) 2008-2009 Gavick.com</copyright>
+        <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+        <authorEmail>info@gavick.com</authorEmail>
+        <authorUrl>www.gavick.com</authorUrl>
+        <version>1.5.2</version>
+        <description>INSTALLED</description>
+		
+		<languages>
+   			<language tag="en-GB">language/en-GB.mod_gk_news_highlighter.ini</language>
+		</languages>  
+		
+        <files>
+            <filename module="mod_gk_news_highlighter">mod_gk_news_highlighter.php</filename>
+            <filename module="mod_gk_news_highlighter">helper.php</filename>
+            <filename module="mod_gk_news_highlighter">index.html</filename>
+            <filename module="mod_gk_news_highlighter">style/style.php</filename>
+			<filename module="mod_gk_news_highlighter">style/index.html</filename>
+			<filename module="mod_gk_news_highlighter">gk_classes/index.html</filename>
+			<filename module="mod_gk_news_highlighter">gk_classes/joomla.news.class.php</filename>
+            <filename module="mod_gk_news_highlighter">scripts/mootools.js</filename>
+            <filename module="mod_gk_news_highlighter">scripts/importer.php</filename>
+            <filename module="mod_gk_news_highlighter">scripts/engine.js</filename>
+            <filename module="mod_gk_news_highlighter">scripts/engine_compress.js</filename>
+            <filename module="mod_gk_news_highlighter">scripts/index.html</filename>
+            <filename module="mod_gk_news_highlighter">tmpl/default.php</filename>
+            <filename module="mod_gk_news_highlighter">tmpl/content.php</filename>
+			<filename module="mod_gk_news_highlighter">tmpl/index.html</filename>
+			<filename module="mod_gk_news_highlighter">images/index.html</filename>
+			<filename module="mod_gk_news_highlighter">images/next.png</filename>
+			<filename module="mod_gk_news_highlighter">images/prev.png</filename>
+			<filename module="mod_gk_news_highlighter">images/1set.png</filename>
+			<filename module="mod_gk_news_highlighter">images/2set.png</filename>
+			<filename module="mod_gk_news_highlighter">images/3set.png</filename>
+			<filename module="mod_gk_news_highlighter">images/4set.png</filename>
+			<filename module="mod_gk_news_highlighter">images/5set.png</filename>
+			<filename module="mod_gk_news_highlighter">images/6set.png</filename>
+			<filename module="mod_gk_news_highlighter">images/7set.png</filename>
+        </files>
+        
+        <params>
+                
+				<param name="@spacer" type="spacer" default="If you already use mootools switch off options Use MooTools, if you copy the module switch off in him options Use script. " label="Warning" description="Warning!" />
+                
+				<param name="moduleclass_sfx" type="text" default="" label="MODULECLASSSUFFIX" description="MODULECLASSSUFFIX_DESC" />
+                
+				<param name="module_id" type="text" default="news-highlight-1" label="MODID" description="MODID_DESC" />
+                
+				<param name="moduleHeight" type="text" default="24" size="5" label="MODHEIGHT" description="MODHEIGHT_DESC"/>
+                
+				<param name="moduleWidth" type="text" default="780" size="5" label="MODWIDTH" description="MODWIDTH_DESC"/>
+				
+				<param name="interfaceWidth" type="text" default="120" size="5" label="IWIDTH" description="IWIDTH_DESC"/>
+				
+				<param name="bgcolor" type="text" default="#FFFFEE" size="10" label="BGCOLOR" description="BGCOLOR_DESC"/>
+				
+				<param name="bordercolor" type="text" default="#E9E9A1" size="10" label="BORDERCOLOR" description="BORDERCOLOR_DESC"/>
+				
+				<param name="linkcolor" type="text" default="" size="10" label="LINKCOLOR" description="LINKCOLOR_DESC"/>
+				
+				<param name="hlinkcolor" type="text" default="" size="10" label="HLINKCOLOR" description="HLINKCOLOR_DESC"/>
+				
+				<param name="textleft_color" type="text" default="" size="10" label="TEXTLEFT_COLOR" description="TEXTLEFT_COLOR_DESC"/>
+				
+				<param name="textleft_style" type="list" default="normal" label="TEXTLEFT_STYLE" description="TEXTLEFT_STYLE_DESC">
+						<option value="normal">normal</option>
+                        <option value="bold">bold</option>
+                        <option value="italic">italic</option>
+                </param>
+                
+				<param name="introtext" type="text" default="HOT NEWS" label="TEXT" description="TEXT_DESC" />
+				
+				<param name="extra_divs" type="list" default="1" label="EXTRADIVS" description="EXTRADIVS_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="arrows" type="list" default="1" label="ARROWS" description="ARROWS_DESC">
+                        <option value="0">DISABLED</option>
+						<option value="1">1set.png</option>
+                        <option value="2">2set.png</option>
+                        <option value="3">3set.png</option>
+                        <option value="4">4set.png</option>
+                        <option value="5">5set.png</option>
+                        <option value="6">6set.png</option>
+                        <option value="7">7set.png</option>
+                </param>
+                
+                <param name="@spacer" type="spacer" default=" " label=" " description=" " />
+                
+                <param name="section" type="section" default="" label="SECTION" description="SECTION_DESC" />
+                
+                <param name="category" type="category" default="" label="CATEGORY" description="CATEGORY_DESC" />
+                
+                <param name="sections" type="text" default="" label="SECTIONS" description="SECTIONS_DESC"/>
+                
+                <param name="categories" type="text" default="" label="CATEGORIES" description="CATEGORIES_DESC"/>
+                
+                <param name="ids" type="text" default="" label="IDS" description="IDS_DESC"/>
+                
+                <param name="news_amount" type="text" default="" label="NEWSAMOUNT" description="NEWSAMOUNT_DESC" />
+                
+                <param name="news_sort_value" type="list" default="created" label="NEWS_SORT_VALUE" description="NEWS_SORT_VALUE_DESC">
+                        <option value="created">DATE</option>
+                        <option value="ordering">ORDER</option>
+                        <option value="random">RANDOM</option>
+                        <option value="hits">HITS</option>
+                </param>
+                
+                <param name="news_sort_order" type="list" default="DESC" label="NEWS_SORT_ORDER" description="NEWS_SORT_ORDER_DESC">
+                        <option value="ASC">ASC</option>
+                        <option value="DESC">DESC</option>
+                </param>
+                
+                <param name="news_frontpage" type="radio" default="1" label="FRONTPAGE" description="FRONTPAGE_DESC">
+                        <option value="0">DISABLED</option>
+                        <option value="1">ENABLED</option>
+                </param>
+              
+			  	<param name="unauthorized" type="radio" default="0" label="UNAUTH" description="UNAUTH_DESC">
+                		<option value="0">DISABLED</option>
+                        <option value="1">ENABLED</option>
+                </param>
+                
+                <param name="only_frontpage" type="radio" default="0" label="ONLYFRONTPAGE" description="ONLYFRONTPAGE_DESC">
+                		<option value="0">DISABLED</option>
+                        <option value="1">ENABLED</option>
+                </param>
+                
+                <param name="startposition" type="text" default="0" size="5" label="FIRST_NEWS" description="FIRST_NEWS_DESC"/>
+                 
+                <param name="@spacer" type="spacer" default=" " label=" " description=" " />
+                
+                <param name="links" type="list" default="1" label="LINKS" description="LINKS_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="show_title" type="list" default="1" label="SHOWTITLE" description="SHOWTITLE_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="show_description" type="list" default="1" label="SHOWDESC" description="SHOWDESC_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="title_length" type="text" default="50" size="5" label="TITLELENGTH" description="TITLELENGTH_DESC"/>
+                
+                <param name="desc_length" type="text" default="50" size="5" label="DESCLENGTH" description="DESCLENGTH_DESC"/>
+                
+				<param name="@spacer" type="spacer" default=" " label=" " description=" " />
+                
+				<param name="animationType" type="list" default="1" label="ANIMTYPE" description="ANIMTYPE_DESC">
+                        <option value="0">A1</option>
+                        <option value="1">A2</option>
+                        <option value="2">A3</option>
+                        <option value="3">A4</option>
+                        <option value="4">A5</option>
+						<option value="5">A6</option>
+                        <option value="6">A7</option>
+                        <option value="7">A8</option>
+                </param>
+                
+				<param name="animationSpeed" type="text" default="250" size="20" label="ANIMSPEED" description="ANIMSPEED_DESC"/>
+                
+				<param name="animationInterval" type="text" default="5000" size="20" label="ANIMINT" description="ANIMINT_DESC"/>
+                
+				<param name="animationFun" type="list" default="Fx.Transitions.linear" label="ANIMFUN" description="ANIMFUN_DESC">
+                        <option value="Fx.Transitions.linear">linear</option>
+                        <option value="Fx.Transitions.Quad.easeIn">Quad.easeIn</option>
+                        <option value="Fx.Transitions.Quad.easeOut">Quad.easeOut</option>
+                        <option value="Fx.Transitions.Quad.easeInOut">Quad.easeInOut</option>
+                        <option value="Fx.Transitions.Cubic.easeIn">Cubic.easeIn</option>
+                        <option value="Fx.Transitions.Cubic.easeOut">Cubic.easeOut</option>
+                        <option value="Fx.Transitions.Cubic.easeInOut">Cubic.easeInOut</option>
+                        <option value="Fx.Transitions.Quart.easeIn">Quart.easeIn</option>
+                        <option value="Fx.Transitions.Quart.easeOut">Quart.easeOut</option>
+                        <option value="Fx.Transitions.Quart.easeInOut">Quart.easeInOut</option>
+                        <option value="Fx.Transitions.Quint.easeIn">Quint.easeIn</option>
+                        <option value="Fx.Transitions.Quint.easeOut">Quint.easeOut</option>
+                        <option value="Fx.Transitions.Quint.easeInOut">Quint.easeInOut</option>
+                        <option value="Fx.Transitions.Pow.easeIn">Pow.easeIn</option>
+                        <option value="Fx.Transitions.Pow.easeOut">Pow.easeOut</option>
+                        <option value="Fx.Transitions.Pow.easeInOut">Pow.easeInOut</option>
+                        <option value="Fx.Transitions.Expo.easeIn">Expo.easeIn</option>
+                        <option value="Fx.Transitions.Expo.easeOut">Expo.easeOut</option>
+                        <option value="Fx.Transitions.Expo.easeInOut">Expo.easeInOut</option>
+                        <option value="Fx.Transitions.Circ.easeIn">Circ.easeIn</option>
+                        <option value="Fx.Transitions.Circ.easeOut">Circ.easeOut</option>
+                        <option value="Fx.Transitions.Circ.easeInOut">Circ.easeInOut</option>
+                        <option value="Fx.Transitions.Sine.easeIn">Sine.easeIn</option>
+                        <option value="Fx.Transitions.Sine.easeOut">Sine.easeOut</option>
+                        <option value="Fx.Transitions.Sine.easeInOut">Sine.easeInOut</option>
+                        <option value="Fx.Transitions.Back.easeIn">Back.easeIn</option>
+                        <option value="Fx.Transitions.Back.easeOut">Back.easeOut</option>
+                        <option value="Fx.Transitions.Back.easeInOut">Back.easeInOut</option>
+                        <option value="Fx.Transitions.Bounce.easeIn">Bounce.easeIn</option>
+                        <option value="Fx.Transitions.Bounce.easeOut">Bounce.easeOut</option>
+                        <option value="Fx.Transitions.Bounce.easeInOut">Bounce.easeInOut</option>
+                        <option value="Fx.Transitions.Elastic.easeIn">Elastic.easeIn</option>
+                        <option value="Fx.Transitions.Elastic.easeOut">Elastic.easeOut</option>
+                        <option value="Fx.Transitions.Elastic.easeInOut">Elastic.easeInOut</option>
+                </param>
+              
+			    <param name="mouseover" type="list" default="1" label="MOUSEOVER" description="MOUSEOVER_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+			    
+        </params>
+        
+        <params group="advanced">
+        
+                <param name="@spacer" label="Scripts configuration" decription="" type="spacer"/>
+                
+                <param name="clean_code" type="list" default="1" label="CLEANCODE" description="CLEANCODE_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="useMoo" type="list" default="2" label="USEMOO" description="USEMOO_DESC">
+                        <option value="2">AUTOMATIC</option>
+						<option value="1">FORCEENABLED</option>
+                        <option value="0">FORCEDISABLED</option>
+                </param>
+                
+                <param name="useScript" type="list" default="2" label="USEJS" description="USEJS_DESC">
+                        <option value="2">AUTOMATIC</option>
+						<option value="1">FORCEENABLED</option>
+                        <option value="0">FORCEDISABLED</option>
+                </param>
+                
+                <param name="compress_js" type="list" default="1" label="COMPRESS" description="COMPRESS_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+        </params>
+</install>

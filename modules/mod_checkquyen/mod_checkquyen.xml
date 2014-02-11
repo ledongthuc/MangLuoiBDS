@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>mod_checkquyen</name>
+	<author>danhthong</author>
+	<creationDate>November 2012</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>danhthong@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description></description>
+	<files>
+		<filename module="mod_mod_checkquyen">mod_mod_checkquyen.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+</install>

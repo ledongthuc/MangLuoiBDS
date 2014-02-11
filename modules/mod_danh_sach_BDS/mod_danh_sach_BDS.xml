@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+	<name>ILAND - Danh sach BDS</name>
+	<author>Chau Nguyen</author>
+	<creationDate>April 2010</creationDate>
+	<copyright>(C) 2010 Chau NGuyen. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>chaunm@giaiphapbatdongsan.com</authorEmail>
+	<authorUrl>giaiphapbatdongsan.com</authorUrl>
+	<version>1.0</version>
+	<description>Danh sach bat dong san</description>
+	
+	<languages folder="languages">
+	    <language tag="en-GB">en-GB.com_u_re.ini</language>
+		<language tag="vi-VN">vi-VN.mod_danh_sach_BDS.ini</language>
+	</languages>
+	
+	<params>
+	
+		<param name="layoutname" type="text" size="35" default="-1" label="layoutname" description="layoutname" />	
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="style" type="radio" default="emphasis" label="Kiểu hiển thị" description="Kiểu hiển thị">
+			<option value="emphasis">Tin nổi bật</option>
+			<option value="newsest">Tin mới nhất</option>
+			<option value="list">Theo điều kiện tìm kiếm</option>
+			<option value="byKind">Tin theo loại giao dịch</option>
+			<option value="byRealtor">Tin theo người đăng</option>
+			<option value="sameItems">Tin liên quan</option>
+			<option value="successfulItems">Tin đã môi giới thành công</option>
+			<option value="byType">Tin theo loại BĐS</option>
+			<option value="selling">CẦN BÁN</option>
+			<option value="renting">CHO THUÊ</option>
+			<option value="needbuying">CẦN MUA</option>
+			<option value="needrenting">CẦN THUÊ</option>
+			
+		</param>
+		<param name="idKind" type="text" default="" label="Ids loại Bđs " description="Số tin mỗi trang, cách nhau bởi dấu phẩy. 1 là Cần bán. 2 là Cho thuê. 3 là Cần mua. 4 là Cần thuê" />
+		<param name="idPaging" type="text" default="" label="idPaging" description="This parameter must be diffirent with other mod_jea_emphasis" />
+	
+		<param name="order_by" type="list" default="ordering" label="Order by" description="PARAMORDERBY">
+			<option value="id">Id</option>
+			<option value="ordering">Order</option>
+			<option value="date_insert">Date</option>
+			<option value="price">Price</option>
+			<option value="rand()">Random</option>
+		</param>
+		<param name="paging" type="radio" default="1" label="Phân trang" description="Phân trang">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>		
+		<param name="number_per_page" type="text" default="5" label="Số tin mỗi trang" description="Số tin mỗi trang" />
+		<param name="number_to_display" type="text" default="10" label="Tổng số tin hiển thị" description="Tổng số tin hiển thị" />
+		<param name="ItemId" type="text" default="10,11,12,13" label="ItemId" description="ItemId" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	
+</install>

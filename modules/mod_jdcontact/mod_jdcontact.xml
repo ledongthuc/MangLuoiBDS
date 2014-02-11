@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>J DContact</name>
+	<author>Md. Shaon Bahadur</author>
+	<creationDate>10 April 2012</creationDate>
+	<copyright>Copyright (C) 2012 J Download. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@j-download.com</authorEmail>
+	<authorUrl>www.j-download.com</authorUrl>
+	<version>1.0.1</version>
+	<description></description>
+	<files>
+		<filename module="mod_jdcontact">mod_jdcontact.php</filename>
+		<filename>index.html</filename>
+        <folder module="mod_jdcontact">tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_jdcontact.ini</language>
+	</languages>
+	<params addpath="/modules/mod_jdcontact/tmpl/lib/elements">
+            <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+       		<param name="sales_address" type="text" default="" size="50" label="Email admin" description="Please Enter Email Address." />
+       		<param name="cc_address" type="text" default="" size="50" label="Email cc" description="Email Address to Cc." />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

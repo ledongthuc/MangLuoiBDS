@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>Taoyeucau</name>
+	<author>danhthong</author>
+	<creationDate>November 2012</creationDate>
+	<copyright>2012</copyright>
+	<license></license>
+	<authorEmail>danhthong@gmail.com</authorEmail>
+	<authorUrl>i-land.vn</authorUrl>
+	<version>1.0</version>
+	<description></description>
+	<files folder="site">
+		<filename>taoyeucau.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>views/index.html</filename>
+		<filename>views/taoyeucau/index.html</filename>
+		<filename>views/taoyeucau/view.html.php</filename>
+		<filename>views/taoyeucau/tmpl/index.html</filename>
+		<filename>views/taoyeucau/tmpl/default.php</filename>
+	</files>
+</install>

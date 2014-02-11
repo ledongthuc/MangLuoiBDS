@@ -1,0 +1,64 @@
+/*------------------------------------------------------------------------
+# JA Zeolite for Joomla 1.5 - Version 1.0 - Licence Owner JA108425
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+/* MAIN NAVIGATION
+----------------------------------------------------------- */
+#ja-splitmenu {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-splitmenu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-splitmenu li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	background: none;
+	text-align: center;
+}
+
+#ja-splitmenu a {
+	display: block;
+	text-decoration: none;
+	font-size: 110%;
+	color: #777777;
+	padding: 0;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#ja-splitmenu a img {
+	width: 64px;
+	height: 64px;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+#ja-splitmenu a span {
+	position: relative;
+	top: 12px;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	color: #C01122;
+}
+
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	color: #C01122;
+}

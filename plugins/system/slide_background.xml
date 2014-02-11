@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>Plugin Slide Background</name>
+	<author>vanganh</author>
+	<creationDate>June 13, 2011</creationDate>
+	<copyright>ILand</copyright>
+	<license>GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Change background image</description>
+	<files>
+		<filename plugin="slide_background">slide_background.php</filename>
+		<folder>slide_background/</folder>
+	</files>	
+	<params>		
+		<param name="filename" type="textarea" default="" label="Image Name :" description="Between each image is ';'" rows="3" cols="40" />
+		<param name="speed" type="text" default="500" label="Speed :" description=""/>
+		<param name="autoplay" type="radio" default="1" label="Auto play :" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

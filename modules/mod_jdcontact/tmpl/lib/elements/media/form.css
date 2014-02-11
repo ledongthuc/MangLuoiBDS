@@ -1,0 +1,9 @@
+.lof-group {
+    background: none repeat scroll 0 0 Black;
+    border-left: 6px solid OrangeRed;
+    border-right: 5px solid OrangeRed;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    padding: 5px 10px !important;
+    text-align: center;
+}

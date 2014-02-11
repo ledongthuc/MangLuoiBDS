@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Articles Items</name>
+	<author>Webpsilon</author>
+	<creationDate>2009</creationDate>
+	<copyright>Webpsilon</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>contacto@webpsilon.com</authorEmail>
+	<authorUrl>www.webpsilon.com/joomla-extensions</authorUrl>
+	<version>1.0.3</version>
+	<description>mod_articles_items</description>
+	<files>
+		<filename module="mod_articles_items">mod_articles_items.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+	<params>
+	<param name="@spacer" type="spacer" default="-------- Params for special items --------" label="" description="" />	
+		<param name="cat_text" type="textarea" default="" label="Category Text" description="Category Text" rows="5" cols="40" />
+		<param name="cat_link" type="textarea" default="" label="Category Link" description="Category Link" rows="5" cols="40" />
+		<param name="special_articleid" type="text" default="" label="Special Article ID" description="Special PARAMARTICLEID" />
+		<!-- Them code -->
+		<param name="special_textcount" type="text" default="50" label="Special Text Count" description="The number of characters in text to display special(default 50)" />
+		<!-- -->
+		
+		<param name="special_item_height" type="text" default="" label="Special Item height" description="The special item height" />
+		<param name="special_item_color" type="text" default="#00F" label="Special item color" description="The special item color" />
+		<param name="special_item_background" type="text" default="#FFFF99" label="Special item background" description="The special item background" />
+		<param name="special_item_fontsize" type="text" default="15px" label="Special item font-size" description="The special item font-size" />
+		
+	<param name="@spacer" type="spacer" default="-------- Params for normal items --------" label="" description="" />
+		<param name="count" type="text" default="5" label="Count" description="The number of items to display (default 5)" />
+		<param name="rows" type="text" default="1" label="Rows" description="The number of rows to display (default 1)" />
+		<param name="background" type="text" default="" label="Image background" description="The image background" />
+		<param name="item_width" type="text" default="" label="Item width" description="The item width" />
+		<param name="item_height" type="text" default="" label="Item height" description="The item height" />
+		<param name="sep_width" type="text" default="" label="Item's width separation distance" description="The item's width separation" />
+		<param name="sep_height" type="text" default="" label="Item's height separation distance" description="The item's height separation" />
+		<param name="ordering" type="list" default="create_dsc" label="Ordering" description="Ordering options">
+			<option value="c_dsc">Recently Added First</option>
+			<option value="m_dsc">Recently Modified First</option>
+			<option value="h_dsc">Most Popular</option>
+			<option value="h_asc">Least Popular</option>
+			<option value="o_asc">Default ordering</option>	
+			<option value="random">Random</option>													
+	  	</param>
+		<param name="user_id" type="list" default="0" label="Authors" description="A filter for the authors">
+			<option value="0">Anyone</option>
+			<option value="by_me">Added or modified by me</option>
+			<option value="not_me">Not added or modified by me</option>
+	  	</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="linkShowAll" type="text" size="50" default="" label="Link for Show All" description="Link to when click on Show All" />
+		<param name="show_front" type="radio" default="1" label="Frontpage Items" description="PARAMFRONTPAGEITEMS">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="secid" type="text" default="" label="Section ID" description="PARAMSECTIONID" />
+		<param name="catid" type="text" default="" label="Category ID" description="PARAMCATEGORYID" />
+		<param name="articleid" type="text" default="" label="Article ID" description="PARAMARTICLEID" />		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="textcount" type="text" default="50" label="Text Count" description="The number of characters in text to display (default 50)" />
+        <param name="show_images" type="radio" default="1" label="Show images" description="PARAMSHOWIMAGES">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="maximagesize" type="text" default="100" label="Max Image Size" description="PARAMIMAGESIZE" />	
+				
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+		<languages>
+		   <language tag="en-GB">en-GB.mod_featureditems.ini</language>
+	    </languages>
+</install>

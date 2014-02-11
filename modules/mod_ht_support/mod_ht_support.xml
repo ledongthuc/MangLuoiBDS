@@ -1,0 +1,99 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>HT Support Online</name>
+	<author>Mr. Tran Huu Tho</author>
+	<creationDate>April 2009</creationDate>
+	<copyright>Tran Huu Tho</copyright>
+	<authorEmail>huutho.it@gmail.com</authorEmail>
+	<version>1.5.0</version>
+	<description>HT Support Online-Tran Huu Tho-huutho.it@gmail.com-http://itnameserver.com-Host-Domain-Web</description>
+	<files>
+	<filename module="mod_ht_support">mod_ht_support.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="yahooID" type="text" default="" label="Yahoo ID" description="Nick Yahoo" size="80px"></param>		
+		<param name="nameYahoo" type="text" default="" label="Name" description="Tên người dùng" size="80px"></param>
+		<param name="telYahoo" type="text" default="" label="Tel" description="Điện thoại" size="80px"></param>
+		
+		<param name="typeYahoo" type="list" default="2" label="Type Yahoo" description="Chọn style cho hình hiển thị Nick Yahoo">
+			<option value="2">Default</option>		
+			<option value="1">YM 1</option>
+			<option value="2">YM 2</option>			
+			<option value="3">YM 3</option>
+			<option value="4">YM 4</option>			
+			<option value="5">YM 5</option>
+			<option value="6">YM 6</option>			
+			<option value="7">YM 7</option>
+			<option value="8">YM 8</option>
+			<option value="9">YM 9</option>			
+			<option value="10">YM 10</option>
+			<option value="11">YM 11</option>			
+			<option value="12">YM 12</option>
+			<option value="13">YM 13</option>			
+			<option value="14">YM 14</option>
+			<option value="15">YM 15</option>
+			<option value="16">YM 16</option>			
+			<option value="17">YM 17</option>
+			<option value="18">YM 18</option>			
+			<option value="19">YM 19</option>
+			<option value="20">YM 20</option>			
+			<option value="21">YM 21</option>
+			<option value="22">YM 22</option>
+			<option value="23">YM 23</option>			
+			<option value="24">YM 24</option>
+			</param>
+		
+		
+		<param name="showYahoo" type="list" default="1" label="Show Yahoo" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+
+
+<param name="@spacer" type="spacer" default="" label="" description="" />
+
+
+
+
+		<param name="skypeID" type="text" default="" label="Skype ID" description="Nick Skype" size="80px"></param>
+		<param name="nameSkype" type="text" default="" label="Name" description="Tên người dùng" size="80px"></param>
+		<param name="telSkype" type="text" default="" label="Tel" description="Điện thoại" size="80px"></param>
+
+                <param name="typeSkype" type="list" default="balloon" label="Type Skype" description="Chọn style cho Skype " >
+
+			<option value="balloon">Default</option>
+                        <option value="smallicon">HT1</option>
+			<option value="mediumicon">HT2</option>
+			<option value="balloon">HT3</option>
+			<option value="bigclassic">HT4</option>
+			<option value="smallclassic">HT5</option>
+		
+
+		</param>
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="showSkype" type="list" default="0" label="Show Skype" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>	
+		<param name="showName" type="list" default="1" label="Show Name" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="showTel" type="list" default="0" label="Show Tel" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

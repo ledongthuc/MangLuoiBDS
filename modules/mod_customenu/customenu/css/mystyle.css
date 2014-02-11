@@ -1,0 +1,125 @@
+/**
+ * Stylesheet: mystyle
+ *
+ * @package     CustoMenu
+ * @version     2.5.1
+ *
+ * @author      Peter van Westen <peter@nonumber.nl>
+ * @link        http://www.nonumber.nl
+ * @copyright   Copyright (C) 2010 NoNumber! All Rights Reserved
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+/* BACKGROUNDS */
+
+/* DEFAULT */
+div.customenu_layout_default div.customenu_mystyle a span{
+	background: transparent url(../images/menu_button_multi.png) repeat-x 50% 0px;
+}
+
+/* DEFAULT: hover */
+div.customenu_layout_default div.customenu_mystyle a span.link_hover {
+	background-position: 50% -40px;
+}
+
+/* DEFAULT: active */
+div.customenu_layout_default div.customenu_mystyle  a span.link_active  {
+	background-position: 50% -80px;
+}
+
+/* LAYOUT */
+
+div.customenu_layout_default div.customenu_mystyle {
+}
+
+div.customenu_layout_default div.customenu_mystyle,
+div.customenu_layout_default div.customenu_mystyle a,
+div.customenu_layout_default div.customenu_mystyle span {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.customenu_layout_default div.customenu_mystyle a span {
+	float: left;
+	height: 30px; /* height - padding */
+	padding: 10px 10px 0px 10px;
+	/* width: 250px; */ /* for fixed widths */
+	text-align: center;
+	cursor: pointer;
+	border-right: 1px solid #000000;
+}
+
+div.customenu_layout_default div.customenu_mystyle a,
+div.customenu_layout_default div.customenu_mystyle a:hover,
+div.customenu_layout_default div.customenu_mystyle a span{
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: inline-block; /* NEEDED FOR IE ON MAC */
+}
+
+
+/* OVERRIDE */
+/* Overide any stuff you want per menu item
+ * Things like backgrounds, widths, heights, etc.
+ * You can do this for any count of items
+ */
+div.customenu_layout_default div.customenu_mystyle a.link_1 span {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_2 span {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_3 span {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_4 span {
+}
+
+/* OVERRIDE: normal */
+div.customenu_layout_default div.customenu_mystyle a.link_1 span.link_normal {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_2 span.link_normal {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_3 span.link_normal {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_4 span.link_normal {
+}
+
+/* OVERRIDE: hover */
+div.customenu_layout_default div.customenu_mystyle a.link_1 span.link_hover {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_2 span.link_hover {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_3 span.link_hover {
+}
+div.customenu_layout_default div.customenu_mystyle a.link_4 span.link_hover {
+}
+
+/* OVERRIDE: active */
+div.customenu_layout_default div.customenu_mystyle a.link_1 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_5 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_9 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_13 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_17 span.link_active {
+	background-position: 50% -80px;
+}
+div.customenu_layout_default div.customenu_mystyle a.link_2 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_6 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_10 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_14 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_18 span.link_active {
+	background-position: 50% -120px;
+}
+div.customenu_layout_default div.customenu_mystyle a.link_3 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_7 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_11 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_15 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_19 span.link_active {
+	background-position: 50% -160px;
+}
+div.customenu_layout_default div.customenu_mystyle a.link_4 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_8 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_12 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_16 span.link_active,
+div.customenu_layout_default div.customenu_mystyle a.link_20 span.link_active {
+	background-position: 50% -200px;
+}

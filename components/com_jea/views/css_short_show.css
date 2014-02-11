@@ -1,0 +1,22 @@
+.clr,dl.jea_mod_emphasis_item dt
+.jea_mod_emphasis_title{clear:both}
+.clr{height:0}
+hr{border-style:#00C dotted none none !important}
+table.jea_mod_emphasis_item_0{/*background:#f7f7f7*/}
+table.jea_mod_emphasis_item_1 hover{background:#FCF}
+table.jea_mod_emphasis_item_1{/*background:#f7f7f7*/}
+.row2{color:#F00}
+.kindBds{color:#0852a1 !important;font-size:12px;}
+.title a{color:#4E1800;font-weight:bold;font-size:100%}
+dl.jea_mod_emphasis_item{border-bottom:1px dashed #b2b4bf;padding-bottom:1em}
+dl.jea_mod_emphasis_item dt.jea_mod_emphasis_title{margin-bottom:0.7em}
+dl.jea_mod_emphasis_item dt.jea_mod_emphasis_title strong{font-size:1.3em}
+dl.jea_mod_emphasis_item dt.image{float:left;margin-right:1em}
+dl.jea_mod_emphasis_item dt.image img{border-color:#819d26}
+dl.jea_mod_emphasis_item span.slogan{float:right}
+dl.jea_mod_emphasis_item span.slogan strong{color:red}
+.hoverRow tr:hover{background:#999}
+.modEmphasis_row0{color:#4E1800}
+.modEmphasis_row0 img{ border:none;}
+.modEmphasis_row1{color:#000000; font-size:90%;}
+.modEmphasis_row1 img{ border:none}

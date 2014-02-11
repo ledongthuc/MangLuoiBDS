@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>Plugin Pretty Photo</name>
+	<author>vanganh</author>
+	<creationDate>May 27, 2011</creationDate>
+	<copyright>ILand</copyright>
+	<license>GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Develop from pretty photo</description>
+	<files>
+		<filename plugin="prettybox">prettybox.php</filename>
+		<folder>pretty/</folder>
+	</files>
+	
+	<params>		
+		<param name="theme" type="list" default="default" label="Preset Themes" description="Choose from Presets Themes. None of following options take effect when selected theme is different than 'custom'">
+			<option value="default">Default</option>
+			<option value="dark_rounded">Dark Rounded</option>
+			<option value="dark_square">Dark Square</option>
+			<option value="facebook">Facebook</option>
+			<option value="light_rounded">Light Rounded</option>
+			<option value="light_square">Light Square</option>
+			<option value="custom">Custom</option>
+		</param>
+		<param name="custom_theme" type="text" default="" label="Custom Theme" description="Input name theme if choose preset theme is custom"></param>	
+		<param name="custom-legacy" type="radio" default="0" label="Use Legacy Parameters" description="Configuration theme">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="legacy">
+		<param name="autoplay" type="radio" default="0" label="Auto Play" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showtitle" type="radio" default="1" label="Show Title" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		
+		<param name="show_hoverbutton" type="radio" default="0" label="Show Button On Image" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>			
+		</param>
+		
+		<param name="opacity" type="text" default="0.2" label="Opacity" description=""></param>		
+		<param name="slideshow" type="text" default="5000" label="Speed" description="Speed for slide show"></param>
+		
+		<param name="animation_speed" type="list" default="normal" label="Animation Speed" description="">
+			<option value="slow">Slow</option>
+			<option value="normal">Normal</option>
+			<option value="fast">Fast</option>
+		</param>
+				
+		<param name="allow_resize" type="radio" default="0" label="Allow Resize" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>			
+		</param>
+		<param name="default_width" type="text" default="640" label="Width Image" description=""></param>
+		<param name="default_height" type="text" default="480" label="Height Image" description=""></param>
+		<param name="width_content" type="text" default="650" label="Width Content" description=""></param>
+		<param name="height_content" type="text" default="490" label="Height Content" description=""></param>
+		<param name="width_popup" type="text" default="650" label="Width Popup" description=""></param>
+		<param name="height_popup" type="text" default="490" label="Height Popup" description=""></param>
+		
+		<param name="thumbnail_size" type="text" default="50" label="Thumbnail Size" description=""></param>
+		
+		<param name="show_thumbnailbutton" type="radio" default="0" label="Show Button Thumbnail" description="Show button next,pre at list thumbnail">
+			<option value="0">No</option>
+			<option value="1">Yes</option>			
+		</param>
+		
+	</params>
+</install>

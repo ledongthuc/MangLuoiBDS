@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<mosinstall type="module" version="4.5.1">
+	<name>Infinity Menus</name>
+	<author>Guy Thomas</author>
+	<creationDate>2005/08/17</creationDate>
+	<copyright>This Module is released under the GNU/GPL License (mygosu under free BSD) </copyright>	  
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>brudinie@yahoo.co.uk</authorEmail>
+	<authorUrl>http://www.ossettschool.co.uk/infinity_menus</authorUrl>
+	<version>1-0-8</version>
+	<description>
+	<![CDATA[<h2>Infinity Menus V1-0-8</h2>
+	<div style="overflow:scroll; height:200px; width:640px; border-style:double; border-width:1px;">
+	<div style="width:620px">
+		<h3>Description</h3>
+		<br />This module enables Mygosu Tree or Mygosu Dropdown menus to be displayed as a module (i.e. you dont have to use any special templates to use it).
+		<br />This module enables you to display multiple menus as trees or drop downs with infinite nesting.
+		<br />
+		<br />The js code originates from Cezary Tomczak's site <a target="_blank" href="http://gosu.pl/dhtml/mygosumenu.html">http://gosu.pl/dhtml/mygosumenu.html</a>
+		<br />A big thanks to Cezary for his cool menu system!
+		<br />
+		<br />Thanks to Matthew Aimonetti for testing & css contributions.
+		<br />Thanks to Eric Benzacar for Bug Fixes
+		<br />Thanks to Srdan Mahmutovic for Bug Fixes and SEF enhancement
+		<br />Thanks to Val for css overrides JS ideas.
+		<hr />
+		<h3>Features</h3>
+		<p>
+		- Unlimited number of menus (using copy module) on one site<br />
+		- Unlimited nesting<br />
+		- Ability to display as drop down menu or tree menu & switch between quickly!<br />
+		- Different CSS files and CSS root classes can be used for each menu<br />
+		- Shows icons to left of menu items<br />
+		- Option to resize icons automatically<br />
+		- Shows arrow icon to right of menu item if it has children<br />
+		- Moves positions of big verticle menu sub menus to best fit (This feature not yet implemented)<br />
+		- Should work with plently of browsers (tested on Firefox and IE)<br />
+		- Nice CSS template included as default (matches java bean template)<br />
+		- CSS item repeat facility - define two different css styles and tell it to repeat at an interval of 2 (or whatever number you like)<br />
+		- CSS overrides at module level - change menu padding and font style from module.<br />
+		- CSS shadows parameterised - switch on or off easily<br />
+		- SEF URLs - added by Srđan Mahmutović 2005-06-30 (thanks!)<br />		
+		</p>
+		<h3>Fixes / Improvements</h3>
+		<h4>V1-0-8</h4>
+		<p>
+		- Bug Fix by Srdan Mahmutovic. Now checks parameter to determine whether or not to show parent image.<br />
+		- SEF URLs - added by Srdan Mahmutovic 2005-06-30 (thanks!)<br />		
+		- CSS shadows - added by Guy Thomas 2005-06-30<br />
+		- Better xhtml compliance, by Guy Thomas thanks to Val for helping with js css override script<br />
+		- Various code improvements, thanks to Eric Benzacar and Srdan Mahmutovic<br />		
+		<span style="color:#0033FF; font-weight:bold">CSS Changes - please note</span><br />
+		The css class .section is now only used by the JS. Do not use it for creating borders arround sub menu sections.<br />
+		A new css class called .menuBox should be used as the main sub menu container. This change was necessary to implement css shadows.<br />
+		</p>
+		<h4>V1-0-7</h4>
+		<p>
+		- Fixed JS / CSS overlap bugs.<br />
+		- Fixed JS active menu item bug.<br />
+		- Menu unique ids use counter now instead of random number (this means that cookies work with dynamic tree menu)
+		- Added 'yes/no' option to enable folders to follow hyperlinks (or not)
+		- Improved IE / Mozilla CSS rendering via JS. Menus look almost identical between IE, Firefox and Opera.<br />
+		- Added facility to override CSS file settings for menu padding and font.<br />
+		- Major change to coding. Broke mainclass.php up into 3 files so that each menu type is dealt with when required.<br />
+		  This new coding format should make it easier to add  new types of menu rendering (e.g. click and drop)<br />
+		</p>
+		<h4>V1-0-6</h4>
+		<p>
+		- New templates<br />
+		.....> solarflare<br />
+		.....> coldblue<br />
+		.....> academic (thanks to Matthew Aimonetti for this one)<br />
+		- New parameters<br />
+		.....> Minimum Horizontal Menu Width (Makes horizontal menu at least this size)<br />		
+		.....> Overlap Left (Enables sub menus to overlap by x pixels)<br />
+		- Fixed bug with multiple menus <br />
+		- GD detection (wont throw error if it cant resize image)<br />
+		</p>
+		<h4>V1-0-5</h4>
+		<p>
+		- now uses css class container (root class) instead of css prefix<br />
+		- now uses one php main class and an object instead of class::function<br />
+		- now handles invalid menu images (i.e. if file does not exist)<br />
+		- removed array/string prototyping functions in .js drop down menu file tree menu pending) and replaced with standard functions (was previously causing problems with HTML Area 3 xtd)<br />
+		</p>
+		<h3>Future Enhancements</h3>
+		<p>
+		- Fade and wipe effects that work on IE and Mozilla.<br />
+		- I'm thinking about removing the CSS overrides javascript stuff and just simply adding inline styles to each menu item - any comments?<br />		
+		- Module parameter section: combo box listing all templates in /css folder (anyone know how to do this for a module?)<br />
+		- a new menu type - click and drop down menus<br />
+		- pure CSS menus (non javascript based menu system - works 100% from css)<br />
+		- optional caching of thumbs (will only recreate thumbs once a day or maybe on demand)<br />
+		- a new component to enable better module upgrades (preserve existing menus and css on upgrade)<br />
+		- a new component called EZ-menus is in the pipe line (this will enable you to create menus faster than you can with current mos menu tool)<br />
+		</p>
+		</div>
+		</div>
+		&copy; 2004, 2005 Guy Thomas (mos module & js mods) Cezary Tomczak (original js)]]>
+		
+	</description>
+
+	<files>
+		<filename module="mod_infinity_menus_1-0-8">mod_infinity_menus_1-0-8.php</filename>
+		<filename>infinity_menus/mainclass.php</filename>
+		<filename>infinity_menus/menu_tree.php</filename>
+		<filename>infinity_menus/menu_drop_down.php</filename>
+		<filename>infinity_menus/menu_css_overrides.php</filename>
+		<filename>infinity_menus/browser_info.php</filename>		
+		<filename>infinity_menus/css/dropdown/javabean.css</filename>
+		<filename>infinity_menus/css/dropdown/bluebean.css</filename> 
+		<filename>infinity_menus/css/dropdown/solarflare.css</filename>
+		<filename>infinity_menus/css/dropdown/coldblue.css</filename>
+		<filename>infinity_menus/css/dropdown/academic.css</filename>
+		<filename>infinity_menus/css/dropdown/default.css</filename>
+		<filename>infinity_menus/css/tree/default.css</filename>
+		<filename>infinity_menus/js/src/dropdownmenux.js</filename>
+		<filename>infinity_menus/js/src/dropdownmenux_ie5.js</filename>
+		<filename>infinity_menus/js/src/dynamictree.js</filename>
+		<filename>infinity_menus/js/dropdownmenux_crunched.js</filename>		
+		<filename>infinity_menus/js/dropdownmenux_ie5_crunched.js</filename> 
+		<filename>infinity_menus/js/dynamictree_crunched.js</filename>
+		<filename>infinity_menus/css/dropdown/images/javabean/menu_blue_bgr.png</filename>
+		<filename>infinity_menus/css/dropdown/images/javabean/menu_orange_bgr.png</filename>
+		<filename>infinity_menus/css/dropdown/images/solarflare/solarflare_menu_bg01.png</filename>
+		<filename>infinity_menus/css/dropdown/images/solarflare/solarflare_menu_bg02.png</filename>
+		<filename>infinity_menus/css/dropdown/images/academic/academics.jpg</filename>
+		<filename>infinity_menus/images/tree.gif</filename>
+		<filename>infinity_menus/images/tree-branch.gif</filename>
+		<filename>infinity_menus/images/tree-doc.gif</filename>
+		<filename>infinity_menus/images/tree-doc-deleted.gif</filename>
+		<filename>infinity_menus/images/tree-doc-unpublished.gif</filename>
+		<filename>infinity_menus/images/tree-folder.gif</filename>
+		<filename>infinity_menus/images/tree-folder-open.gif</filename>
+		<filename>infinity_menus/images/tree-leaf.gif</filename>
+		<filename>infinity_menus/images/tree-leaf-end.gif</filename>
+		<filename>infinity_menus/images/tree-node.gif</filename>
+		<filename>infinity_menus/images/tree-node-end.gif</filename>
+		<filename>infinity_menus/images/tree-node-open.gif</filename>														
+		<filename>infinity_menus/images/tree-node-open-end.gif</filename>
+	</files>
+	<params>
+		<param name="menu" type="mos_menu" default="mainmenu" label="Menu" description="The name of the menu you wish the module to display - if no menu is selected the mainmenu is loaded" />
+		<param name="menu_type" type="list" default="drop_down" label="Menu Type" description="The type of menu you wish to display.">
+			<option value="drop_down">drop down</option>
+			<option value="tree">tree</option>
+		</param>
+		<param name="css_file" type="text" default="javabean.css" label="CSS File" description="File containing CSS - e.g. javabean.css, solarflare.css, coldblue.css, academic.css (They are stored in modules\\infinity_menus\\css\\dropdown or tree)" />
+		<param name="css_root_class" type="text" default="javabean" label="CSS Root Class" description="CSS Container (Root class) - this is usually the same as the template name" />
+		<param name="css_num_menus" type="text" default="2" label="CSS # Menu Classes" description="Number of css classes to apply to menu container" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />						
+		<param name="order" type="list" default="ordering" label="Ordering" description="The order the menu items will be dsiplayed in">
+			<option value="ordering">ordering</option>
+			<option value="name">name</option>
+			<option value="id">id</option>
+			<option value="type">type</option>
+		</param>
+		<param name="positioning" type="list" default="vertical" label="Positioning" description="How will the menu be oriented">
+			<option value="horizontal">horizontal</option>
+			<option value="vertical">vertical</option>
+		</param>
+		<param name="horiz_min_width" type="text" default="" label="Force Root Horizontal Menu Width" description="Forces 1st level horizontal menu to this size. (leave blank to ignore)" />
+		<param name="overlap_left" type="text" default="" label="Overlap Left" description="Enables sub menus to overlap by x pixels - specify as numeric, e.g 30 (leave blank to ignore)" />
+		<param name="css_shadow_menu" type="list" default="0" label="Apply shadow" description="Applies a shadow to sub menus">
+			<option value="0">No shadow</option>
+			<option value="1">Shadow Left</option>
+			<option value="2">Shadow Right</option>
+		</param>
+		<param name="css_shadow_depth" type="text" default="7" label="Shadow Depth" description="Depth of shadow in px" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />		
+		<param name="delay_show" type="text" default="20" label="DropDown Item Show Time" description="Time (milliseconds) before child items will appear" />
+		<param name="delay_hide" type="text" default="400" label="DropDown Item Hide Time" description="Time (milliseconds) before child items will hide" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="img_parent" type="imagelist" directory="/images/M_images" default="arrow.png" hide_default="1" label="Parent with children image" description="Image to right hand side of menu item if it has children - looks in the /images/M_images/ directory" />
+		<param name="show_img_rgt" type="list" default="1" label="Right (Parent with children) Image" description="Whether to show an image to the right of the Items">
+			<option value="0">hide image</option>
+			<option value="1">show image</option>
+		</param>		
+		<param name="show_img" type="list" default="1" label="Left Image" description="Whether to show an image to the left of the Items">
+			<option value="0">hide image</option>
+			<option value="1">show image</option>
+		</param>
+		<param name="img_resize" type="radio" default="1" label="Resize Image?" description="Should the image be resized to icon size?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="img_resizeh" type="text" default="20px" label="Image Height" description="Resize image height" />
+		<param name="img_resizew" type="text" default="20px" label="Image Width" description="Resize image width" />		
+		<param name="@spacer" type="spacer" default="" label="" description="" />		
+		<param name="tree_width" type="text" default="150" label="Tree width" description="Width of tree menu (does not apply to drop down menu)" />		
+		<param name="tree_height" type="text" default="300" label="Tree height" description="Height of tree menu (does not apply to drop down menu)" />
+		<param name="tree_folders_link" type="radio" default="1" label="Tree Folders Link?" description="Should folders items hyperlink? (does not apply to drop down menu)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="css_pad_left" type="text" default="" label="Menu Item Pad Left" description="(Leave blank to keep linked css file value) Overrides linked CSS files padding to the left of the menu item text by X pixels" />
+		<param name="css_pad_right" type="text" default="" label="Menu Item Pad Right" description="(Leave blank to keep linked css file value) Overrides linked CSS padding to the right of the menu item text by X pixels" />		
+		<param name="css_pad_top" type="text" default="" label="Menu Item Pad Top" description="(Leave blank to keep linked css file value) Overrides linked CSS padding to the top of the menu item text by X pixels" />		
+		<param name="css_pad_bottom" type="text" default="" label="Menu Item Pad Bottom" description="(Leave blank to keep linked css file value) Overrides linked CSS padding to the bottom of the menu item text by X pixels" />
+		<param name="css_wrap_type" type="list" default="0" label="Menu Item Wrap Type" description="Overrides linked CSS white-text wrap type">
+			<option value="0">(Do not override CSS File)</option>
+			<option value="1">normal</option>
+			<option value="2">no-wrap</option>
+		</param>
+		<param name="css_font_family" type="list" default="0" label="Menu Item Font" description="Overrides linked CSS files font family">
+			<option value="0">(Do not override CSS File)</option>
+			<option value="1">Arial, Helvetica, sans-serif</option>
+			<option value="2">Times New Roman, Times, serif</option>
+			<option value="3">Courier New, Courier, mono</option>			
+			<option value="4">Georgia, Times New Roman, Times, serif</option>			
+			<option value="5">Verdana, Arial, Helvetica, sans-serif</option>
+			<option value="6">Geneva, Arial, Helvetica, sans-serif</option>
+		</param>
+		<param name="css_font_size" type="list" default="0" label="Menu Item Font Size" description="Overrides linked CSS files font size">
+			<option value="0">(Do not override CSS File)</option>
+			<option value="1">8px</option>			
+			<option value="2">9px</option>			
+			<option value="3">10px</option>			
+			<option value="4">11px</option>
+			<option value="5">12px</option>
+			<option value="6">13px</option>
+			<option value="7">14px</option>
+			<option value="8">15px</option>
+			<option value="9">16px</option>
+			<option value="10">17px</option>
+			<option value="11">18px</option>
+			<option value="21">19px</option>
+			<option value="22">20px</option>
+			<option value="23">21px</option>
+			<option value="24">22px</option>
+			<option value="25">23px</option>
+			<option value="26">24px</option>			
+		</param>
+		<param name="css_font_style" type="list" default="0" label="Menu Item Font Style" description="Overrides linked CSS files font style">
+			<option value="0">(Do not override CSS File)</option>
+			<option value="1">normal</option>
+			<option value="2">italic</option>
+			<option value="3">oblique</option>
+		</param>
+		<param name="css_font_weight" type="list" default="0" label="Menu Item Font Weight" description="Overrides linked CSS files font style">
+			<option value="0">(Do not override CSS File)</option>
+			<option value="1">100</option>
+			<option value="2">200</option>
+			<option value="3">300</option>
+			<option value="4">400</option>
+			<option value="5">500</option>
+			<option value="6">600</option>
+			<option value="7">700</option>
+			<option value="8">800</option>
+			<option value="9">900</option>			
+		</param>		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+</mosinstall>

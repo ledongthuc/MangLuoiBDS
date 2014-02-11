@@ -1,0 +1,38 @@
+/* CSS Document */
+.tieude{
+	color:#33C;
+	font-size:14px;
+	font-weight: bold;
+	line-height: 14px;
+}.noidung {
+	font-size: 12px;
+	color: #333;
+	text-align: justify;
+	font-weight: normal;
+}
+.ngay {
+	font-size: 12px;
+	font-style: italic;
+	color: #999;
+}
+#bogoc {
+	border: 1px solid #CCC;
+	width: 99%;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	height:auto;
+	margin-top:2px;
+	padding:4px;
+}
+#form1 {
+	border: 1px solid #09F;
+	padding: 5px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+}
+#phantrang{
+	text-align: right;
+	float: right;
+}
+
+

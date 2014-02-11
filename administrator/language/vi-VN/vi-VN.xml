@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="1.5" client="administrator">
+    <name>Tiếng Việt ( Vietnamese )</name>
+    <version>1.5.8</version>
+    <creationDate>10-13-2008</creationDate>
+    <author>Joomla Viet Nam</author>
+    <authorEmail>banquantri@joomlaviet.org</authorEmail>
+    <authorUrl>www.joomlaviet.org</authorUrl>
+    <copyright>Copyright (C) 2005 Open Source Matters. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <description>Ngôn ngữ tiếng Việt cho Joomla 1.5 (Back-end)</description>
+    <metadata>
+    	<name>Tiếng Việt (Vietnamese)</name>
+    	<tag>vi-VN</tag>
+    	<rtl>0</rtl>
+    	<locale>vi_VN.utf8, vi_VN.UTF-8, vi_VN, vi, VN, vietnam </locale>
+   		<winCodePage>utf-8</winCodePage>
+    	<backwardLang>vietnamese</backwardLang>
+    </metadata>
+    <params />
+</metafile>

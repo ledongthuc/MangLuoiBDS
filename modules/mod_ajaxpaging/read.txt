@@ -1,0 +1,4 @@
+1. Need a table in a mysql database
+2. edit 4 variables in test.php (db name, table name, rows per page, sorting field name)
+3. edit 3 variables for database connection
+4. Run test.php

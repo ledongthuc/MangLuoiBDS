@@ -1,0 +1,789 @@
+<?xml version="1.0"?>
+<X4>
+  <!-- Table jos_jea_project_en -->
+    <jos_jea_project_en>
+        <id>14</id>
+        <name>ACENZA VILLAS - Quà tặng từ cuộc sống</name>
+        <address>25 Bis, Nguyễn Thị Minh Khai, Phường Đa Kao</address>
+        <town_id>1</town_id>
+        <area_id>0</area_id>
+        <type_id>,19,20,</type_id>
+        <description>Tọa lạc tại cửa ngõ thủ đô resort Phan Thiết, thuộc Khu phố 5, phường Phú Hài, Thành Phố&lt;br /&gt;Phan Thiết, tỉnh Bình Thuận.&lt;br /&gt;Mặt tiền 700m trãi dọc theo đường Nguyễn Thông được mở rộng 52m nối liền với Đại Lộ&lt;br /&gt;Hùng Vương và Đại lộ 706B ra vịnh Mũi Né.&lt;br /&gt;Tọa lạc trên đồi cao từ 47m - 90m so với mặt nước biển. Mỗi căn biệt thự đều có tầm nhìn riêng, không bị che khuất.&lt;br /&gt;Khu Biệt thự nghỉ dưỡng biệt lập mặt hướng biển, phía sau là khu đồi sinh thái. Không khí&lt;br /&gt;trong lành, mát lạnh, không gian đậm chất thiên nhiên, hoang sơ.&lt;br /&gt;</description>
+        <short_description>Tọa lạc tại cửa ngõ thủ đô resort Phan Thiết, thuộc Khu phố 5, phường Phú Hài, Thành Phố&lt;br /&gt;Phan Thiết, tỉnh Bình Thuận. Mặt tiền 700m trãi dọc theo đường Nguyễn Thông được mở rộng 52m nối liền với Đại Lộ&lt;br /&gt;</short_description>
+        <start_date>1970-01-01</start_date>
+        <end_date>1970-01-01</end_date>
+        <people_area>hhh</people_area>
+        <status>Đã hoàn thành</status>
+        <investor>Sàn giao dịch Hưng Thịnh</investor>
+        <implement_unit>Sàn giao dịch Hưng Thịnh</implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>200</total_area>
+        <number_of_floor>75</number_of_floor>
+        <ordering>8</ordering>
+        <published>1</published>
+        <emphasis>1</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme>Biệt thự ACENZA Villas nằm trong Khu Trung Tâm Thương Mại (TTTM), Dịch Vụ &amp;amp;&lt;br /&gt;Dân Cư Tân Việt Phát&lt;br /&gt;Khu TTTM và dịch vụ gồm siêu thị và khu trưng bày giới thiệu sản phẩm địa phương&lt;br /&gt;Khu vui chơi, giải trí công cộng gồm: khách sạn 4 sao, hệ thống nhà hàng, khu massage và các dịch vụ khác.&lt;br /&gt;Khu công viên cây xanh&lt;br /&gt;</scheme>
+        <plain_diagram>&lt;img alt=&quot;mbplacenza&quot; src=&quot;images/stories/mbplacenza.jpg&quot; width=&quot;600&quot; height=&quot;NaN&quot; /&gt;</plain_diagram>
+        <progress>Giá từ 3,6 triệu đồng / m2&lt;br /&gt;Tiến độ thanh toán chia thành 6 đợt&lt;br /&gt;</progress>
+        <contacts>Sàn bất động  sản Hưng Thịnh&lt;br /&gt;</contacts>
+        <project_advantage_id>,1,</project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>11</id>
+        <name>Garden Apartment</name>
+        <address>hcm</address>
+        <town_id>1</town_id>
+        <area_id>0</area_id>
+        <type_id>,22,23,</type_id>
+        <description></description>
+        <short_description>Đầu tư đồng bộ 01 tòa chung cư 12 tầng, tổng diện tích sàn là 10.600,2m2  và 07 nhà vườn có diện tích đất từ 72 – 152m2 đồng bộ hạ tầng kỹ thuật</short_description>
+        <start_date>2010-08-27 15:23:42</start_date>
+        <end_date>0000-00-00 00:00:00</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor></investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area></total_area>
+        <number_of_floor></number_of_floor>
+        <ordering>5</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram></plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>12</id>
+        <name>Lys Garden Apartment</name>
+        <address>tp.hcm</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,23,</type_id>
+        <description></description>
+        <short_description>Đầu tư đồng bộ hạ tầng kỹ thuật đảm bảo không gian sinh động đáp ứng nhu cầu ở cao cấp</short_description>
+        <start_date>2010-10-09</start_date>
+        <end_date></end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor>NHa dau tu nguyen minh chau</investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area></total_area>
+        <number_of_floor></number_of_floor>
+        <ordering>6</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram>so do mat bang</plain_diagram>
+        <progress>tien do</progress>
+        <contacts>lien he tu van</contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+        <contact_address></contact_address>
+        <contact_name></contact_name>
+        <contact_phone>0907037560</contact_phone>
+        <plane_area>ban do vi tri</plane_area>
+        <payment>thanh toan va bang gia</payment>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>13</id>
+        <name>TRUNG ĐÔNG PLAZA - nơi khởi đầu cuộc sống bình an và thịnh vượng</name>
+        <address>28 Trịnh Đình Thảo, P. Hòa Thạnh</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,20,23,</type_id>
+        <description>&lt;p&gt;MÔ TẢ VỊ TRÍ DỰ ÁN&lt;br /&gt; 28 Trịnh Đình Thảo, P. Hòa Thạnh, Q. Tân Phú, TP. Hồ Chí Minh&lt;br /&gt; Tọa lạc tại một vị trí khá đẹp tại Mặt tiền đường Trịnh Đình Thảo, bên cạnh&lt;br /&gt; Trường CĐ Công nghệ Thông tin Tp. HCM&lt;br /&gt;CHỦ ĐẦU TƯ&lt;br /&gt; CTCP Tư vấn đầu tư &amp;amp; phát triển Trung Đông&lt;br /&gt;PHÁP LÝ&lt;br /&gt; QĐ phê duyệt dự án đầu tư xây dựng&lt;br /&gt; QĐ chấp thuận tổng mặt bằng&lt;br /&gt; GCN QSD đất&lt;/p&gt;
+&lt;p&gt;Biên bản nghiệm thu móng &amp;amp; hầm&lt;br /&gt;TIỆN ÍCH NỘI KHU&lt;br /&gt; 2 tầng và 1 lửng là trung tâm thương mại, văn phòng dịch vụ, giải trí,&lt;br /&gt; thư giãn cùng 120 căn hộ tiện ích đa dạng&lt;br /&gt;CÁC LOẠI DIỆN TÍCH&lt;br /&gt; 2PN: 55-57-60.5-61-65-70m2, 3PN: 96m2, căn hộ Loft: 97,5 - 110,5m2 &lt;br /&gt;QUY MÔ DỰ ÁN&lt;br /&gt; Diện tích khuôn viên:  2.053 m2 ,      &lt;br /&gt; Mật độ xây dựng:   38%.      &lt;br /&gt; Số tầng cao:   cao 18 tầng      &lt;br /&gt; Số căn hộ:   120 căn hộ     .&lt;br /&gt; Diện tích căn hộ  có 4 loại      &lt;br /&gt; +     Loại B: 57 m2      &lt;br /&gt; +     Loại E: 55 m2      &lt;br /&gt; +     Loại G: 70 m2      &lt;br /&gt; +     Loại H: 96 m2      &lt;br /&gt;LIÊN KẾT VÙNG&lt;br /&gt; Cách UBND Quận Tân Phú,  siêu thị Coopmart,&lt;br /&gt; Công viên Văn hóa Đầm Sen 500m-2km, khoảng 3 phút đi xe&lt;br /&gt; Cách Parkson Flemington, Lotte Mart Lê Đại Hành 3km, khoảng 8 phút đi xe&lt;br /&gt; Cách Sân bay Tân Sơn Nhất 7km, khoảng 15 phút đi xe&lt;br /&gt; Cách Chợ Bến Thành 8.8 km, khoảng 20 phút đi xe&lt;br /&gt;CHI TIẾT CĂN HỘ&lt;br /&gt; Cửa chính gỗ tự nhiên, cửa phòng ngủ gỗ Asia Door&lt;br /&gt; Sàn gạch men American Home, sơn nước ICI, trần sơn nước, thiết bị điện Clipsal, đèn chiếu sáng Phillip, đầu chờ máy lạnh, điện thoại&lt;br /&gt; Thiết bị vệ sinh 7 món, đầu chờ bình nước nóng&lt;br /&gt; Thang máy, máy phát điện dự phòng, PCCC, báo cháy báo khói đến từng căn hộ&lt;/p&gt;</description>
+        <short_description>Dự án khu nhà ở sông Ông Lớn là tâm huyết của Công ty Cổ Phần Phát Triển Nam Sài Gòn nhằm xây dựng một khu nhà ở hoàn mỹ có hạ tầng kỹ thuật được đầu tư với chất lượng cao: hệ thống điện, điện thoại ngầm, sân tennis, hồ bơi… phục vụ nhu cầu nghỉ ngơi giải trí của dân cư sống tại chỗ.</short_description>
+        <start_date>hoan</start_date>
+        <end_date>thach</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor>CTCP Tư vấn đầu tư &amp; phát triển Trung Đông</investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area></total_area>
+        <number_of_floor></number_of_floor>
+        <ordering>7</ordering>
+        <published>1</published>
+        <emphasis>1</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram>&lt;img alt=&quot;mbplacenza&quot; src=&quot;images/stories/mbplacenza.jpg&quot; height=&quot;297&quot; width=&quot;500&quot; /&gt;</plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+        <contact_address></contact_address>
+        <contact_name></contact_name>
+        <contact_phone></contact_phone>
+        <plane_area></plane_area>
+        <payment></payment>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>1</id>
+        <name>Khu nhà ở tái định cư và kinh doanh</name>
+        <address>Phường Phú Thượng - Quận Tây Hồ - TP Hà Nội</address>
+        <town_id>2</town_id>
+        <area_id>646</area_id>
+        <type_id>,19,22,</type_id>
+        <description>Đầu tư đồng bộ 01 tòa chung cư 12 tầng, tổng diện tích sàn là 10.600,2m2 và 07 nhà vườn có diện tích đất từ 72 – 152m2 đồng bộ hạ tầng kỹ thuật</description>
+        <short_description>Đầu tư đồng bộ 01 tòa chung cư 12 tầng, tổng diện tích sàn là 10.600,2m2 và 07 nhà vườn có diện tích đất từ 72 – 152m2 đồng bộ hạ tầng kỹ thuật</short_description>
+        <start_date>2010-08-27</start_date>
+        <end_date>2012-06-15</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor>Công ty</investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>4.079,7</total_area>
+        <number_of_floor>12</number_of_floor>
+        <ordering>2</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>1</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram></plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id>,1,</project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>2</id>
+        <name>Khách sạn và kinh doanh dịch vụ vui chơi giải trí</name>
+        <address>Thị trấn Quất Lâm - Huyện Giao Thủy - Tỉnh Nam Định</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,20,</type_id>
+        <description>Đầu tư xây dựng đồng bộ hạ tầng kỹ thuật 01 khách sạn Housing Hotel với cấp 3 sao bao gồm 50 phòng nghỉ cao cấp và nhiều hạng mục phụ trợ kèm theo như : Quầy Bar, nhà hàng, xông hơi, bể bơi, hội thảo, sân tennis.... Với đồng bộ hạ tầng kỹ thuật tạo môi trường lý tưởng cho nghỉ dưỡng.</description>
+        <short_description>&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-family: arial,helvetica,sans-serif; font-size: 10pt;&quot;&gt;Đầu tư xây dựng đồng bộ hạ tầng kỹ thuật 01 khách sạn Housing Hotel với cấp 3 sao bao gồm 50 phòng nghỉ cao cấp và nhiều hạng mục phụ trợ kèm theo như : Quầy Bar, nhà hàng.&lt;/span&gt;&lt;/div&gt;</short_description>
+        <start_date>2010-08-27 14:36:10</start_date>
+        <end_date>2012-06-02 00:00:00</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor></investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>4090</total_area>
+        <number_of_floor>10</number_of_floor>
+        <ordering>2</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>1</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram></plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>3</id>
+        <name>BABYLON RESIDENCE - Không gian sống đỉnh cao</name>
+        <address>B5 Thị Trấn Cầu Diễn</address>
+        <town_id>1</town_id>
+        <area_id>0</area_id>
+        <type_id>,19,</type_id>
+        <description>Mã số dự án: SRS-0000014&lt;br /&gt; Loại  hình:     Dự án căn hô cao cấp&lt;br /&gt; Điểm nổi bật của dự án:&lt;br /&gt; + Mật độ xây dựng 25%, còn lại tập trung cho hệ thống đường giao thông và công viên cây xanh&lt;br /&gt; + Thiết kế tinh tế, diện tích linh họat, dễ dàng chọn lựa một không gian sống lý tưởng, phù hợp.&lt;br /&gt; + Mô hình đô thị văn minh đúng chuẩn&lt;br /&gt; + Hệ thống quản lý thông tin trong tòa nhà hiện đại, bảo đảm an toàn và thoải mái tối cao.&lt;br /&gt;Phong cách thiết kế:&lt;br /&gt; Tinh tế theo kiến truc thẩm mỹ xanh đương đại kết hợp với thiếtkế vườn treo xanh mát&lt;br /&gt; Chủ đầu tư dự án:     Công ty TNHH Tư vấn và kinh doanh nhà Đạt Gia&lt;br /&gt; Thời điểm khởi công, hoàn thành:     Trong tháng 07/2010&lt;br /&gt; Vị trí dự án:     Đường Cây Keo, Phường Tam Phú, Q. Thủ Đức&lt;br /&gt; Diện tích dự án:     2,117 m2&lt;br /&gt; Số block (đơn nguyên), số tầng mỗi đơn nguyên:&lt;br /&gt; + 1 block, 14 tầng nổi và 2 tầng hầm&lt;br /&gt; + 1 block trung tâm thương mại, 7 tầng&lt;br /&gt; Diện tích xây dựng:     1,059m2&lt;br /&gt; Diện tích căn hộ:     từ 75,13 m2  - 239,96 m2&lt;br /&gt; Tổng số căn hộ:     688 căn&lt;br /&gt; Giá bán trung bình:     14,5 triệu VNĐ/ m2&lt;br /&gt;</description>
+        <short_description>&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Không phải đi đâu xa, ngay nơi cao ốc mà bạn ở đã là một thế giới đầy bất ngờ với đầy đủ các tiện ích cao cấp hàng đầu tại Việt Nam...Một thế giới tuyệt vời ngay cả khi bước chân trở về căn hộ&amp;a</short_description>
+        <start_date>2010-08-27</start_date>
+        <end_date>2011-06-15</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor>Công ty TNHH Tư vấn và kinh doanh nhà Đạt Gia</investor>
+        <implement_unit>Công ty TNHH Tư vấn và kinh doanh nhà Đạt Gia</implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>300</total_area>
+        <number_of_floor>30</number_of_floor>
+        <ordering>3</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>1</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme>Loại  hình:     Dự án căn hô cao cấp&lt;br /&gt; Điểm nổi bật của dự án:&lt;br /&gt; + Mật độ xây dựng 25%, còn lại tập trung cho hệ thống đường giao thông và công viên cây xanh&lt;br /&gt; + Thiết kế tinh tế, diện tích linh họat, dễ dàng chọn lựa một không gian sống lý tưởng, phù hợp.&lt;br /&gt; + Mô hình đô thị văn minh đúng chuẩn&lt;br /&gt; + Hệ thống quản lý thông tin trong tòa nhà hiện đại, bảo đảm an toàn và thoải mái tối cao.&lt;br /&gt;Phong cách thiết kế:&lt;br /&gt; Tinh tế theo kiến truc thẩm mỹ xanh đương đại kết hợp với thiết kế vườn treo xanh mát&lt;br /&gt; Chủ đầu tư dự án:     Công ty TNHH Tư vấn và kinh doanh nhà Đạt Gia&lt;br /&gt; Thời điểm khởi công, hoàn thành:     Trong tháng 07/2010&lt;br /&gt; Vị trí dự án:     Đường Cây Keo, Phường Tam Phú, Q. Thủ Đức&lt;br /&gt; Diện tích dự án:     2,117 m2&lt;br /&gt; Số block (đơn nguyên), số tầng mỗi đơn nguyên:&lt;br /&gt; + 1 block, 14 tầng nổi và 2 tầng hầm&lt;br /&gt; + 1 block trung tâm thương mại, 7 tầng&lt;br /&gt; Diện tích xây dựng:     1,059m2&lt;br /&gt; Diện tích căn hộ:     từ 75,13 m2  - 239,96 m2&lt;br /&gt; Tổng số căn hộ:     688 căn&lt;br /&gt; Giá bán trung bình:     14,5 triệu VNĐ/ m2</scheme>
+        <plain_diagram>&lt;img alt=&quot;sodovitri_babylon_s&quot; src=&quot;images/stories/sodovitri_babylon_s.jpg&quot; width=&quot;600&quot; height=&quot;409&quot; /&gt;</plain_diagram>
+        <progress>Đã hoàn thành xong</progress>
+        <contacts>Công ty TNHH Tư vấn và kinh doanh nhà Đạt Gia</contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>4</id>
+        <name>Trung tâm thương mại dịch vụ văn phòng</name>
+        <address>Thị trấn Đồng Văn - Huyện Duy Tiên - Tỉnh Hà Nam</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,21,</type_id>
+        <description>Đầu tư đồng bộ hạ tầng kỹ thuật, chuyển giao dưới nhiều hình thức. Chuyển giao đất có hạ tầng, chuyển giao quĩ nhà và chuyển nhượng quyền sử dụng đất.</description>
+        <short_description>&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Đầu tư đồng bộ hạ tầng kỹ thuật, chuyển giao dưới nhiều hình thức.  Chuyển giao đất có hạ tầng, chuyển giao quĩ nhà và chuyển nhượng quyền  sử dụng đất. Mang đến khách hàng sự hài lòng tuyệt đối</short_description>
+        <start_date>2010-08-27 11:25:39</start_date>
+        <end_date>2012-06-02 00:00:00</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor></investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>30000</total_area>
+        <number_of_floor>5</number_of_floor>
+        <ordering>0</ordering>
+        <published>1</published>
+        <emphasis>1</emphasis>
+        <created_by>1</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram></plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>5</id>
+        <name>Trung tâm dịch vụ hỗn hợp cao tầng</name>
+        <address>Phường Phương Mai - Quận Đống Đa - TP Hà Nội</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,21,</type_id>
+        <description>Đầu tư đồng bộ toà nhà với chức năng làm văn phòng cho thuê, đồng bộ hạ tầng kỹ thuật và các hệ thống kỹ thuật trong và ngoài nhà được nhập từ nước ngoài như hệ thống điều hòa, báo cháy, báo khói, camera quan sát......</description>
+        <short_description>&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Đầu  tư đồng bộ hạ tầng kỹ thuật, chuyển giao dưới nhiều hình thức.  Chuyển  giao đất có hạ tầng, chuyển giao quĩ nhà và chuyển nhượng quyền  sử dụng  đất. Mang đến khách hàng sự hài lòng tuyệt&amp;</short_description>
+        <start_date>2010-08-07 09:56:20</start_date>
+        <end_date>2012-06-08 00:00:00</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor>Công ty</investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>1.341,8</total_area>
+        <number_of_floor>7</number_of_floor>
+        <ordering>1</ordering>
+        <published>1</published>
+        <emphasis>1</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram></plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>6</id>
+        <name>Khu Căn Hộ Cao Cấp Hoàng Anh 3 (New Saigon)</name>
+        <address>Nguyễn Hữu Thọ, xã Phước Kiểng, H.Nhà Bè, TP. Hồ Chí Minh</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,21,</type_id>
+        <description>Theo quy hoạch được duyệt, cao ốc có gồm 4 block A, B, C, D cao 26 tầng nằm trong khuôn viên rộng 35.000m2. New Saigon có hơn 1000 căn hộ, diện tích từ 100- 242m2, thiết kế theo tiêu chuẩn hiện đại. Quy mô : Dự án này có tổng diện tích là 27.000m2. Tổng diện tích sàn xây dựng là 160.000 m2 tương đương với 1.200 căn hộ đã khởi công vào tháng 2/2007. Khu cao ốc gồm 4 tòa nhà cao 26 tầng, với hơn 1.000 căn hộ, diện tích từ 100 đến 242 m2/căn.  Để phục vụ cuộc sống của cư dân, ngay trong khuôn viên dự án, chủ đầu tư thiết kế một hồ bơi dành cho người lớn và trẻ em rộng khoảng 2000m2, nhà trẻ, khu vui chơi và tổ chức tiệc barbecue ngoài trời, trạm xe buýt...</description>
+        <short_description>&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Theo quy hoạch được duyệt, cao ốc có gồm 4 block A, B, C, D cao 26 tầng  nằm trong khuôn viên rộng 35.000m2. New Saigon có hơn 1000 căn hộ, diện  tích từ 100- 242m2, thiết kế theo tiêu chuẩn hiệ</short_description>
+        <start_date>2010-08-07 09:56:30</start_date>
+        <end_date>2011-06-09 00:00:00</end_date>
+        <people_area></people_area>
+        <status>Đang triển khai</status>
+        <investor></investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>27.000</total_area>
+        <number_of_floor>27</number_of_floor>
+        <ordering>1</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram></plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>7</id>
+        <name>BELLEZA APARTMENT- Vẻ đẹp của sự ngẫu hứng</name>
+        <address>xã Bình Hưng, H.Bình Chánh, TP. Hồ Chí Minh</address>
+        <town_id>1</town_id>
+        <area_id>0</area_id>
+        <type_id>,20,</type_id>
+        <description>&lt;p&gt;Lọai hình     :     Dự án căn hô cao cấp&lt;br /&gt;Thiết kế nội thất     :     Ong&amp;amp;Ong&lt;br /&gt;Đơn vị hợp tác chính     :     Công ty Công Ích Q4&lt;br /&gt;Vị trí dự án     :     KDC Phú Mỹ - P.Phú Mỹ - Q7                                                                                                              &lt;br /&gt;Điểm mạnh     :      &lt;br /&gt;+    Gần sông, có khí hậu mát mẻ, 4 mặt đều có sông ngòi bao quanh. Đây là dự án đặc biệt được ưu đãi.      &lt;br /&gt;+    Khu dân cư mới tách biệt, tạo sự yên tĩnh.      &lt;br /&gt;+    Khí hậu và nhiệt độ triền sông tạo nên môi trường thoải mái cho khu dân cư.      &lt;br /&gt;+    Liên kết với công ty CIQ4, có nhiều kinh nghiệm quản lý với chi phí thấp và an ninh tốt.      &lt;br /&gt;Quy mô dự án     :     2,7ha&lt;br /&gt;Gồm có     :     944 căn hộ, 7 block và 3 khu.&lt;br /&gt;Diện tích xây dựng     :     11.360,9m2&lt;br /&gt;Mật độ xây dựng     :     42,5%&lt;br /&gt;Tổng diện tích sàn xây dựng     :     195.433,9m2&lt;/p&gt;</description>
+        <short_description>Dự án khu nhà ở sông Ông Lớn là tâm huyết của Công ty Cổ Phần Phát Triển Nam Sài Gòn nhằm xây dựng một khu nhà ở hoàn mỹ có hạ tầng kỹ thuật được đầu tư với chất lượng cao: hệ thống điện, điện thoại ngầm, sân tennis, hồ bơi… phục vụ nhu cầu nghỉ ngơi giải trí của dân cư sống tại chỗ.</short_description>
+        <start_date>2010-08-07</start_date>
+        <end_date>2011-06-30</end_date>
+        <people_area></people_area>
+        <status>Đã hoàn thành</status>
+        <investor>Công ty Công Ích Q4</investor>
+        <implement_unit>Công ty Công Ích Q4</implement_unit>
+        <management_unit>Công ty Công Ích Q4</management_unit>
+        <design_unit>Công ty Công Ích Q4</design_unit>
+        <total_area>50000</total_area>
+        <number_of_floor>2</number_of_floor>
+        <ordering>2</ordering>
+        <published>1</published>
+        <emphasis>1</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme>&lt;img alt=&quot;c1&quot; src=&quot;images/stories/c1.jpg&quot; width=&quot;600&quot; height=&quot;561&quot; /&gt;</scheme>
+        <plain_diagram>&lt;img alt=&quot;vitribeleza&quot; src=&quot;images/stories/vitribeleza.jpg&quot; width=&quot;468&quot; height=&quot;464&quot; /&gt;</plain_diagram>
+        <progress>Đã hoàn thành xong&lt;br /&gt;</progress>
+        <contacts>Công ty Công Ích Q4</contacts>
+        <project_advantage_id>,1,2,</project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>9</id>
+        <name>Bán gấp căn nhà nhỏ xinh, P.Thạnh Xuân, Q.12</name>
+        <address>Phường Thạnh Xuân, Quận 12, TP. Hồ Chí Minh</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,20,</type_id>
+        <description>Cần bán nhà đường TX24, kp2, P.Thạnh Xuân, Q.12. Nhà cách trường cấp 3 Thạnh Lộc khoảng 20m, gần chợ, nhà thờ, quốc lộ 1A. Nhà đẹp, diện tích 5.5mx18m, có 2 phòng ngủ, 1 WC. Nhà có cổng, bài trí cây xanh quanh nhà. Khu dân cư yên tĩnh, an ninh. Có thể dọn vào ở ngay Hẻm bê tông, xe hơi vào được. Giấy tờ đầy đủ Chỉ tiếp người thiện chí, nhà chính chủ, miễn tiếp trung gian. Giá 870 triệu.</description>
+        <short_description>&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-family: arial,helvetica,sans-serif; font-size: 10pt;&quot;&gt;Cần bán nhà đường TX24, kp2, P.Thạnh Xuân, Q.12. Nhà cách trường cấp 3 Thạnh Lộc khoảng 20m, gần chợ, nhà thờ, quốc lộ 1A. Nhà đẹp, diện tích 5.5mx18m, có 2 phòng ngủ, 1 WC.&lt;/span&gt;&lt;/div&gt;</short_description>
+        <start_date>2010-08-27 14:38:30</start_date>
+        <end_date>2012-06-01 00:00:00</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor></investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>2000</total_area>
+        <number_of_floor>1</number_of_floor>
+        <ordering>2</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram></plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>10</id>
+        <name>Riverside Garden</name>
+        <address>Phường Hiệp Bình Chánh, Q.Thủ Đức, TP. Hồ Chí Minh</address>
+        <town_id>1</town_id>
+        <area_id>0</area_id>
+        <type_id>,19,</type_id>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Riverside Garden toạ lạc tại một vị trí lý tưởng, được xây dựng  trên thế đất Rồng lượn quanh chín khúc của sông Sài Gòn, thế đất phong  thuỷ đầy vượng khí, là sự giao thoa của nhiều vẻ đẹp, hội tụ thành một  tuyệt tác mang phong cách phương Tây hiện đại. Cách trung tâm Thành Phố  4km, cách sân bay Tân Sơn Nhất 5km, cách bến xe miền Đông 1km, kế cận  trường học Luật, khu vui chơi Sài Gòn Water Park. Ngay bên bờ sông Sài  Gòn với 4 phía là công viên và xung quanh là khu villa cao cấp.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Không phải đi đâu xa, ngay nơi cao ốc mà bạn ở đã là một thế giới đầy bất ngờ với đầy đủ các tiện ích cao cấp hàng đầu tại Việt Nam...Một thế giới tuyệt vời ngay cả khi bước chân trở về căn hộ mà vẫn không mất đi vẻ đẹp của mùi hương thiên nhiên cây cỏ sông nước.&lt;br /&gt;Căn hộ được thiết kế theo lối kiến trúc hiện đại, bố cục hài hoà trong từng đường nét. Đó là sự kết hợp tuyệt vời giữa nội thất và không gian, giữa kiến trúc và màu sắc. Và chỉ có cư dân tại đây mới cảm nhận được sự hoàn thiện cua một phong cách thời đại mới.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;</description>
+        <short_description>&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Riverside  Garden toạ lạc tại một vị trí lý tưởng, được xây dựng  trên thế đất  Rồng lượn quanh chín khúc của sông Sài Gòn, thế đất phong  thuỷ đầy  vượng khí, là sự giao thoa của nhiều vẻ đẹp,&lt;</short_description>
+        <start_date>2010-08-27</start_date>
+        <end_date>2010-10-22</end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor></investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area>8000</total_area>
+        <number_of_floor>15 tầng +</number_of_floor>
+        <ordering>4</ordering>
+        <published>1</published>
+        <emphasis>1</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme>&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Riverside  Garden toạ lạc tại một vị trí lý tưởng, được xây dựng  trên thế đất  Rồng lượn quanh chín khúc của sông Sài Gòn, thế đất phong  thuỷ đầy  vượng khí, là sự giao thoa của nhiều vẻ đẹp, hội tụ thành một  tuyệt tác  mang phong cách phương Tây hiện đại. Cách trung tâm Thành Phố  4km,  cách sân bay Tân Sơn Nhất 5km, cách bến xe miền Đông 1km, kế cận  trường  học Luật, khu vui chơi Sài Gòn Water Park. Ngay bên bờ sông Sài  Gòn  với 4 phía là công viên và xung quanh là khu villa cao cấp.&lt;/span&gt;</scheme>
+        <plain_diagram>&lt;img alt=&quot;mbplacenza&quot; src=&quot;images/stories/mbplacenza.jpg&quot; width=&quot;500&quot; height=&quot;297&quot; /&gt;</plain_diagram>
+        <progress>&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Riverside  Garden toạ lạc tại một vị trí lý tưởng, được xây dựng  trên thế đất  Rồng lượn quanh chín khúc của sông Sài Gòn, thế đất phong  thuỷ đầy  vượng khí, là sự giao thoa của nhiều vẻ đẹp, hội tụ thành một  tuyệt tác  mang phong cách phương Tây hiện đại. Cách trung tâm Thành Phố  4km,  cách sân bay Tân Sơn Nhất 5km, cách bến xe miền Đông 1km, kế cận  trường  học Luật, khu vui chơi Sài Gòn Water Park. Ngay bên bờ sông Sài  Gòn  với 4 phía là công viên và xung quanh là khu villa cao cấp.&lt;/span&gt;</progress>
+        <contacts>&lt;span style=&quot;font-size: 10pt; font-family: arial,helvetica,sans-serif;&quot;&gt;Riverside  Garden toạ lạc tại một vị trí lý tưởng, được xây dựng  trên thế đất  Rồng lượn quanh chín khúc của sông Sài Gòn, thế đất phong  thuỷ đầy  vượng khí, là sự giao thoa của nhiều vẻ đẹp, hội tụ thành một  tuyệt tác  mang phong cách phương Tây hiện đại. Cách trung tâm Thành Phố  4km,  cách sân bay Tân Sơn Nhất 5km, cách bến xe miền Đông 1km, kế cận  trường  học Luật, khu vui chơi Sài Gòn Water Park. Ngay bên bờ sông Sài  Gòn  với 4 phía là công viên và xung quanh là khu villa cao cấp.&lt;/span&gt;</contacts>
+        <project_advantage_id>,1,</project_advantage_id>
+        <newsest>0</newsest>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>27</id>
+        <name>test project</name>
+        <address>sadfsdf</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,19,</type_id>
+        <description></description>
+        <short_description></short_description>
+        <start_date></start_date>
+        <end_date></end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor></investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area></total_area>
+        <number_of_floor></number_of_floor>
+        <ordering>9</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram></plain_diagram>
+        <progress></progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+        <contact_address></contact_address>
+        <contact_name></contact_name>
+        <contact_phone></contact_phone>
+        <plane_area></plane_area>
+        <payment></payment>
+        <page_title></page_title>
+        <page_keywords></page_keywords>
+        <page_description></page_description>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>28</id>
+        <name>Phú Long Apartment</name>
+        <address>Phan Huy Ích, Phường 15, Quận Tân Bình, TP.HCM.</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,19,</type_id>
+        <description>&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;748&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_01.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_02.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_03.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_04.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_05.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_06.gif&quot; height=&quot;51&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;padding: 0pt 20px 20px;&quot;&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;TIỆN ÍCH&lt;/span&gt;&lt;br /&gt; &lt;br /&gt; - Cư dân sống tại đây được tận hưởng điều kiện thuận lợi của  hạ tầng cở sở ổn định của một khu đô thị hiện đại có hệ thống giao  thông rất tiện lợi do nằm cạnh trục đường quốc lộ 22 nối TP.HCM với tỉnh  Tây Ninh và cạnh Quốc lộ 1A xuyên suốt Bắc Nam và xuôi về các tỉnh miền  Tây Nam bộ.&lt;br /&gt; - An ninh 24/24giờ với đội ngũ bảo vệ chuyên nghiệp và hệ  thống thiết bị an ninh cao cấp, PCCC hiện đại với hệ thống báo cháy, hút  khói, máy phát điện dự phòng bảo đảm cuộc sống cho cư dân mỗi khi toà  nhà bị cúp điện. Đặc biệt được giám sát và quản lý tòa nhà bởi công nghệ  hàng đầu của Canada. Mỗi căn hộ được thiết kế khóa cảm ứng thẻ từ,  intercom, camera, đường truyền ADSL tốc độ cao.&lt;br /&gt; Phú Long Apartment được khởi công xây dựng từ tháng 12/2009.  Dự kiến bàn giao căn hộ hoàn thiện cùng trang thiết bị cần thiết cho  khách hàng vào quý IV/2011. &lt;br /&gt; - Giá bán chỉ từ 14,1 triệu/m2 hợp lý dành cho những người có thu nhập trung bình khá. &lt;br /&gt; - Ngân hàng hỗ trợ 70% giá trị căn hộ trong thời hạn 10-15 năm, thanh toán linh hoạt gồm nhiều đợt.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+        <short_description>Dự án căn hộ Phú Long nằm cạnh nhà máy dầu Tường An, căn hộ cao cấp Phúc Yên, căn hộ Thái An,.. có mặt tiền đường Phan Huy Ích, cách nhà văn hóa Tân Bình khoảng 10 phút xe máy, cách sân bay Tân Sơn Nhất khoảng 4 km...</short_description>
+        <start_date></start_date>
+        <end_date></end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor>Công ty Cổ phần Thương mại Địa ốc Bình Chánh</investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area></total_area>
+        <number_of_floor></number_of_floor>
+        <ordering>10</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram>&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;748&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;padding: 0pt 20px 20px;&quot;&gt;&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;&lt;br /&gt; QUI MÔ DỰ ÁN&lt;/span&gt;&lt;br /&gt; &lt;br /&gt; - Phú Long Apartment gồm 2 block căn hộ cao 15 tầng, 2 hầm và 1 tầng lửng.&lt;br /&gt; - Phú Long Apartment được xây dựng trên diện tích đất hơn 3.000 m2, mật độ xây dựng 41,8%. &lt;br /&gt; - Bên trong căn hộ đều có khu vực làm khuôn viên trồng cây  xanh, phía ngoài là khoảng cây xanh, thảm cỏ, còn có khu TDTT, cà phê  giải khát phục vụ cư dân tại cao ốc   Tầng hầm được thiết kế thông suốt  hai block, rất rộng để dùng làm nơi để xe, các dịch vụ kỹ thuật. Tầng  trệt, lầu 1 và tầng lửng làm trung tâm thương mại, văn phòng, khu giải  trí và thư giãn bao gồm: spa, rạp chiếu bóng, siêu thị, nhà hàng, trung  tâm TDTT, phòng hội nghị…. &lt;br /&gt; - Từ lầu 2 đến lầu 14 được bố trí tổng cộng 211 căn hộ với quy mô dân số khoảng 676 người.&lt;br /&gt; - Có nhiều loại diện tích để lựa chọn từ 49 -71 m2/căn.&lt;br /&gt; - Mỗi block được thiết kế có các khe hở, khoảng lồi lõm nên  mỗi căn hộ đều có ít nhất 2 mặt tiếp xúc tối đa với ánh sáng thiên nhiên  và gió trời, tạo một không gian sống rất thoải mái. Tại lầu thượng mỗi  block được thiết kế làm nơi tổ chức tiệc tùng, những khoảng không gian  dành cho cư dân có thể ngắm toàn cảnh thành phố từ trên cao. Phú Long  Apartment có 4 thang máy hiện đại có tốc độ cao, 2 cầu thang bộ, (thang  thoát hiểm)…&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_14.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_15.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</plain_diagram>
+        <progress>Đang cập nhật</progress>
+        <contacts>&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_17.gif&quot; usemap=&quot;#Map&quot; border=&quot;0&quot; height=&quot;127&quot; width=&quot;748&quot; /&gt;</contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+        <contact_address>270 - 272 Lãnh Binh Thăng, Phường 13, Quận 11, TP.HCM</contact_address>
+        <contact_name></contact_name>
+        <contact_phone>84.8.5406 9252 - 094 977 4768</contact_phone>
+        <plane_area>&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;748&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;padding: 0pt 20px 20px;&quot;&gt;&lt;span style=&quot;color: #ff0000; font-weight: bold;&quot;&gt;&lt;br /&gt; SƠ ĐỒ VỊ TRÍ&lt;/span&gt;&lt;br /&gt; &lt;br /&gt; Dự án căn hộ Phú Long nằm cạnh nhà máy dầu Tường An, căn hộ  cao cấp Phúc Yên, căn hộ Thái An,.. có mặt tiền  đường Phan Huy Ích,  cách nhà văn hóa Tân Bình khoảng 10 phút xe máy, cách sân bay Tân Sơn  Nhất khoảng 4 km, cạnh tuyến tàu điện ngầm cao tốc Trung Lương- Sài Gòn,  kề bên chợ, dự án trường Cao đẳng Văn hóa Nghệ thuật Sài Gòn, bệnh viện  Phổ Quang, Bệnh Viện 175, Bệnh Viện phụ sản Đại học Y Dược,… nằm ngay  khu đô thị thương  mại, dịch vụ sầm uất phía tây bắc TP.HCM.&lt;br /&gt; &lt;br /&gt; Từ trung tâm TP.HCM, theo trục đường Trường Chinh, quốc lộ  22, đến cầu Tham Lương rẽ phải theo đường Phan Huy Ích khoảng 700m, dự  án Cao ốc Phú Long nằm về bên phải và có 3 con đường rộng từ 8m đến 10m,  chiều dài chừng 70m dẫn vào khuôn viên dự án.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_08.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_09.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_10.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_11.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;http://image.diaoconline.vn/sanpham/2010/04/09_pl_12.gif&quot; height=&quot;100&quot; width=&quot;748&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</plane_area>
+        <payment>Đang cập nhật</payment>
+        <page_title></page_title>
+        <page_keywords></page_keywords>
+        <page_description></page_description>
+    </jos_jea_project_en>
+    <jos_jea_project_en>
+        <id>29</id>
+        <name>KHU ĐÔ THỊ SINH THÁI TÂY ĐÔ</name>
+        <address>Phường Long Hòa, Q.Bình Thủy, TP. Cần Thơ</address>
+        <town_id>0</town_id>
+        <area_id>0</area_id>
+        <type_id>,20,</type_id>
+        <description>&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;Quy mô dự án&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* &lt;span style=&quot;color: #008000;&quot;&gt;&lt;strong&gt;Khu đô thi sinh thái Tây Đô&lt;/strong&gt;&lt;/span&gt; được quy hoạch trên diện tích &lt;span style=&quot;color: #008000;&quot;&gt;66.18 ha&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* Mật độ  sử dụng chiếm khoảng hơn 40%, phần còn lại: cây xanh, công viên, Trung  tâm TDTT, giao thông, bệnh viện, công trình công cộng, trường học cấp  mầm non, cấp 1, 2, 3&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* Quy mô dân số dự kiến: &lt;span style=&quot;color: #008000;&quot;&gt;6.000 người&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;span style=&quot;font-size: large;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: large;&quot;&gt;Quyết định &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;span style=&quot;font-size: large;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;&lt;strong&gt;-&lt;span style=&quot;font-size: large;&quot;&gt; Quyết định 2146/QĐ-UBND chấp thuận đầu tư UBND.TP Cần  Thơ ngày 19.07.2004&lt;/span&gt;&lt;/strong&gt;&lt;/del&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;&lt;span style=&quot;font-size: large;&quot;&gt;&lt;strong&gt; - Quyết định phê duyệt 1/500 số 2517/QĐ-UBND ngày 14.09.2010&lt;/strong&gt;&lt;/span&gt;&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;img alt=&quot;1&quot; src=&quot;images/stories/1.gif&quot; height=&quot;918&quot; width=&quot;684&quot; /&gt; &lt;img alt=&quot;1&quot; src=&quot;images/stories/2.gif&quot; height=&quot;918&quot; width=&quot;684&quot; /&gt; &lt;img alt=&quot;1&quot; src=&quot;images/stories/3.gif&quot; height=&quot;918&quot; width=&quot;684&quot; /&gt; &lt;img alt=&quot;1&quot; src=&quot;images/stories/4.gif&quot; height=&quot;918&quot; width=&quot;684&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;&lt;strong&gt;THÔNG TIN VỀ THÀNH PHỐ CẦN THƠ&lt;/strong&gt;&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;* Diện tích: 1.401,6 km&lt;sup&gt;2 &lt;/sup&gt;&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;* Dân số: 1.187.089 người (1/4/2009)&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;* Thu nhập GDP bình quân năm:&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt; - 2007: 1.200 USD/người/năm&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt; - 2009: 1.400 USD/người/năm (cả nước 1.056 USD, gấp 1,3 lần)&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt; - 2010 (dự kiến): 1.750 USD/ người/ năm&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt; ***1080&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt; (Cả nước 1.110 USD, gấp 1.6 lần)&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt; (TP.HCM 3.000 USD, Hà Nội 2.100 USD)&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;* THÔNG TIN VỀ THÀNH PHỐ CẦN THƠ&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;1. Vị trí địa lý: &lt;br /&gt;&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;Cần Thơ được mệnh danh là &quot; Tây Đô&quot; (Thủ đô Miền Tây), nằm giữa khu vực ĐBSCL bao quanh bởi 9 tỉnh:&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;Đông, Đông Bắc: Tiền Giang, Vĩnh Long, Trà Vinh&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;Bắc, Tây Bắc: Đồng Tháp, An Giang&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;Tây, Tây Nam: Hậu Giang, Sóc Trăng, Bạc Liêu, Cà Mau&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;Nam: Sông Hậu&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;Thành Phố Cần Thơ có 5 quận và 4 huyện:&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;Quận trung tâm: Ninh Kiều, Bình Thủy&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;Quận: Cái Răng (Chợ nổi), Ô Môn, Thốt Nốt&lt;/del&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;span style=&quot;color: #ff6600;&quot;&gt;&lt;del style=&quot;font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #168c33; text-decoration: none;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;Huyện: Phong Điền (KDL Mỹ Khánh), Cờ Đỏ, Thới Lai, Vĩnh Thạnh&lt;/span&gt;&lt;/del&gt;&lt;/span&gt;</description>
+        <short_description>KHU ĐÔ THỊ SINH THÁI TÂY ĐÔ</short_description>
+        <start_date></start_date>
+        <end_date></end_date>
+        <people_area></people_area>
+        <status></status>
+        <investor></investor>
+        <implement_unit></implement_unit>
+        <management_unit></management_unit>
+        <design_unit></design_unit>
+        <total_area></total_area>
+        <number_of_floor></number_of_floor>
+        <ordering>11</ordering>
+        <published>1</published>
+        <emphasis>0</emphasis>
+        <created_by>0</created_by>
+        <checkout>0</checkout>
+        <checkout_time>0</checkout_time>
+        <scheme></scheme>
+        <plain_diagram>&lt;a href=&quot;http://xuanlan.vn/index.php?option=com_content&amp;amp;view=article&amp;amp;id=162%3Aecolotus-kt&amp;amp;catid=79%3Aecolotus-garden&amp;amp;Itemid=168&amp;amp;lang=vn#content&quot; class=&quot;contentpagetitle&quot;&gt;Bản đồ kiến trúc&lt;/a&gt; 
+&lt;table class=&quot;contentpaneopen&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;contentdesc_text&quot; valign=&quot;top&quot;&gt;&lt;a href=&quot;http://xuanlan.vn/index.php?option=com_content&amp;amp;view=article&amp;amp;id=162%3Aecolotus-kt&amp;amp;catid=79%3Aecolotus-garden&amp;amp;Itemid=168&amp;amp;lang=vn#content&quot;&gt;&lt;img src=&quot;http://xuanlan.vn/images/albums/duan/ban-ve-phan-lo-tay-do.gif&quot; border=&quot;0&quot; height=&quot;474&quot; width=&quot;674&quot; /&gt;&lt;/a&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;article_separator&quot;&gt;&lt;span class=&quot;article_separator&quot;&gt; &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;contentpaneopen&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;contentheading&quot; width=&quot;100%&quot;&gt;&lt;a href=&quot;http://xuanlan.vn/index.php?option=com_content&amp;amp;view=article&amp;amp;id=164%3Aphan-tich-hinh-nh&amp;amp;catid=79%3Aecolotus-garden&amp;amp;Itemid=181&amp;amp;lang=vn#content&quot; class=&quot;contentpagetitle&quot;&gt; Phân tích - Hình ảnh&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;contentpaneopen&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;contentdesc_text&quot; valign=&quot;top&quot;&gt;&lt;a href=&quot;http://xuanlan.vn/index.php?option=com_content&amp;amp;view=article&amp;amp;id=164%3Aphan-tich-hinh-nh&amp;amp;catid=79%3Aecolotus-garden&amp;amp;Itemid=181&amp;amp;lang=vn#content&quot;&gt;&lt;img src=&quot;http://xuanlan.vn/images/albums/duan/ptich.jpg&quot; border=&quot;0&quot; height=&quot;456&quot; width=&quot;569&quot; /&gt;&lt;/a&gt;Sơ đồ phân tích dự án
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Hình ảnh dự án&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;các hình ảnh thực tế:&lt;/p&gt;
+&lt;p&gt;Bệnh viện đa khoa trung ương Cần Thơ nằm trên Đại Lộ Nguyễn Văn Linh (91B) cách dự án 800m&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Bệnh viện phụ sản quốc tế Phương Châu nằm trên đường Nguyễn Văn Cừ nối dài cách dự án 500m&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Trường Đại học Cần Thơ nằm trên đường 3/2 quận Ninh Kiều cách dự án 1.5km&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Metro Cần Thơ nằm trên đường Nguyễn Văn Linh - 91B cách dự án 2km&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Sân bay quốc tế Cần Thơ cách dự án 4.5 km&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</plain_diagram>
+        <progress>&lt;table class=&quot;contentpaneopen&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;contentdesc_text&quot; valign=&quot;top&quot;&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* &lt;strong&gt;CÁC GIAI ĐOẠN TRIỂN KHAI DỰ ÁN DỰ KIẾN&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;- Giai đoạn 1: Q1/2011 - Q2/2011 Khởi công và san lấp mặt bằng&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;- Giai đoạn 2: Q3/2011 - Q3/2012 Thi công CSGT&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;- Giai đoạn 3: Q3/2012 Hoàn thiện CSHT, bàn giao nền&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;- Giai đoạn 4: Q4/2012 bàn giao hồ sơ kỹ thuật.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt; &lt;/p&gt;
+&lt;table style=&quot;width: 576px; height: 139px;&quot; border=&quot;1&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr style=&quot;text-align: center;&quot;&gt;
+&lt;td valign=&quot;top&quot; width=&quot;41&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;background-color: #99cc00;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;STT&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;153&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;background-color: #99cc00;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;LOẠI NHÀ&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;135&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;background-color: #99cc00;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;KÍCH THƯỚC&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;63&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;background-color: #99cc00;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;SỐ LÔ&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;41&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;153&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;NHÀ LIÊN KẾ CHIA LÔ&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;135&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;(5-6)m x (17.5 - 29)m&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;63&quot;&gt;
+&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;1004&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;41&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;153&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;BIỆT THỰ PHỐ&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;135&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;8m x (18.5 - 27)m&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;63&quot;&gt;
+&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;257&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; width=&quot;41&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;153&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;BIỆT THỰ&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;135&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;(12-15)m x 30m&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;63&quot;&gt;
+&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;87&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;3&quot; valign=&quot;top&quot; width=&quot;329&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;TỔNG&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot; width=&quot;63&quot;&gt;
+&lt;p align=&quot;right&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;1348&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* &lt;strong&gt;Biệt thự đơn lập (2-3 tầng)&lt;/strong&gt;: (15m x 30m), (12mx30m)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* &lt;strong&gt;Liên kế vườn (4 tầng):&lt;/strong&gt; (8mx27m), (8mx20m), (8mx19m), (8mx18m)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* &lt;strong&gt;Nền liên kế (5 tầng):&lt;/strong&gt; 6mx27m, 6mx20m, 6mx24m, 6mx18m, 5mx18m&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* Các  tuyến đường nội khu: Lộ giới từ 15m, 17.5m, 20.5m, 21.5m, 27m, 33m, 40m  được trang bị đầy đủ hệ thống điện âm, đèn chiếu sáng cao áp, hệ thống  PCCC, hệ thống thoát nước mưa, nước thải&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;* Vỉa hè từ 3-6m được lát gạch Terrazzo.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;article_separator&quot;&gt;&lt;span class=&quot;article_separator&quot;&gt; &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;contentpaneopen&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;contentheading&quot; width=&quot;100%&quot;&gt;&lt;a href=&quot;http://xuanlan.vn/index.php?option=com_content&amp;amp;view=article&amp;amp;id=162%3Aecolotus-kt&amp;amp;catid=79%3Aecolotus-garden&amp;amp;Itemid=168&amp;amp;lang=vn#content&quot; class=&quot;contentpagetitle&quot;&gt; &lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</progress>
+        <contacts></contacts>
+        <project_advantage_id></project_advantage_id>
+        <newsest>0</newsest>
+        <contact_address></contact_address>
+        <contact_name></contact_name>
+        <contact_phone></contact_phone>
+        <plane_area></plane_area>
+        <payment></payment>
+        <page_title></page_title>
+        <page_keywords></page_keywords>
+        <page_description></page_description>
+    </jos_jea_project_en>
+</X4>

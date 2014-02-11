@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Mod Photo</name>
+    <author>vanganh</author>
+	<creationDate>June 2 2011</creationDate>
+    <version>1.5.0</version>
+    <description></description>
+    <files>
+		<filename>index.html</filename>
+        <filename module="mod_photo">mod_photo.php</filename>
+		<filename module="mod_photo">helper.php</filename>
+		<filename module="mod_photo">/tmpl/default.php</filename>
+		<filename module="mod_photo">/tmpl/index.html</filename>
+		<filename module="mod_photo">/js/jquery.mod_photo.js</filename>
+		<filename module="mod_photo">/js/index.html</filename>
+    </files>
+    <params>
+		<param name="folder" type="text" default="images/stories/fruits/" label="Folder" description=""></param>
+		<param name="width" type="text" default="400" label="Width" description=""></param>
+		<param name="height" type="text" default="300" label="Height" description=""></param>
+		<param name="speed" type="text" default="5000" label="Speed" description=""></param>
+		<param name="showtitle" type="radio" default="1" label="Show Title" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="autoplay" type="radio" default="1" label="Auto Play" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="margin_left" type="text" default="0" label="Margin-Left" description=""></param>
+    </params>
+</install>

@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/module-install.dtd">
+<install version="1.5.0" type="module">
+	<name>CustoMenu</name>
+	<description>CustoMenu - major menu control for Joomla!</description>
+	<version>2.5.1</version>
+	<creationDate>April 2010</creationDate>
+	<author>NoNumber! (Peter van Westen)</author>
+	<authorEmail>peter@nonumber.nl</authorEmail>
+	<authorUrl>http://www.nonumber.nl</authorUrl>
+	<copyright>Copyright (C) 2010 NoNumber! All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<files>
+		<filename module="mod_customenu">mod_customenu.php</filename>
+		<folder>customenu</folder>
+	</files>
+
+	<params addpath="/plugins/system/nonumberelements/elements">
+		<param name="@loadlanguage" type="loadlanguage" extension="mod_customenu" />
+		<param name="@license" type="license" extension="CustoMenu" />
+		<param name="@title" type="title"
+			label="CustoMenu" description="CustoMenu is the way to get major control over your menus"
+			image="/modules/mod_customenu/customenu/images/logo.png"
+			image_w="60" image_h="80"
+			url="http://www.nonumber.nl/customenu"
+			download_url="http://www.nonumber.nl/customenu/download"
+			help_url="http://www.nonumber.nl/customenu"
+			version="2.5.1"
+			version_url="http://www.nonumber.nl/versions"
+			version_file="version_customenu" />
+
+		<param name="moduleclass_sfx" type="text" size="40" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+
+		<param name="@title" type="title" label="Menu settings" description="Menu settings (description)" />
+		<param name="suffix" type="text" size="40" default="default" label="Menu class suffix" description="Menu class suffix (description)" />
+		<param name="layout" type="filelist" default="default" directory='modules/mod_customenu/customenu/layouts' filter='ini' hide_none='1' hide_default='1' stripext="1" label="Layout" description="Layout (description)" />
+		<param name="stylesheet" type="filelist" default="default.css" directory='modules/mod_customenu/customenu/css' filter='css' hide_default='1' label="Stylesheet" description="Stylesheet (description)" />
+		<param name="use_menu" type="radiolist" default="0" label="Menu behavior" description="Menu behavior (description)">
+			<option value="1">Use Joomla menu structure</option>
+			<option value="0">Define custom menu items</option>
+		</param>
+
+		<param name="@title" type="title" label="Global settings" description="Global settings (description)" />
+		<param name="show_unpublished" type="radio" default="0" label="Show unpublished" description="Show unpublished (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_non_access" type="radio" default="0" label="Show non-access" description="Show non-access (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="active_on_child_ids" type="radio" default="0" label="Active on child items" description="Active on child items (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="hide_text" type="radio" default="0" label="Hide text" description="Hide text (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="@toggler" type="toggler" param="use_menu" value="1" nofx="1" />
+			<param name="@title" type="title" label="Joomla menu structure" description="Joomla menu structure (description)" />
+			<param name="use_menu_stucture" type="menu" default="mainmenu" label="Menu" description="Menu (description)" />
+			<param name="extra_item_css" type="radio" default="0" label="Use extra item styles" description="Use extra item styles (description)">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="extra_item_css_prefix" type="text" size="40" default="default_" label="Extra item style prefix" description="Extra item style prefix (description)" />
+		<param name="@toggler" type="toggler" />
+
+		<param name="@toggler" type="toggler" nofx="1" param="use_menu" value="0" />
+
+			<param name="@title" type="title" label="Custom menu items" description="Custom menu items (description)" />
+
+			<param name="@title" type="title" start="1" label="Item 1" />
+				<param name="menu_id_1" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_1" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_1" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_1" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_1" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_1" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_1" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_1" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+
+				<param name="active_by_default_1" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_1" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_1" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_1" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_1" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_1" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 2" />
+				<param name="menu_id_2" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_2" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_2" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_2" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_2" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_2" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_2" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_2" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_2" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+
+				<param name="active_on_child_ids_2" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_2" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_2" type="title" label="Style settings" description="Style settings (description)" />
+
+				<param name="stylesheet_2" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_2" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 3" />
+				<param name="menu_id_3" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_3" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_3" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+
+				</param>
+				<param name="show_non_access_3" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+
+				<param name="overrule_text_3" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_3" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+
+				<param name="overrule_link_3" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_3" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_3" type="radio" default="0" label="Active by default" description="Active by default (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_3" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+
+				</param>
+				<param name="active_on_extra_ids_3" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_3" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_3" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_3" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 4" />
+				<param name="menu_id_4" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+
+				<param name="show_unpublished_4" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_4" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_4" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_4" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_4" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_4" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_4" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_4" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_4" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_4" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_4" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_4" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+
+				<param name="class_name_4" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 5" />
+				<param name="menu_id_5" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_5" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_5" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+
+				</param>
+				<param name="show_non_access_5" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+
+				<param name="overrule_text_5" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_5" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+
+				<param name="overrule_link_5" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_5" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_5" type="radio" default="0" label="Active by default" description="Active by default (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_5" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+
+				</param>
+				<param name="active_on_extra_ids_5" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_5" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_5" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_5" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 6" />
+				<param name="menu_id_6" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_6" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_6" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_6" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_6" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_6" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_6" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_6" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+
+				<param name="active_by_default_6" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_6" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_6" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_6" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_6" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_6" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 7" />
+				<param name="menu_id_7" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_7" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_7" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_7" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_7" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_7" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_7" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_7" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_7" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+
+				<param name="active_on_child_ids_7" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_7" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_7" type="title" label="Style settings" description="Style settings (description)" />
+
+				<param name="stylesheet_7" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_7" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 8" />
+				<param name="menu_id_8" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_8" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_8" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+
+				</param>
+				<param name="show_non_access_8" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+
+				<param name="overrule_text_8" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_8" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+
+				<param name="overrule_link_8" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_8" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_8" type="radio" default="0" label="Active by default" description="Active by default (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_8" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+
+				</param>
+				<param name="active_on_extra_ids_8" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_8" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_8" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_8" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 9" />
+				<param name="menu_id_9" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+
+				<param name="show_unpublished_9" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_9" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_9" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_9" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_9" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_9" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_9" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_9" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_9" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_9" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_9" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_9" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+
+				<param name="class_name_9" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 10" />
+				<param name="menu_id_10" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_10" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_10" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+
+				</param>
+				<param name="show_non_access_10" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+
+				<param name="overrule_text_10" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_10" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+
+				<param name="overrule_link_10" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_10" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_10" type="radio" default="0" label="Active by default" description="Active by default (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_10" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+
+				</param>
+				<param name="active_on_extra_ids_10" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_10" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_10" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_10" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 11" />
+				<param name="menu_id_11" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_11" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_11" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_11" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_11" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_11" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_11" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_11" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+
+				<param name="active_by_default_11" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_11" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_11" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_11" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_11" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_11" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 12" />
+				<param name="menu_id_12" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_12" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_12" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_12" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_12" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_12" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_12" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_12" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_12" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+
+				<param name="active_on_child_ids_12" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_12" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_12" type="title" label="Style settings" description="Style settings (description)" />
+
+				<param name="stylesheet_12" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_12" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 13" />
+				<param name="menu_id_13" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_13" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_13" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+
+				</param>
+				<param name="show_non_access_13" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+
+				<param name="overrule_text_13" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_13" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+
+				<param name="overrule_link_13" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_13" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_13" type="radio" default="0" label="Active by default" description="Active by default (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_13" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+
+				</param>
+				<param name="active_on_extra_ids_13" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_13" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_13" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_13" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 14" />
+				<param name="menu_id_14" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+
+				<param name="show_unpublished_14" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_14" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_14" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_14" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_14" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_14" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_14" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_14" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_14" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_14" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_14" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_14" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+
+				<param name="class_name_14" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 15" />
+				<param name="menu_id_15" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_15" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_15" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+
+				</param>
+				<param name="show_non_access_15" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+
+				<param name="overrule_text_15" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_15" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+
+				<param name="overrule_link_15" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_15" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_15" type="radio" default="0" label="Active by default" description="Active by default (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_15" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+
+				</param>
+				<param name="active_on_extra_ids_15" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_15" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_15" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_15" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 16" />
+				<param name="menu_id_16" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_16" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_16" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_16" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_16" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_16" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_16" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_16" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+
+				<param name="active_by_default_16" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_16" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_16" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_16" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_16" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_16" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 17" />
+				<param name="menu_id_17" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_17" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_17" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_17" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_17" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_17" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_17" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_17" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_17" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+
+				<param name="active_on_child_ids_17" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_17" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_17" type="title" label="Style settings" description="Style settings (description)" />
+
+				<param name="stylesheet_17" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_17" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 18" />
+				<param name="menu_id_18" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_18" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_18" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+
+				</param>
+				<param name="show_non_access_18" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+
+				<param name="overrule_text_18" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_18" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+
+				<param name="overrule_link_18" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_18" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_18" type="radio" default="0" label="Active by default" description="Active by default (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_18" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+
+				</param>
+				<param name="active_on_extra_ids_18" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_18" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_18" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_18" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 19" />
+				<param name="menu_id_19" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+
+				<param name="show_unpublished_19" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_19" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+				</param>
+				<param name="show_non_access_19" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+				<param name="overrule_text_19" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_19" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+				<param name="overrule_link_19" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_19" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_19" type="radio" default="0" label="Active by default" description="Active by default (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_19" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+				<param name="active_on_extra_ids_19" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_19" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_19" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+
+				<param name="class_name_19" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+			<param name="@title" type="title" start="1" label="Item 20" />
+				<param name="menu_id_20" type="menuitem" default="" label="Menu item" description="Menu item (description)" />
+				<param name="show_unpublished_20" type="radio" default="-1" label="Show unpublished" description="Show unpublished (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+
+					<option value="-1">Default</option>
+				</param>
+				<param name="access_20" type="list" default="-1" label="Overrule access level" description="Overrule access level (description)">
+					<option value="-1">Default</option>
+					<option value="0">Public</option>
+					<option value="1">Registered</option>
+					<option value="2">Special</option>
+
+				</param>
+				<param name="show_non_access_20" type="radio" default="-1" label="Show non-access" description="Show non-access (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Text settings" description="Text settings (description)" />
+
+				<param name="overrule_text_20" type="text" default="" size="80" label="Overrule text" description="Overrule text (description)" />
+				<param name="hide_text_20" type="radio" default="-1" label="Hide text" description="Hide text (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+				</param>
+
+				<param name="@title" type="title" label="Link settings" description="Link settings (description)" />
+
+				<param name="overrule_link_20" type="text" default="" size="80" label="Overrule link" description="Overrule link (description)" />
+				<param name="target_20" type="radio" default="0" label="Target" description="Target (description)">
+					<option value="0">None</option>
+					<option value="1">New window (_blank)</option>
+				</param>
+
+				<param name="@title" type="title" label="Active settings" description="Active settings (description)" />
+				<param name="active_by_default_20" type="radio" default="0" label="Active by default" description="Active by default (description)">
+
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param name="active_on_child_ids_20" type="radio" default="-1" label="Active on child items" description="Active on child items (description)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+					<option value="-1">Default</option>
+
+				</param>
+				<param name="active_on_extra_ids_20" type="menuitems" multiple="1" showinput="1" default="" label="Active on menu items" description="Active on menu items (description)" />
+
+				<param name="@style_20" type="title" label="Style settings" description="Style settings (description)" />
+				<param name="stylesheet_20" type="filelist" default="" directory="modules/mod_customenu/customenu/css/extra" filter="css" hide_default="1" label="Extra Stylesheet" description="Extra Stylesheet (description)" />
+				<param name="class_name_20" type="text" default="" size="40" label="Class name" description="Class name (description)" />
+			<param name="@title" type="title" end="1" />
+
+		<param name="@toggler" type="toggler" />
+	</params>
+</install>

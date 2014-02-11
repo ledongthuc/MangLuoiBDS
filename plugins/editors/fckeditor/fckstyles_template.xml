@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+					<Styles><Style name="container" element="P">
+										<Attribute name="id" value="container" />
+									</Style>
+<Style name="background" element="P">
+										<Attribute name="id" value="background" />
+									</Style>
+<Style name="header" element="P">
+										<Attribute name="id" value="header" />
+									</Style>
+<Style name="header-in" element="P">
+										<Attribute name="id" value="header-in" />
+									</Style>
+<Style name="date" element="P">
+										<Attribute name="id" value="date" />
+									</Style>
+<Style name="pathway" element="P">
+										<Attribute name="id" value="pathway" />
+									</Style>
+<Style name="search_out" element="P">
+										<Attribute name="id" value="search_out" />
+									</Style>
+<Style name="search" element="P">
+										<Attribute name="id" value="search" />
+									</Style>
+<Style name="banner_out" element="P">
+										<Attribute name="id" value="banner_out" />
+									</Style>
+<Style name="banner_left" element="P">
+										<Attribute name="id" value="banner_left" />
+									</Style>
+<Style name="sitetitle" element="P">
+										<Attribute name="class" value="sitetitle" />
+									</Style>
+<Style name="banner" element="P">
+										<Attribute name="id" value="banner" />
+									</Style>
+<Style name="topmenu_out" element="P">
+										<Attribute name="id" value="topmenu_out" />
+									</Style>
+<Style name="topmenu_left" element="P">
+										<Attribute name="id" value="topmenu_left" />
+									</Style>
+<Style name="topmenu_right" element="P">
+										<Attribute name="id" value="topmenu_right" />
+									</Style>
+<Style name="topmenu" element="P">
+										<Attribute name="id" value="topmenu" />
+									</Style>
+<Style name="navigation" element="P">
+										<Attribute name="id" value="navigation" />
+									</Style>
+<Style name="left_border" element="P">
+										<Attribute name="id" value="left_border" />
+									</Style>
+<Style name="right_border" element="P">
+										<Attribute name="id" value="right_border" />
+									</Style>
+<Style name="maincontent" element="P">
+										<Attribute name="id" value="maincontent" />
+									</Style>
+<Style name="main" element="P">
+										<Attribute name="id" value="main" />
+									</Style>
+<Style name="left_out" element="P">
+										<Attribute name="id" value="left_out" />
+									</Style>
+<Style name="right_out" element="P">
+										<Attribute name="id" value="right_out" />
+									</Style>
+<Style name="content_outleft" element="P">
+										<Attribute name="id" value="content_outleft" />
+									</Style>
+<Style name="content_outmiddle" element="P">
+										<Attribute name="id" value="content_outmiddle" />
+									</Style>
+<Style name="content_outright" element="P">
+										<Attribute name="id" value="content_outright" />
+									</Style>
+<Style name="content" element="P">
+										<Attribute name="id" value="content" />
+									</Style>
+<Style name="content_border_left" element="P">
+										<Attribute name="id" value="content_border_left" />
+									</Style>
+<Style name="content_border_right" element="P">
+										<Attribute name="id" value="content_border_right" />
+									</Style>
+<Style name="content_bottom_right" element="P">
+										<Attribute name="id" value="content_bottom_right" />
+									</Style>
+<Style name="content_bottom_left" element="P">
+										<Attribute name="id" value="content_bottom_left" />
+									</Style>
+<Style name="component" element="P">
+										<Attribute name="id" value="component" />
+									</Style>
+<Style name="user_bg" element="P">
+										<Attribute name="class" value="user_bg" />
+									</Style>
+<Style name="user_left" element="P">
+										<Attribute name="class" value="user_left" />
+									</Style>
+<Style name="user_right" element="P">
+										<Attribute name="class" value="user_right" />
+									</Style>
+<Style name="separator" element="P">
+										<Attribute name="class" value="separator" />
+									</Style>
+<Style name="user_bottom" element="P">
+										<Attribute name="id" value="user_bottom" />
+									</Style>
+<Style name="bottom" element="P">
+										<Attribute name="id" value="bottom" />
+									</Style>
+<Style name="bottom_bg" element="P">
+										<Attribute name="id" value="bottom_bg" />
+									</Style>
+<Style name="bottom_right" element="P">
+										<Attribute name="id" value="bottom_right" />
+									</Style>
+<Style name="bottom_left" element="P">
+										<Attribute name="id" value="bottom_left" />
+									</Style>
+<Style name="copy" element="P">
+										<Attribute name="id" value="copy" />
+									</Style>
+<Style name="othermenu" element="P">
+										<Attribute name="id" value="othermenu" />
+									</Style>
+<Style name="othermenu_in" element="P">
+										<Attribute name="id" value="othermenu_in" />
+									</Style>
+<Style name="clr" element="P">
+										<Attribute name="class" value="clr" />
+									</Style>
+<Style name="button" element="P">
+										<Attribute name="class" value="button" />
+									</Style>
+<Style name="inputbox" element="P">
+										<Attribute name="class" value="inputbox" />
+									</Style>
+<Style name="input" element="P">
+										<Attribute name="class" value="input" />
+									</Style>
+<Style name="img" element="P">
+										<Attribute name="class" value="img" />
+									</Style>
+<Style name="back_button" element="P">
+										<Attribute name="class" value="back_button" />
+									</Style>
+<Style name="componentheading" element="P">
+										<Attribute name="class" value="componentheading" />
+									</Style>
+<Style name="contentheading" element="P">
+										<Attribute name="class" value="contentheading" />
+									</Style>
+<Style name="contentdescription" element="P">
+										<Attribute name="class" value="contentdescription" />
+									</Style>
+<Style name="sectiontableheader" element="P">
+										<Attribute name="class" value="sectiontableheader" />
+									</Style>
+<Style name="sectiontableentry1" element="P">
+										<Attribute name="class" value="sectiontableentry1" />
+									</Style>
+<Style name="sectiontableentry2" element="P">
+										<Attribute name="class" value="sectiontableentry2" />
+									</Style>
+<Style name="createdate" element="P">
+										<Attribute name="class" value="createdate" />
+									</Style>
+<Style name="small" element="P">
+										<Attribute name="class" value="small" />
+									</Style>
+<Style name="top" element="P">
+										<Attribute name="id" value="top" />
+									</Style>
+<Style name="top_border_top" element="P">
+										<Attribute name="id" value="top_border_top" />
+									</Style>
+<Style name="top_border_left" element="P">
+										<Attribute name="id" value="top_border_left" />
+									</Style>
+<Style name="top_border_right" element="P">
+										<Attribute name="id" value="top_border_right" />
+									</Style>
+<Style name="top_bottom_right" element="P">
+										<Attribute name="id" value="top_bottom_right" />
+									</Style>
+<Style name="top_bottom_left" element="P">
+										<Attribute name="id" value="top_bottom_left" />
+									</Style>
+<Style name="top_top_right" element="P">
+										<Attribute name="id" value="top_top_right" />
+									</Style>
+<Style name="top_top_left" element="P">
+										<Attribute name="id" value="top_top_left" />
+									</Style>
+<Style name="banner_po" element="P">
+										<Attribute name="id" value="banner_po" />
+									</Style>
+<Style name="bogocsanpham" element="div">
+										<Attribute name="class" value="bogocsanpham" />
+									</Style>
+<Style name="bogocbaiviet" element="div">
+										<Attribute name="class" value="bogocbaiviet" />
+									</Style>
+<Style name="container" element="P">
+										<Attribute name="id" value="container" />
+									</Style>
+<Style name="message_jl" element="P">
+										<Attribute name="id" value="message_jl" />
+									</Style>
+<Style name="onTop" element="P">
+										<Attribute name="id" value="onTop" />
+									</Style>
+<Style name="leftTop" element="P">
+										<Attribute name="id" value="leftTop" />
+									</Style>
+
+</Styles>

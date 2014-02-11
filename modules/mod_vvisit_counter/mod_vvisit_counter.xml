@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" version="1.5.0">
+	<name>Vinaora Visitors Counter</name>
+	<author>VINAORA</author>
+	<creationDate>2009-08-03</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 VINAORA.COM. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@vinaora.com</authorEmail>
+	<authorUrl>http://vinaora.com</authorUrl>
+	<version>1.7.3</version>
+	<description>
+		<![CDATA[
+			<h3>Vinaora Visitors Counter</h3>
+			<p>Version: <b>1.7.3</b></p>
+			<p>Release date: <b>2009-08-03</b></p>
+			<p>Homepage: <b><a href="http://vinaora.com/" title="Joomla! Guides - Hướng dẫn Joomla!" >http://vinaora.com/</a></b></p>
+			<p>This module shows you the visitors of your site.</p>
+			<h4>Features</h4>
+			<ul>
+				<li>18x18 cool styles</li>
+				<li>New icons</li>
+				<li>Show Today - Yesterday - Week - Month - All statistics</li>
+				<li>Show Guest's Info: IP Address, Browser...</li>
+				<li>Show Online Now</li>
+				<li>Incresing Performance by Caching</li>
+				<li>Support all languages</li>
+				<li>Automatic delele old records</li>
+				<li>Custom Pre-text and Post-text</li>
+				<li>A script based on mod_digit_counter by www.iw1qlh.net/</li>
+				<li>Valid <b><u>XHTML</u></b> and <b><u>CSS</u></b></li>
+			</ul>
+		]]>
+	</description>
+	<files>
+
+		<filename module="mod_vvisit_counter">mod_vvisit_counter.php</filename>
+		<filename module="mod_vvisit_counter">helper.php</filename>
+		<filename module="mod_vvisit_counter">index.html</filename>
+		<filename module="mod_vvisit_counter">readme.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">includes/index.html</filename>
+		<filename module="mod_vvisit_counter">includes/datetime.php</filename>
+		<filename module="mod_vvisit_counter">includes/browsers.php</filename>
+		
+		<filename module="mod_vvisit_counter">tmpl/index.html</filename>
+		<filename module="mod_vvisit_counter">tmpl/default.php</filename>
+
+		<filename module="mod_vvisit_counter">images/digit_counter/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bluesky/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/blushdw/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/bubble/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/creampuff/sample.png</filename>
+
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/curly/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/default/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/default/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/embwhite/sample.png</filename>
+
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/gold/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledgreen/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledred/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/ledyellow/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/links/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/links/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odoblack/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/odowhite/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/plainblue/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/silkscreen/sample.png</filename>
+
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/twotone/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/0.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/1.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/2.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/3.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/4.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/5.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/6.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/7.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/8.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/9.png</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/index.html</filename>
+		<filename module="mod_vvisit_counter">images/digit_counter/wedgie/sample.png</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/awards/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/awards/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/awards/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/awards/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/awards/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/awards/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/awards/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/awards/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/bags/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bags/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bags/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bags/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bags/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bags/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bags/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bags/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/bronzes/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bronzes/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bronzes/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bronzes/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bronzes/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bronzes/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bronzes/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/bronzes/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/calendar/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/calendar/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/calendar/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/calendar/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/calendar/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/calendar/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/calendar/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/calendar/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/clocks/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/clocks/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/clocks/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/clocks/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/clocks/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/clocks/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/clocks/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/clocks/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/comment/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/comment/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/comment/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/comment/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/comment/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/comment/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/comment/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/comment/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/checkout/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/checkout/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/checkout/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/checkout/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/checkout/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/checkout/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/checkout/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/checkout/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/default/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/default/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/default/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/default/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/default/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/default/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/default/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/default/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/dynamicflags/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/dynamicflags/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/dynamicflags/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/dynamicflags/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/dynamicflags/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/dynamicflags/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/dynamicflags/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/dynamicflags/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/flags/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/flags/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/flags/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/flags/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/flags/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/flags/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/flags/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/flags/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/group/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/group/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/group/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/group/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/group/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/group/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/group/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/group/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/pens/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/pens/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/pens/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/pens/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/pens/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/pens/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/pens/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/pens/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/settings/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/settings/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/settings/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/settings/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/settings/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/settings/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/settings/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/settings/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/shopping/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/shopping/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/shopping/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/shopping/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/shopping/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/shopping/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/shopping/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/shopping/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/solitare/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/solitare/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/solitare/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/solitare/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/solitare/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/solitare/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/solitare/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/solitare/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/sports/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/sports/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/sports/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/sports/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/sports/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/sports/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/sports/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/sports/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/tags/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/tags/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/tags/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/tags/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/tags/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/tags/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/tags/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/tags/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/stats/users/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/users/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/users/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/users/vlweek.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/users/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/users/vlmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/users/vall.png</filename>
+		<filename module="mod_vvisit_counter">images/stats/users/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">sql/index.html</filename>
+		<filename module="mod_vvisit_counter">sql/install.vvisit_counter.sql</filename>
+		<filename module="mod_vvisit_counter">sql/uninstall.vvisit_counter.sql</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.mod_vvisit_counter.ini</language>
+	</languages>
+
+	<params description="Website support &gt;&gt; &lt;a href=&quot;http://vinaora.com/joomla/vinaora-visitors-counter.html&quot;&gt; Vinaora Visitors Counter&lt;/a&gt;" >
+
+
+
+		<param name="@spacer" type="spacer" default="PARAMCHOOSEMODE" label="" description="" />
+             <param name="template" type="list" default="list" label="Show/Hide Teamplate" description="The menu style">
+			<option value="1">Show template</option>
+			<option value="0">Hide template</option>
+            </param>
+		<param name="@spacer" type="spacer" default="PARAMCHOOSEMODE" label="" description="" />
+
+		<param name="@spacer" type="spacer" default="PARAMCHOOSEMODE" label="" description="" />
+		<param name="mode" type="list" default="full" label="Display Mode" description="PARAMDISPLAYMODE">
+			<option value="simple">Simple</option>
+			<option value="standard">Standard</option>
+			<option value="full">Full</option>
+			<option value="custom">Custom</option>
+		</param>
+		<param name="initialvalue" type="text" default="0" label="Counter Initial Value" description="PARAMINITIALVALUE" />
+		<param name="iplifetime" type="text" default="10" label="IP Life Time" description="PARAMIPLIFETIME" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="layoutname" type="text" size="35" default="default" label="layoutname" description="layoutname" />	
+		<param name="@spacer" type="spacer" default="PARAMCHOOSESTYLE" label="" description="" />
+		<param name="digit_type" type="list" default="default" label="Digital Counter Type" description="PARAMCOUNTERTYPE" >
+			<option value="default">DEFAULT</option>
+			<option value="bluesky">Blue Sky</option>
+			<option value="blushdw">Blue Shadow</option>
+			<option value="bubble">Bubble</option>
+			<option value="creampuff">Cream Puff</option>
+			<option value="curly">Curly</option>
+			<option value="embwhite">Embossed</option>
+			<option value="gold">Gold</option>
+			<option value="ledgreen">Led Green</option>
+			<option value="ledred">Led Red</option>
+			<option value="ledyellow">Led Yellow</option>
+			<option value="links">Links</option>
+			<option value="odoblack">Odometer Black</option>
+			<option value="odowhite">Odometer White</option>
+			<option value="plainblue">Plain Blue</option>
+			<option value="silkscreen">Silk Screen</option>
+			<option value="twotone">Two Tone</option>
+			<option value="wedgie">Wedgie</option>
+			<option value="0">DONTSHOW</option>
+		</param>
+		<param name="number_digits" type="list" default="6" label="Min Number Digits" description="PARAMNUMBERDIGITS" >
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+		</param>
+		<param name="stats_type" type="list" default="default" label="Statistic Icons Type" description="PARAMICONSTYPE" >
+			<option value="default">DEFAULT</option>
+			<option value="awards">Award</option>
+			<option value="bags">Bags</option>
+			<option value="bronzes">Bronze</option>
+			<option value="calendar">Calendar</option>
+			<option value="clocks">Clock</option>
+			<option value="comment">Comments</option>
+			<option value="checkout">Checkout</option>
+			<option value="dynamicflags">Dynamic Flags</option>
+			<option value="flags">Flags</option>
+			<option value="group">Group</option>
+			<option value="pens">Pen</option>
+			<option value="settings">Settings</option>
+			<option value="shopping">Shopping</option>
+			<option value="solitare">Solitare</option>
+			<option value="sports">Sports</option>
+			<option value="tags">Tags</option>
+			<option value="users">Users</option>
+			<option value="0">DONTSHOW</option>
+		</param>
+		<param name="widthtable" type="list" default="90" label="Statistic Table's Width" description="PARAMWIDTHTABLE" >
+			<option value="100">100%</option>
+			<option value="95">95%</option>
+			<option value="90">90%</option>
+			<option value="85">85%</option>
+			<option value="80">80%</option>
+			<option value="75">75%</option>
+			<option value="70">70%</option>
+			<option value="65">65%</option>
+			<option value="60">60%</option>
+			<option value="55">55%</option>
+			<option value="50">50%</option>
+		</param>		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="PARAMZEROS" label="" description="" />
+		
+		<param name="today" type="text" size="35" default="Today" label="Show Today" description="PARAMZERO" />	
+		<param name="yesterday" type="text" size="35" default="Yesterday" label="Show Yesterday" description="PARAMZERO" />	
+		<param name="week" type="text" size="35" default="This week" label="Show This week" description="PARAMZERO" />
+		<param name="lweek" type="text" size="35" default="Last week" label="Show Last week" description="PARAMZERO" />		
+		<param name="month" type="text" size="35" default="This month" label="Show This month" description="PARAMZERO" />
+		<param name="lmonth" type="text" size="35" default="Last month" label="Show Last month" description="PARAMZERO" />
+		<param name="all" type="text" size="35" default="All days" label="Show All days" description="PARAMZERO" />		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="PARAMNOTLEAVEBLANK" label="" description="" />
+		
+		<param name="beginday" type="text" size="35" default="0" label="Show 'Starting Day'" description="PARAMSTARTINGDAY" />
+		<param name="online" type="text" size="35" default="Online (20 minutes ago):" label="Show 'Online Now'" description="PARAMONLINENOW" />
+		<param name="guestip" type="text" size="35" default="Your IP:" label="Show 'Guest IP'" description="PARAMZERO" />
+		<param name="guestinfo" type="text" size="35" default="Yes" label="Show Others Info" description="PARAMOTHERSINFO" />
+		<param name="formattime" type="text" size="35" default="Today: %b %d, %Y" label="Show Date/Time Now" description="PARAMDATETIMENOW" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="PARAMCHOOSEDAYSTARTWK" label="" description="" />
+		
+		<param name="issunday" type="radio" default="1" label="Start of Week" description="PARAMSTARTOFWEEK" >
+			<option value="1">Sunday</option>
+			<option value="0">Monday</option>
+		</param>
+		
+	</params>
+	<params group="advanced">
+		<param name="iscache" type="radio" default="1" label="Caching" description="PARAMCACHING" >
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="PARAMCACHETIME" />
+		<param name="deldays" type="text" default="62" label="Days Archive" description="PARAMDAYSARCHIVE" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+
+		<param name="moduleclass_sfx" type="text" size="40" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="pretext" type="textarea" cols="20" rows="5" default="" label="Pre-text" description="PARAMPRETEXT" />
+		<param name="posttext" type="textarea" cols="20" rows="5" default="" label="Post-text" description="PARAMPOSTTEXT" />	
+	</params>
+</install>

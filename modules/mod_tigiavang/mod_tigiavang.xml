@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.0.0">
+	<name>mod ti gia vang </name>
+	<author>unison</author>
+	<creationDate>2010/11/30</creationDate>
+	<copyright>(C)Copyright Unison</copyright>
+	<authorEmail>hoanzh88@yahoo.com</authorEmail>
+	<authorUrl>hoan</authorUrl>
+	<version>1.0.0</version>
+	<description>Giá vàng</description>
+	<files>
+		<filename module="mod_tigiavang">tigiavang.php</filename>
+		<filename>tigiavang.xml</filename>
+	
+	</files>	
+		<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+</install>

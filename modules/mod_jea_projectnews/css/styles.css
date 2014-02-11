@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+
+.project_group
+{
+	color:blue;
+	padding:5px  0px;
+	font-size:18px;
+	text-align: center;
+	background-color: cadetBlue;
+	height: 20px;
+}
+.title_project_group
+{
+	color:blue;
+	padding:0px 2px 2px 2px;
+	font-size:16px;
+	font-weight:bold;
+	text-align: left;
+	/*background-color:silver;*/
+	height: 18px;
+	width: 100%;
+}
+.mod_projectnew_project
+{
+	text-align: left;
+	padding: 5px;
+}
+.mod_projectnew_project img
+{
+	border: none;
+	width:95px;
+	height:70px;
+	float:left;
+	margin-right: 5px;
+}
+.border_right1
+{
+	border-right: 1px solid silver;
+}
+.border_right2
+{
+	border-right: 1px solid white;
+}
+.link_show_all
+{
+	text-align: right;
+
+}
+.link_show_all a
+{
+	text-decoration: none !important;
+	font-size:11px !important;
+	font-weight: bold !important;
+}
+.emphasis
+{
+	padding: 5px 5px;
+
+}

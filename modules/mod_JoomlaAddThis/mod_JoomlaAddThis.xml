@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5">
+	<name>Joomla! AddThis</name>
+	<author>Ajay Lulia</author>
+	<creationDate>28-Aug-2008</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ajay.lulia@joomlaserviceprovider.com</authorEmail>
+	<authorUrl>www.joomlaserviceprovider.com</authorUrl>
+	<version>1.0.2</version>
+	<description>
+		<![CDATA[
+		Joomla! AddThis module displays AddThis on your site on specified position. This module only works with Joomla 1.5.x. You can customize any AddThis Parameter easily within the module it self. You may also provide Brand Name and Brand URL using module edit.
+		<br/>
+		<p>
+		<B>Change Log:</B><br>
+		1.0: Initial Version<br><br>
+		1.0.1: Added latest version of JavaScript file for add this. This will open social bookmark buttons in div instead of window when clicking on addthis button or more link.<br><br>
+		1.0.2(03-Apr-09): Replaced the short open tags to php tag<br><br>
+		]]>
+	</description>
+	<files>
+		<filename module="mod_JoomlaAddThis">mod_JoomlaAddThis.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Class:" description="specify class to apply" />
+		<param name="joomlaAddThisPub" type="text" default="ajaylulia" label="Account Id:" description="AddThis.com account id can be provided here." />
+		<param name="joomlaAddThisLogo" size="40" type="text" default="http://www.joomlaserviceprovider.com/images/jsp_icon.png" label="Logo:" description="The logo to display on the popup window (about 200x50 pixels). The popup window is show when the user selects the 'More' choice Example: addthis_logo = 'http://www.yoursite.com/img/mylogo.gif';" /> 
+		<param name="joomlaAddThisLogoBackground" size="8" type="text" default="EFEFFF" label="Logo Background:" description="The color to use as a background around the logo in the popup Example: addthis_logo_background = 'EFEFEF';" />
+		<param name="joomlaAddThisLogoColor" size="8" type="text" default="666699" label="Logo Color:" description="The color to use for the text next to the logo in the popup Example: addthis_logo_color = '666666';" />
+		<param name="joomlaAddThisBrandName" size="40" type="text" default="Joomla Service Provider" label="Brand Name:" description="Provide Brand Name, Site Name which will appear on right site of AddThis." />
+		<param name="joomlaAddThisBrandURL" size="40" type="text" default="http://www.joomlaserviceprovider.com" label="Brand URL:" description="Brand URL can be blank, if set to blank only above text will be used." />
+		<param name="joomlaAddThisOptions" size="50" type="text" default="favorites, digg, delicious, google, myspace, facebook, reddit, newsvine, live, more" label="Options:" description="Comma seperated valies, provide option which needs to be shown on the AddThis box. Currently supported options: delicious, digg, email, favorites, facebook, fark, furl, google, live, myweb, myspace, newsvine, reddit, slashdot, stumbleupon, technorati, twitter, more (the default is currently 'favorites, digg, delicious, google, myspace, facebook, reddit, newsvine, live, more', in that order)" />
+		<param name="joomlaAddThisImageURL" size="50" type="text" default="http://s9.addthis.com/button1-addthis.gif" label="AddThis Image:" description="Provide AddThis image which needs to be shown on the page." />
+	</params>
+</install>

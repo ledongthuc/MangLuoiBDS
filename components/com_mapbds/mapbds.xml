@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+	<name>Mapbds</name>
+	<author></author>
+	<creationDate>October 2012</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description></description>
+	<files folder="site">
+		<filename>mapbds.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>views/index.html</filename>
+		<filename>views/mapbds/index.html</filename>
+		<filename>views/mapbds/view.html.php</filename>
+		<filename>views/mapbds/tmpl/index.html</filename>
+		<filename>views/mapbds/tmpl/default.php</filename>
+		<filename>models/index.html</filename>
+		<filename>models/mapbds.php</filename>
+	</files>
+</install>

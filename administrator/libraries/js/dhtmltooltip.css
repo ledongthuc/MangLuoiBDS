@@ -1,0 +1,56 @@
+#dhtmltooltip
+{
+	border-right: black 1px solid;
+	padding-right: 4px;
+	padding-left: 4px;
+	border-top: black 1px solid;
+	font-size: 10pt;
+	left: -300px;
+	z-index: 100;
+	
+
+	visibility: hidden;
+	padding-bottom: 4px;
+	border-left: black 1px solid;
+	padding-top: 4px;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	position: absolute;
+	background-color: lightyellow;
+	width: 500px;
+	color:#00F;
+}
+#dhtmlpointer
+{
+	z-index: 101;
+	left: -300px;
+	visibility: hidden;
+	position: absolute;
+}
+
+#dhtmltooltip table{
+	border-collapse:collapse;
+	width:100% !important;
+	border:1px solid #999999;
+}
+
+#dhtmltooltip table td{
+	padding:3px;
+	border:1px solid #999999;
+}
+#dhtmltooltip table td p{
+	margin-top:0px;
+	padding-top:0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+#dhtmltooltip p{
+	clear:both;
+}
+
+#dhtmltooltip .pro_title_tooltip{
+	font-size:12px;
+	font-weight:bold;
+	color:#a70001;
+	padding-bottom:5px;
+}
